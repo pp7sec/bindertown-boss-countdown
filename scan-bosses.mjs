@@ -2,7 +2,6 @@ import fs from 'node:fs';
 import { Client } from 'colyseus.js';
 
 // ---- config ----
-const cfg = JSON.parse(fs.readFileSync('config.json','utf8'));
 const baseUrl = 'https://play.bindertowngame.com';
 const CH = 10; // field boss channel (PvP)
 
@@ -13,6 +12,8 @@ const NAMES = {
   cinder_plume_roc: 'ร็อคขนเพลิงถ่าน',
   lotus_maw_matriarch: 'มารดาอสูรปากบัว',
   dusk_herald: 'ผู้ประกาศสนธยา',
+  sky_sentinel: 'ผู้พิทักษ์เวหา',
+  vale_keeper: 'ผู้ดูแลหุบผา',
   aurora_antler_regent: 'ราชันเขากวางออโรร่า',
   tempest_kite_empress: 'จักรพรรดินีว่าวพายุ',
   opal_weaver_queen: 'ราชินีช่างทอโอปอล',
@@ -24,6 +25,7 @@ const MAP_LABELS = {
   cinder_eyrie: 'Cinder Eyrie',
   lotus_hollow: 'Lotus Hollow',
   duskgate_pass: 'Duskgate Pass',
+  cloudspire_ruins: 'Cloudspire Ruins',
   aurora_hollow: 'Aurora Hollow',
   tempest_aerie: 'Tempest Aerie',
   opalweb_grotto: 'Opalweb Grotto',
@@ -32,30 +34,46 @@ const MAP_LABELS = {
 function label(mobType, map) {
   return {
     id: mobType,
-    th: NAMES[mobType] || mobType.split('_').map(w=>w[0].toUpperCase()+w.slice(1)).join(' '),
+    th: NAMES[mobType] || mobType.split('_').map(w => w[0].toUpperCase() + w.slice(1)).join(' '),
     map: MAP_LABELS[map] || map,
   };
 }
 
-// ---- auth ----
-const jar = {};
-function cookie(){ return Object.entries(jar).map(([k,v])=>k+'='+v).join('; '); }
-async function api(m,p,b){
-  const headers={'Content-Type':'application/json'};
-  const c=cookie(); if(c) headers.Cookie=c;
-  const r=await fetch(baseUrl+p,{method:m,headers,body:b?JSON.stringify(b):undefined});
-  for(const sc of (r.headers.getSetCookie?r.headers.getSetCookie():[])){const mm=sc.match(/^([^=]+)=([^;]*)/);if(mm)jar[mm[1]]=mm[2];}
-  return {ok:r.ok,data:await r.json().catch(()=>null)};
+// ---- identity: create a fresh GUEST (no credentials needed) ----
+async function createGuest() {
+  const r = await fetch(baseUrl + '/api/guest', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: '{}',
+  });
+  const d = await r.json();
+  if (!d || !d.account || !d.account.key) throw new Error('guest create failed: ' + JSON.stringify(d).slice(0, 200));
+  return { key: d.account.key, name: 'guest' };
 }
 
-const lr = await api('POST','/api/local/login',{username:cfg.username,password:cfg.password});
-const me = await api('GET','/api/me');
-const key = me.data.account.key;
-const name = (me.data.character && me.data.character.name) || cfg.username;
+let identity;
+try {
+  identity = await createGuest();
+  console.log('guest created:', identity.key.slice(0, 10) + '...');
+} catch (e) {
+  // fallback to local config.json (for local dev)
+  console.log('guest failed, falling back to config.json:', e.message);
+  const cfg = JSON.parse(fs.readFileSync('config.json', 'utf8'));
+  const r = await fetch(baseUrl + '/api/local/login', {
+    method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ username: cfg.username, password: cfg.password }),
+  });
+  const d = await r.json();
+  identity = { key: d.account.key, name: cfg.username };
+}
 
-const topo = await api('GET','/api/topology');
-const count = topo.data.count || 1;
-const maps = topo.data.maps || [];
+const key = identity.key;
+const name = identity.name;
+
+const topoRes = await fetch(baseUrl + '/api/topology');
+const topo = await topoRes.json();
+const count = topo.count || 1;
+const maps = topo.maps || [];
 
 function shardFor(map, ch) {
   const idx = maps.indexOf(map);
@@ -69,15 +87,16 @@ async function scanMap(map) {
   let room;
   try {
     room = await Promise.race([
-      client.joinOrCreate(`map_${map}_ch${CH}`, { name, gender:'f', profile:key, autoChannel:false }),
-      new Promise((_,rej)=>setTimeout(()=>rej(new Error('timeout')), 5000)),
+      client.joinOrCreate(`map_${map}_ch${CH}`, { name, gender: 'f', profile: key, autoChannel: false }),
+      new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), 5000)),
     ]);
   } catch (e) { return null; }
-  await new Promise(r=>setTimeout(r,1500));
+  room.onMessage('server', () => {}); // suppress warning
+  await new Promise(r => setTimeout(r, 1500));
   const st = room.state;
   const worldTime = st.worldTime;
   const graves = [];
-  try { for (const [id,g] of st.graves) graves.push({ mobType:g.mobType, level:g.level, killer:g.killer, at:g.at, respawnAt:g.respawnAt }); } catch(e){}
+  try { for (const [id, g] of st.graves) graves.push({ mobType: g.mobType, level: g.level, killer: g.killer, at: g.at, respawnAt: g.respawnAt }); } catch (e) {}
   try { await room.leave(); } catch {}
   return { worldTime, graves };
 }
@@ -104,14 +123,13 @@ for (const map of maps) {
     });
   }
 }
-// sort by remaining time
-bosses.sort((a,b)=>a.remainingMs-b.remainingMs);
+bosses.sort((a, b) => a.remainingMs - b.remainingMs);
 
 const out = { scannedAt, generatedAt: new Date().toISOString(), count: bosses.length, bosses };
 fs.writeFileSync('bosses.json', JSON.stringify(out, null, 2));
-console.log('\nwrote bosses.json with', bosses.length, 'bosses:');
+console.log('wrote bosses.json with', bosses.length, 'bosses');
 for (const b of bosses) {
-  const s = Math.floor(b.remainingMs/1000);
-  console.log(`  ${b.name} (${b.map}) LV${b.level} -> ${Math.floor(s/3600)}h${Math.floor((s%3600)/60)}m${s%60}s`);
+  const s = Math.floor(b.remainingMs / 1000);
+  console.log(`  ${b.name} (${b.map}) LV${b.level} -> ${Math.floor(s / 3600)}h${Math.floor((s % 3600) / 60)}m${s % 60}s`);
 }
 process.exit(0);
