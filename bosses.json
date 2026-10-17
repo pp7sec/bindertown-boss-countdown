@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792260139473,
-  "generatedAt": "2026-10-17T18:02:44.087Z",
+  "scannedAt": 1792260258232,
+  "generatedAt": "2026-10-17T18:04:46.306Z",
   "count": 11,
   "bosses": [
     {
@@ -12,9 +12,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792260328074,
+      "respawnAt": 1792260328149,
       "intervalMs": 1200000,
-      "remainingMs": 183680
+      "remainingMs": 64407
     },
     {
       "id": "bloom_crowned_stag",
@@ -25,9 +25,9 @@
       "state": "dead",
       "level": 25,
       "killer": "RTB",
-      "respawnAt": 1792260741957,
+      "respawnAt": 1792260742060,
       "intervalMs": 10800000,
-      "remainingMs": 600023
+      "remainingMs": 481072
     },
     {
       "id": "sky_sentinel",
@@ -38,9 +38,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792260920733,
+      "respawnAt": 1792260920655,
       "intervalMs": 1200000,
-      "remainingMs": 757037
+      "remainingMs": 634852
     },
     {
       "id": "prism_shell_sovereign",
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 25,
       "killer": "ma1",
-      "respawnAt": 1792260912186,
+      "respawnAt": 1792260912261,
       "intervalMs": 10800000,
-      "remainingMs": 767792
+      "remainingMs": 648519
     },
     {
       "id": "dusk_herald",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792261024357,
+      "respawnAt": 1792261024431,
       "intervalMs": 1200000,
-      "remainingMs": 863099
+      "remainingMs": 741358
     },
     {
       "id": "aurora_antler_regent",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 58,
       "killer": "Munchkin",
-      "respawnAt": 1792261114047,
+      "respawnAt": 1792261113666,
       "intervalMs": 10800000,
-      "remainingMs": 962412
+      "remainingMs": 841561
     },
     {
       "id": "cinder_plume_roc",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 36,
       "killer": "แมวตกน้ํา",
-      "respawnAt": 1792261195032,
+      "respawnAt": 1792261195754,
       "intervalMs": 10800000,
-      "remainingMs": 1048228
+      "remainingMs": 929246
     },
     {
       "id": "tempest_kite_empress",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 70,
       "killer": "Munchkin",
-      "respawnAt": 1792261558448,
+      "respawnAt": 1792261558545,
       "intervalMs": 10800000,
-      "remainingMs": 1404386
+      "remainingMs": 1283701
     },
     {
       "id": "opal_weaver_queen",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 80,
       "killer": "Allnadez",
-      "respawnAt": 1792263568359,
+      "respawnAt": 1792263568439,
       "intervalMs": 10800000,
-      "remainingMs": 3411928
+      "remainingMs": 3290832
     },
     {
       "id": "vale_warden",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 99,
       "killer": "Allnadez",
-      "respawnAt": 1792263970561,
+      "respawnAt": 1792263970704,
       "intervalMs": 10800000,
-      "remainingMs": 3811753
+      "remainingMs": 3690365
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 40,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792264375827,
+      "respawnAt": 1792264376611,
       "intervalMs": 10800000,
-      "remainingMs": 4226610
+      "remainingMs": 4107249
     }
   ],
   "worldBoss": {
