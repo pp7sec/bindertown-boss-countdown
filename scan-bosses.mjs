@@ -71,6 +71,9 @@ function shardFor(map, ch) {
   return s > 0 ? `/s${s}` : '';
 }
 
+let worldBoss = null;      // {id,state,startAt,endsAt,nextAt,frac,engaged,fighters}
+let worldBossLast = null;  // {at,seconds,fighters}
+
 async function scanMap(map) {
   const shard = shardFor(map, CH);
   const client = new Client('wss://play.bindertowngame.com' + shard);
@@ -81,7 +84,13 @@ async function scanMap(map) {
       new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), 8000)),
     ]);
   } catch (e) { return null; }
-  room.onMessage('server', () => {}); // suppress warning
+  room.onMessage('server', (msg) => {
+    const arr = Array.isArray(msg) ? msg : [msg];
+    for (const m of arr) {
+      if (m && m.type === 'worldBoss' && m.view) worldBoss = m.view;
+      if (m && m.type === 'worldBossLast') worldBossLast = { at: m.at, seconds: m.seconds, fighters: m.fighters };
+    }
+  });
   await new Promise(r => setTimeout(r, 1200));
   const st = room.state;
   const worldTime = st.worldTime;
@@ -122,8 +131,25 @@ for (const map of BOSS_MAPS) {
 }
 bosses.sort((a, b) => a.remainingMs - b.remainingMs);
 
-const out = { scannedAt, generatedAt: new Date().toISOString(), count: bosses.length, bosses };
+const out = {
+  scannedAt,
+  generatedAt: new Date().toISOString(),
+  count: bosses.length,
+  bosses,
+  worldBoss: worldBoss
+    ? {
+        id: worldBoss.id,
+        state: worldBoss.state,
+        startAt: worldBoss.startAt || 0,
+        endsAt: worldBoss.endsAt || 0,
+        nextAt: worldBoss.nextAt || 0,
+        fighters: worldBoss.fighters || 0,
+      }
+    : null,
+  worldBossLast: worldBossLast || null,
+};
 fs.writeFileSync('bosses.json', JSON.stringify(out, null, 2));
+console.log('worldBoss:', JSON.stringify(out.worldBoss));
 console.log('wrote bosses.json with', bosses.length, 'bosses');
 for (const b of bosses) {
   const s = Math.floor(b.remainingMs / 1000);

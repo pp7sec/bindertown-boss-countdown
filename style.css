@@ -103,6 +103,11 @@ main {
 }
 .card:hover { transform: translateY(-1px); }
 
+.card.wb {
+  border-color: #3a4a6a;
+  background: linear-gradient(180deg, #1a2333, #181d27);
+}
+
 .card .top {
   display: flex;
   align-items: center;

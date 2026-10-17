@@ -84,7 +84,37 @@ function render() {
     ? `<section class="group"><h2 class="sec-title">👑 บอสใหญ่ <span>เกิดทุก 3 ชั่วโมง</span></h2>${big.map(cardHtml).join('')}</section>`
     : '';
 
-  APP.innerHTML = secMini + secBig;
+  APP.innerHTML = wbHtml(data.worldBoss) + secMini + secBig;
+}
+
+function wbHtml(wb) {
+  if (!wb) return '';
+  const now = Date.now();
+  let remain, text, cls, meta;
+  if (wb.state === 'live') {
+    remain = (wb.endsAt || 0) - now;
+    text = 'กำลังสู้! ⚔️';
+    cls = 'timer soon';
+    meta = `ผู้ร่วม ${wb.fighters || 0} คน · จบใน ${remain > 0 ? fmtLabel(remain) : '-'}`;
+  } else {
+    const target = (wb.state === 'idle' ? wb.startAt : (wb.nextAt || wb.startAt)) || 0;
+    remain = target - now;
+    const soon = remain > 0 && remain < 5 * 60 * 1000;
+    text = remain > 0 ? fmt(remain) : 'กำลังจะเกิด…';
+    cls = `timer${soon ? ' soon' : ''}`;
+    meta = target ? `เกิด: ${new Date(target).toLocaleString('th-TH')}` : 'รอประกาศ';
+  }
+  return `
+    <section class="group">
+      <h2 class="sec-title">🌍 World Boss <span>ทั้งเซิร์ฟ · ระบบแยก</span></h2>
+      <div class="card wb">
+        <div class="top">
+          <span class="name">World Boss</span>
+        </div>
+        <div class="${cls}">${text}</div>
+        <div class="meta">${escapeHtml(meta)}</div>
+      </div>
+    </section>`;
 }
 
 function escapeHtml(s) {
