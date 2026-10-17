@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792238683068,
-  "generatedAt": "2026-10-17T12:04:57.342Z",
+  "scannedAt": 1792238797381,
+  "generatedAt": "2026-10-17T12:07:08.076Z",
   "count": 8,
   "bosses": [
     {
@@ -9,7 +9,7 @@
       "map": "Ancient Ruins",
       "level": 22,
       "killer": null,
-      "remainingMs": 295584,
+      "remainingMs": 178910,
       "intervalMs": 1200000,
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png"
@@ -20,7 +20,7 @@
       "map": "Duskgate Pass",
       "level": 47,
       "killer": null,
-      "remainingMs": 510255,
+      "remainingMs": 389450,
       "intervalMs": 1200000,
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png"
@@ -31,7 +31,7 @@
       "map": "Cloudspire Ruins",
       "level": 72,
       "killer": null,
-      "remainingMs": 719431,
+      "remainingMs": 597480,
       "intervalMs": 1200000,
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png"
@@ -42,7 +42,7 @@
       "map": "Tempest Aerie",
       "level": 70,
       "killer": "A9A9",
-      "remainingMs": 9965672,
+      "remainingMs": 9841601,
       "intervalMs": 10800000,
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png"
@@ -53,7 +53,7 @@
       "map": "Bloomcrown Glade",
       "level": 25,
       "killer": "KhxuTxas",
-      "remainingMs": 10418066,
+      "remainingMs": 10304310,
       "intervalMs": 10800000,
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png"
@@ -64,7 +64,7 @@
       "map": "Aurora Hollow",
       "level": 58,
       "killer": "KhxuTxas",
-      "remainingMs": 10601514,
+      "remainingMs": 10479130,
       "intervalMs": 10800000,
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png"
@@ -75,7 +75,7 @@
       "map": "Cinder Eyrie",
       "level": 36,
       "killer": "KhxuTxas",
-      "remainingMs": 10690852,
+      "remainingMs": 10573974,
       "intervalMs": 10800000,
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png"
@@ -86,7 +86,7 @@
       "map": "Ancient Ruins",
       "level": 25,
       "killer": "ExoCistZ",
-      "remainingMs": 10783387,
+      "remainingMs": 10666713,
       "intervalMs": 10800000,
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png"
