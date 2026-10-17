@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792265177986,
-  "generatedAt": "2026-10-17T19:26:44.995Z",
+  "scannedAt": 1792265298318,
+  "generatedAt": "2026-10-17T19:28:45.262Z",
   "count": 11,
   "bosses": [
     {
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792265538853,
+      "respawnAt": 1792265538800,
       "intervalMs": 1200000,
-      "remainingMs": 355521
+      "remainingMs": 235144
     },
     {
       "id": "sky_sentinel",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792266131135,
+      "respawnAt": 1792266131178,
       "intervalMs": 1200000,
-      "remainingMs": 926609
+      "remainingMs": 806389
     },
     {
       "id": "bloom_crowned_stag",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 25,
       "killer": "แมวตกน้ํา",
-      "respawnAt": 1792271607424,
+      "respawnAt": 1792271608057,
       "intervalMs": 10800000,
-      "remainingMs": 6426723
+      "remainingMs": 6307029
     },
     {
       "id": "prism_shell_sovereign",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "Ant1qua",
-      "respawnAt": 1792271735702,
+      "respawnAt": 1792271735649,
       "intervalMs": 10800000,
-      "remainingMs": 6552370
+      "remainingMs": 6431993
     },
     {
       "id": "aurora_antler_regent",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 58,
       "killer": "อยากไปซอยอ้วน",
-      "respawnAt": 1792272012645,
+      "respawnAt": 1792272013003,
       "intervalMs": 10800000,
-      "remainingMs": 6821392
+      "remainingMs": 6701443
     },
     {
       "id": "cinder_plume_roc",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 36,
       "killer": "มารุโกะ",
-      "respawnAt": 1792272045917,
+      "respawnAt": 1792272045960,
       "intervalMs": 10800000,
-      "remainingMs": 6859923
+      "remainingMs": 6739665
     },
     {
       "id": "tempest_kite_empress",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 70,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792272581188,
+      "respawnAt": 1792272582198,
       "intervalMs": 10800000,
-      "remainingMs": 7387242
+      "remainingMs": 7267961
     },
     {
       "id": "opal_weaver_queen",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 80,
       "killer": "memid",
-      "respawnAt": 1792274590321,
+      "respawnAt": 1792274590350,
       "intervalMs": 10800000,
-      "remainingMs": 9393732
+      "remainingMs": 9273459
     }
   ],
   "worldBoss": {
