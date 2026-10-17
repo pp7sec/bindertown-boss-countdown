@@ -1,8 +1,21 @@
 {
-  "scannedAt": 1792272023553,
-  "generatedAt": "2026-10-17T21:20:51.626Z",
+  "scannedAt": 1792272138360,
+  "generatedAt": "2026-10-17T21:22:44.970Z",
   "count": 11,
   "bosses": [
+    {
+      "id": "aurora_antler_regent",
+      "name": "Aurora Antler Regent",
+      "map": "Aurora Hollow",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png",
+      "state": "alive",
+      "level": 58,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
     {
       "id": "vale_warden",
       "name": "Vale Warden",
@@ -17,32 +30,6 @@
       "remainingMs": null
     },
     {
-      "id": "aurora_antler_regent",
-      "name": "Aurora Antler Regent",
-      "map": "Aurora Hollow",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png",
-      "state": "dead",
-      "level": 58,
-      "killer": "อยากไปซอยอ้วน",
-      "respawnAt": 1792272040461,
-      "intervalMs": 10800000,
-      "remainingMs": 3133
-    },
-    {
-      "id": "cinder_plume_roc",
-      "name": "Cinder Plume Roc",
-      "map": "Cinder Eyrie",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
-      "state": "dead",
-      "level": 36,
-      "killer": "มารุโกะ",
-      "respawnAt": 1792272074543,
-      "intervalMs": 10800000,
-      "remainingMs": 42708
-    },
-    {
       "id": "tempest_kite_empress",
       "name": "Tempest Kite Empress",
       "map": "Tempest Aerie",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 70,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792272615168,
+      "respawnAt": 1792272615396,
       "intervalMs": 10800000,
-      "remainingMs": 575082
+      "remainingMs": 461270
     },
     {
       "id": "sky_sentinel",
@@ -66,7 +53,7 @@
       "killer": null,
       "respawnAt": 1792272665175,
       "intervalMs": 1200000,
-      "remainingMs": 614054
+      "remainingMs": 500656
     },
     {
       "id": "vale_keeper",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792273020393,
+      "respawnAt": 1792273020292,
       "intervalMs": 1200000,
-      "remainingMs": 991320
+      "remainingMs": 876652
     },
     {
       "id": "dusk_herald",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792273047237,
+      "respawnAt": 1792273047119,
       "intervalMs": 1200000,
-      "remainingMs": 998849
+      "remainingMs": 885184
     },
     {
       "id": "opal_weaver_queen",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 80,
       "killer": "memid",
-      "respawnAt": 1792274603236,
+      "respawnAt": 1792274603234,
       "intervalMs": 10800000,
-      "remainingMs": 2560416
+      "remainingMs": 2446509
     },
     {
       "id": "lotus_maw_matriarch",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 40,
       "killer": "นักฮัน",
-      "respawnAt": 1792276423297,
+      "respawnAt": 1792276424380,
       "intervalMs": 10800000,
-      "remainingMs": 4388692
+      "remainingMs": 4275495
     },
     {
       "id": "bloom_crowned_stag",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792282464494,
+      "respawnAt": 1792282465073,
       "intervalMs": 10800000,
-      "remainingMs": 10438180
+      "remainingMs": 10324037
     },
     {
       "id": "prism_shell_sovereign",
@@ -142,9 +129,22 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792282568809,
+      "respawnAt": 1792282568708,
       "intervalMs": 10800000,
-      "remainingMs": 10539736
+      "remainingMs": 10425068
+    },
+    {
+      "id": "cinder_plume_roc",
+      "name": "Cinder Plume Roc",
+      "map": "Cinder Eyrie",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
+      "state": "dead",
+      "level": 36,
+      "killer": "ปังปอนมาแล้ว",
+      "respawnAt": 1792282914222,
+      "intervalMs": 10800000,
+      "remainingMs": 10767946
     }
   ],
   "worldBoss": {
