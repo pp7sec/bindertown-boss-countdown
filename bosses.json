@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792268425215,
-  "generatedAt": "2026-10-17T20:20:50.478Z",
+  "scannedAt": 1792268539494,
+  "generatedAt": "2026-10-17T20:22:46.005Z",
   "count": 11,
   "bosses": [
     {
@@ -22,12 +22,12 @@
       "map": "Duskgate Pass",
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
-      "state": "dead",
+      "state": "alive",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792268503103,
+      "respawnAt": null,
       "intervalMs": 1200000,
-      "remainingMs": 55529
+      "remainingMs": null
     },
     {
       "id": "sky_sentinel",
@@ -38,9 +38,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792268750581,
+      "respawnAt": 1792268750662,
       "intervalMs": 1200000,
-      "remainingMs": 300529
+      "remainingMs": 185111
     },
     {
       "id": "vale_keeper",
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792269081159,
+      "respawnAt": 1792269081114,
       "intervalMs": 1200000,
-      "remainingMs": 650941
+      "remainingMs": 536399
     },
     {
       "id": "bloom_crowned_stag",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 25,
       "killer": "แมวตกน้ํา",
-      "respawnAt": 1792271621723,
+      "respawnAt": 1792271622594,
       "intervalMs": 10800000,
-      "remainingMs": 3193997
+      "remainingMs": 3080453
     },
     {
       "id": "prism_shell_sovereign",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 25,
       "killer": "Ant1qua",
-      "respawnAt": 1792271739999,
+      "respawnAt": 1792271739954,
       "intervalMs": 10800000,
-      "remainingMs": 3309781
+      "remainingMs": 3195239
     },
     {
       "id": "aurora_antler_regent",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 58,
       "killer": "อยากไปซอยอ้วน",
-      "respawnAt": 1792272028900,
+      "respawnAt": 1792272029621,
       "intervalMs": 10800000,
-      "remainingMs": 3591236
+      "remainingMs": 3477082
     },
     {
       "id": "cinder_plume_roc",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 36,
       "killer": "มารุโกะ",
-      "respawnAt": 1792272062478,
+      "respawnAt": 1792272062718,
       "intervalMs": 10800000,
-      "remainingMs": 3629790
+      "remainingMs": 3515429
     },
     {
       "id": "tempest_kite_empress",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 70,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792272597175,
+      "respawnAt": 1792272597293,
       "intervalMs": 10800000,
-      "remainingMs": 4157040
+      "remainingMs": 4042137
     },
     {
       "id": "opal_weaver_queen",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 80,
       "killer": "memid",
-      "respawnAt": 1792274600622,
+      "respawnAt": 1792274600522,
       "intervalMs": 10800000,
-      "remainingMs": 6158015
+      "remainingMs": 6042734
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 40,
       "killer": "นักฮัน",
-      "respawnAt": 1792276405325,
+      "respawnAt": 1792276405721,
       "intervalMs": 10800000,
-      "remainingMs": 7970143
+      "remainingMs": 7855783
     }
   ],
   "worldBoss": {
