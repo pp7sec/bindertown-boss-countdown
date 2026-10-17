@@ -1,35 +1,25 @@
 {
-  "scannedAt": 1792231138134,
-  "generatedAt": "2026-10-17T10:00:18.737Z",
-  "count": 11,
+  "scannedAt": 1792231996750,
+  "generatedAt": "2026-10-17T10:14:36.792Z",
+  "count": 10,
   "bosses": [
-    {
-      "id": "dusk_herald",
-      "name": "ผู้ประกาศสนธยา",
-      "map": "Duskgate Pass",
-      "level": 47,
-      "killer": null,
-      "remainingMs": 510333,
-      "intervalMs": 1200000,
-      "channel": 10
-    },
-    {
-      "id": "sky_sentinel",
-      "name": "Sky Sentinel",
-      "map": "cloudspire_ruins",
-      "level": 72,
-      "killer": null,
-      "remainingMs": 844326,
-      "intervalMs": 1200000,
-      "channel": 10
-    },
     {
       "id": "vale_keeper",
       "name": "Vale Keeper",
       "map": "Ancient Ruins",
       "level": 22,
       "killer": null,
-      "remainingMs": 950716,
+      "remainingMs": 93384,
+      "intervalMs": 1200000,
+      "channel": 10
+    },
+    {
+      "id": "dusk_herald",
+      "name": "ผู้ประกาศสนธยา",
+      "map": "Duskgate Pass",
+      "level": 47,
+      "killer": null,
+      "remainingMs": 879754,
       "intervalMs": 1200000,
       "channel": 10
     },
@@ -39,7 +29,7 @@
       "map": "Lotus Hollow",
       "level": 40,
       "killer": "แมวตกน้ํา",
-      "remainingMs": 1814126,
+      "remainingMs": 957721,
       "intervalMs": 10800000,
       "channel": 10
     },
@@ -49,7 +39,7 @@
       "map": "Cinder Eyrie",
       "level": 36,
       "killer": "แมวตกน้ํา",
-      "remainingMs": 2149212,
+      "remainingMs": 1291101,
       "intervalMs": 10800000,
       "channel": 10
     },
@@ -59,7 +49,7 @@
       "map": "Ancient Ruins",
       "level": 25,
       "killer": "แมวตกน้ํา",
-      "remainingMs": 3376082,
+      "remainingMs": 2518750,
       "intervalMs": 10800000,
       "channel": 10
     },
@@ -69,7 +59,7 @@
       "map": "Bloomcrown Glade",
       "level": 25,
       "killer": "Limp",
-      "remainingMs": 5751512,
+      "remainingMs": 4894208,
       "intervalMs": 10800000,
       "channel": 10
     },
@@ -79,7 +69,7 @@
       "map": "Tempest Aerie",
       "level": 70,
       "killer": "TheTAOz",
-      "remainingMs": 6443310,
+      "remainingMs": 5583171,
       "intervalMs": 10800000,
       "channel": 10
     },
@@ -89,7 +79,7 @@
       "map": "Opalweb Grotto",
       "level": 80,
       "killer": "A9A9",
-      "remainingMs": 6585688,
+      "remainingMs": 5725845,
       "intervalMs": 10800000,
       "channel": 10
     },
@@ -99,7 +89,7 @@
       "map": "Warden's Seat",
       "level": 99,
       "killer": "A9A9",
-      "remainingMs": 8197704,
+      "remainingMs": 7337994,
       "intervalMs": 10800000,
       "channel": 10
     },
@@ -109,7 +99,7 @@
       "map": "Aurora Hollow",
       "level": 58,
       "killer": "แมวตกน้ํา",
-      "remainingMs": 9385096,
+      "remainingMs": 8526310,
       "intervalMs": 10800000,
       "channel": 10
     }

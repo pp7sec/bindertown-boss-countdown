@@ -39,7 +39,12 @@ function render() {
     return { ...b, remain, pct };
   }).sort((a, b) => a.remain - b.remain);
 
-  const html = list.map((b) => {
+  // split into mini boss (20 min) vs big boss (3 h)
+  const MINI_MS = 20 * 60 * 1000;
+  const mini = list.filter((b) => b.intervalMs <= MINI_MS);
+  const big = list.filter((b) => b.intervalMs > MINI_MS);
+
+  const cardHtml = (b) => {
     const alive = b.remain <= 0;
     const soon = !alive && b.remain < 5 * 60 * 1000; // < 5 min
     const killer = b.killer ? `<b>ปราบโดย ${escapeHtml(b.killer)}</b> · ` : '';
@@ -55,9 +60,16 @@ function render() {
         <div class="meta">${killer}${escapeHtml(b.map)} · Ch${b.channel} · รอบเกิด ${fmtLabel(b.intervalMs)}</div>
         <div class="bar"><span style="width:${b.pct.toFixed(2)}%"></span></div>
       </div>`;
-  }).join('');
+  };
 
-  APP.innerHTML = html;
+  const secMini = mini.length
+    ? `<section class="group"><h2 class="sec-title">🟣 Mini Boss <span>เกิดทุก 20 นาที</span></h2>${mini.map(cardHtml).join('')}</section>`
+    : '';
+  const secBig = big.length
+    ? `<section class="group"><h2 class="sec-title">👑 บอสใหญ่ <span>เกิดทุก 3 ชั่วโมง</span></h2>${big.map(cardHtml).join('')}</section>`
+    : '';
+
+  APP.innerHTML = secMini + secBig;
 }
 
 function escapeHtml(s) {

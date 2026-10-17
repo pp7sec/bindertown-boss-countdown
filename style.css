@@ -59,6 +59,26 @@ main {
   padding: 40px 0;
 }
 
+.group { margin-bottom: 22px; }
+.sec-title {
+  margin: 8px 0 12px;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .2px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.sec-title span {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--muted);
+  background: var(--card2);
+  border: 1px solid var(--border);
+  padding: 2px 8px;
+  border-radius: 20px;
+}
+
 .card {
   background: var(--card);
   border: 1px solid var(--border);
