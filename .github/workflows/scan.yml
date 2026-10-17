@@ -28,6 +28,7 @@ jobs:
         run: npm install
 
       - name: Scan bosses (guest)
+        continue-on-error: true
         run: node scan-bosses.mjs
 
       - name: Commit bosses.json

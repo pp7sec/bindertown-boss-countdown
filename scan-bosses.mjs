@@ -31,14 +31,27 @@ function label(mobType, map) {
 
 // ---- identity: create a fresh GUEST (no credentials needed) ----
 async function createGuest() {
-  const r = await fetch(baseUrl + '/api/guest', {
-    method: 'POST',
-    headers: { 'Content-Type': 'application/json' },
-    body: '{}',
-  });
-  const d = await r.json();
-  if (!d || !d.account || !d.account.key) throw new Error('guest create failed: ' + JSON.stringify(d).slice(0, 200));
-  return { key: d.account.key, name: 'guest' };
+  let lastErr;
+  for (let attempt = 1; attempt <= 3; attempt++) {
+    try {
+      const r = await fetch(baseUrl + '/api/guest', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', 'User-Agent': 'boss-countdown/1.0' },
+        body: '{}',
+      });
+      const text = await r.text();
+      if (!r.ok) throw new Error('HTTP ' + r.status + ' ' + text.slice(0, 80));
+      let d;
+      try { d = JSON.parse(text); } catch { throw new Error('non-JSON: ' + text.slice(0, 80)); }
+      if (!d || !d.account || !d.account.key) throw new Error('no key: ' + text.slice(0, 80));
+      return { key: d.account.key, name: 'guest' };
+    } catch (e) {
+      lastErr = e;
+      console.log(`guest attempt ${attempt}/3 failed: ${e.message}`);
+      await new Promise((r) => setTimeout(r, 4000));
+    }
+  }
+  throw lastErr;
 }
 
 let identity;
@@ -46,15 +59,21 @@ try {
   identity = await createGuest();
   console.log('guest created:', identity.key.slice(0, 10) + '...');
 } catch (e) {
-  // fallback to local config.json (for local dev)
-  console.log('guest failed, falling back to config.json:', e.message);
-  const cfg = JSON.parse(fs.readFileSync('config.json', 'utf8'));
-  const r = await fetch(baseUrl + '/api/local/login', {
-    method: 'POST', headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ username: cfg.username, password: cfg.password }),
-  });
-  const d = await r.json();
-  identity = { key: d.account.key, name: cfg.username };
+  console.log('guest failed after retries:', e.message);
+  // fallback to local config.json (for local dev only)
+  if (fs.existsSync('config.json')) {
+    const cfg = JSON.parse(fs.readFileSync('config.json', 'utf8'));
+    const r = await fetch(baseUrl + '/api/local/login', {
+      method: 'POST', headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ username: cfg.username, password: cfg.password }),
+    });
+    const d = await r.json();
+    identity = { key: d.account.key, name: cfg.username };
+  } else {
+    // ไม่มี fallback → ข้ามรอบนี้ (ไม่ให้ job fail + ไม่ส่งเมล)
+    console.log('no fallback available — skipping this run (exit 0)');
+    process.exit(0);
+  }
 }
 
 const key = identity.key;
