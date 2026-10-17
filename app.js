@@ -114,6 +114,31 @@ async function load() {
   }
 }
 
+// --- รอบอัปเดตอัตโนมัติ (ทุก 5 นาที ที่นาที 0,5,10,15,...) ---
+const PERIOD = 5 * 60 * 1000;
+function nextBoundary() {
+  return (Math.floor(Date.now() / PERIOD) + 1) * PERIOD;
+}
+let nextUpd = nextBoundary();
+
+function fmtCountdown(ms) {
+  const s = Math.max(0, Math.floor(ms / 1000));
+  const m = Math.floor(s / 60);
+  const sec = s % 60;
+  return `${m} นาที ${String(sec).padStart(2, '0')} วินาที`;
+}
+
+function tickUpdate() {
+  if (Date.now() >= nextUpd) {
+    // ถึงรอบ → ดึงข้อมูลใหม่ แล้วตั้งรอบถัดไป
+    load();
+    nextUpd = nextBoundary();
+  }
+  const el = document.getElementById('next-upd');
+  if (el) el.textContent = fmtCountdown(nextUpd - Date.now());
+}
+
 load();
-setInterval(render, 1000);        // นับถอยหลังติ๊กทุก 1 วิ
-setInterval(load, 60000);         // re-fetch ข้อมูลบอสใหม่ทุก 60 วิ
+setInterval(render, 1000);        // นับถอยหลังบอสติ๊กทุก 1 วิ
+setInterval(tickUpdate, 1000);    // นับรอบอัปเดต + auto refresh ตอนครบ
+setInterval(load, 60000);         // re-fetch สำรองทุก 60 วิ

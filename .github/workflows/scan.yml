@@ -2,8 +2,8 @@ name: Scan bosses
 
 on:
   schedule:
-    # ทุก 5 นาที (เวลา UTC) — ต่ำสุดที่ GitHub Actions รองรับ
-    - cron: '*/5 * * * *'
+    # ทุกนาทีที่ 0,5,10,15,20,25,30,35,40,45,50,55 (UTC) — เวลาคงที่แน่นอน
+    - cron: '0,5,10,15,20,25,30,35,40,45,50,55 * * * *'
   workflow_dispatch: {}
 
 permissions:
