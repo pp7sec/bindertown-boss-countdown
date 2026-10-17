@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792260859730,
-  "generatedAt": "2026-10-17T18:14:44.605Z",
+  "scannedAt": 1792260982024,
+  "generatedAt": "2026-10-17T18:16:47.259Z",
   "count": 11,
   "bosses": [
     {
@@ -9,25 +9,12 @@
       "map": "Cloudspire Ruins",
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
-      "state": "dead",
+      "state": "alive",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792260920709,
+      "respawnAt": null,
       "intervalMs": 1200000,
-      "remainingMs": 36516
-    },
-    {
-      "id": "prism_shell_sovereign",
-      "name": "Prism Shell Sovereign",
-      "map": "Ancient Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
-      "state": "dead",
-      "level": 25,
-      "killer": "ma1",
-      "respawnAt": 1792260912203,
-      "intervalMs": 10800000,
-      "remainingMs": 47540
+      "remainingMs": null
     },
     {
       "id": "dusk_herald",
@@ -38,9 +25,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792261024476,
+      "respawnAt": 1792261024497,
       "intervalMs": 1200000,
-      "remainingMs": 142755
+      "remainingMs": 20121
     },
     {
       "id": "aurora_antler_regent",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 58,
       "killer": "Munchkin",
-      "respawnAt": 1792261116213,
+      "respawnAt": 1792261116281,
       "intervalMs": 10800000,
-      "remainingMs": 244278
+      "remainingMs": 121836
     },
     {
       "id": "cinder_plume_roc",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 36,
       "killer": "แมวตกน้ํา",
-      "respawnAt": 1792261199080,
+      "respawnAt": 1792261199443,
       "intervalMs": 10800000,
-      "remainingMs": 331972
+      "remainingMs": 209945
     },
     {
       "id": "vale_keeper",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792261540922,
+      "respawnAt": 1792261540967,
       "intervalMs": 1200000,
-      "remainingMs": 676259
+      "remainingMs": 553921
     },
     {
       "id": "tempest_kite_empress",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 70,
       "killer": "Munchkin",
-      "respawnAt": 1792261558979,
+      "respawnAt": 1792261559758,
       "intervalMs": 10800000,
-      "remainingMs": 684601
+      "remainingMs": 562827
     },
     {
       "id": "opal_weaver_queen",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 80,
       "killer": "Allnadez",
-      "respawnAt": 1792263568322,
+      "respawnAt": 1792263568412,
       "intervalMs": 10800000,
-      "remainingMs": 2691476
+      "remainingMs": 2569040
     },
     {
       "id": "vale_warden",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 99,
       "killer": "Allnadez",
-      "respawnAt": 1792263970642,
+      "respawnAt": 1792263971326,
       "intervalMs": 10800000,
-      "remainingMs": 3091341
+      "remainingMs": 2969492
     },
     {
       "id": "lotus_maw_matriarch",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 40,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792264378443,
+      "respawnAt": 1792264379338,
       "intervalMs": 10800000,
-      "remainingMs": 3508923
+      "remainingMs": 3387392
     },
     {
       "id": "bloom_crowned_stag",
@@ -142,9 +129,22 @@
       "state": "dead",
       "level": 25,
       "killer": "แมวตกน้ํา",
-      "respawnAt": 1792271587450,
+      "respawnAt": 1792271587554,
       "intervalMs": 10800000,
-      "remainingMs": 10725273
+      "remainingMs": 10602968
+    },
+    {
+      "id": "prism_shell_sovereign",
+      "name": "Prism Shell Sovereign",
+      "map": "Ancient Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
+      "state": "dead",
+      "level": 25,
+      "killer": "Ant1qua",
+      "respawnAt": 1792271732891,
+      "intervalMs": 10800000,
+      "remainingMs": 10745845
     }
   ],
   "worldBoss": {
