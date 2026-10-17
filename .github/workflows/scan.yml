@@ -39,5 +39,6 @@ jobs:
             echo "no changes"
           else
             git commit -m "auto: refresh bosses.json"
+            git pull --rebase --autostash origin master || true
             git push
           fi
