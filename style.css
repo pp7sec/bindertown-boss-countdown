@@ -119,6 +119,16 @@ main {
   border-radius: 8px;
   padding: 2px 7px;
 }
+.card .sprite {
+  flex: none;
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  image-rendering: pixelated;
+  border-radius: 8px;
+  background: var(--card2);
+  border: 1px solid var(--border);
+}
 .card .name {
   font-weight: 600;
   font-size: 15px;

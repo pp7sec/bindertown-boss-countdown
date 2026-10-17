@@ -110,6 +110,7 @@ for (const map of maps) {
       remainingMs,
       intervalMs,
       channel: CH,
+      sprite: `https://play.bindertowngame.com/sprites/mob/${g.mobType}/idle/0.png`,
     });
   }
 }

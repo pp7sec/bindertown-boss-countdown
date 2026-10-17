@@ -62,9 +62,12 @@ function render() {
     const timerText = alive
       ? `เกิดแล้ว 🟢 <span class="unit">· ${fmtAgo(-b.remain)}</span>`
       : fmt(b.remain);
+    const sprite = b.sprite || `https://play.bindertowngame.com/sprites/mob/${b.id}/idle/0.png`;
     return `
       <div class="card">
         <div class="top">
+          <img class="sprite" src="${escapeHtml(sprite)}" alt="${escapeHtml(b.name)}" loading="lazy"
+               onerror="this.style.visibility='hidden'">
           <span class="lv">Lv ${b.level}</span>
           <span class="name" title="${escapeHtml(b.id)}">${escapeHtml(b.name)}</span>
         </div>
