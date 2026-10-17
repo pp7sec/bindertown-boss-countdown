@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792249578355,
-  "generatedAt": "2026-10-17T15:06:46.935Z",
+  "scannedAt": 1792249698370,
+  "generatedAt": "2026-10-17T15:08:43.915Z",
   "count": 11,
   "bosses": [
     {
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792249989051,
+      "respawnAt": 1792249989172,
       "intervalMs": 1200000,
-      "remainingMs": 405106
+      "remainingMs": 285729
     },
     {
       "id": "opal_weaver_queen",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 80,
       "killer": "Peacezz",
-      "respawnAt": 1792250586655,
+      "respawnAt": 1792250586572,
       "intervalMs": 10800000,
-      "remainingMs": 988884
+      "remainingMs": 870533
     },
     {
       "id": "dusk_herald",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792250720953,
+      "respawnAt": 1792250720850,
       "intervalMs": 1200000,
-      "remainingMs": 1117283
+      "remainingMs": 999832
     },
     {
       "id": "sky_sentinel",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792250724947,
+      "respawnAt": 1792250725038,
       "intervalMs": 1200000,
-      "remainingMs": 1118518
+      "remainingMs": 1001537
     },
     {
       "id": "vale_warden",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 99,
       "killer": "TheTAOz",
-      "respawnAt": 1792252530580,
+      "respawnAt": 1792252531268,
       "intervalMs": 10800000,
-      "remainingMs": 2930036
+      "remainingMs": 2812735
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 40,
       "killer": "Peacezz",
-      "respawnAt": 1792252646530,
+      "respawnAt": 1792252646457,
       "intervalMs": 10800000,
-      "remainingMs": 3057020
+      "remainingMs": 2937958
     }
   ],
   "worldBoss": {
