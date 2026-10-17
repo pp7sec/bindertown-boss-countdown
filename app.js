@@ -117,12 +117,9 @@ async function load() {
   }
 }
 
-// --- รอบอัปเดตอัตโนมัติ (ทุก 5 นาที ที่นาที 0,5,10,15,...) ---
-const PERIOD = 5 * 60 * 1000;
-function nextBoundary() {
-  return (Math.floor(Date.now() / PERIOD) + 1) * PERIOD;
-}
-let nextUpd = nextBoundary();
+// --- รอบอัปเดตอัตโนมัติ (cron-job.org ทุก 2 นาที) ---
+const PERIOD = 2 * 60 * 1000;
+let lastFetchAt = 0;
 
 function fmtCountdown(ms) {
   const s = Math.max(0, Math.floor(ms / 1000));
@@ -132,16 +129,20 @@ function fmtCountdown(ms) {
 }
 
 function tickUpdate() {
-  if (Date.now() >= nextUpd) {
-    // ถึงรอบ → ดึงข้อมูลใหม่ แล้วตั้งรอบถัดไป
-    load();
-    nextUpd = nextBoundary();
-  }
   const el = document.getElementById('next-upd');
-  if (el) el.textContent = fmtCountdown(nextUpd - Date.now());
+  if (!el) return;
+  if (!data) { el.textContent = '—'; return; }
+  const remain = data.scannedAt + PERIOD - Date.now();
+  if (remain > 0) {
+    el.textContent = fmtCountdown(remain);
+  } else {
+    // เลยกำหนดแล้ว (รออัปเดตจาก cron) → ลองดึงใหม่เป็นระยะ
+    el.textContent = 'กำลังอัปเดต…';
+    if (Date.now() - lastFetchAt > 8000) { lastFetchAt = Date.now(); load(); }
+  }
 }
 
 load();
 setInterval(render, 1000);        // นับถอยหลังบอสติ๊กทุก 1 วิ
 setInterval(tickUpdate, 1000);    // นับรอบอัปเดต + auto refresh ตอนครบ
-setInterval(load, 60000);         // re-fetch สำรองทุก 60 วิ
+setInterval(load, 30000);         // re-fetch สำรองทุก 30 วิ
