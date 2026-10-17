@@ -24,6 +24,16 @@ function fmtLabel(ms) {
   return `${sec} วิ`;
 }
 
+// เวลาที่ผ่านไปตั้งแต่บอสเกิด (ตอนขึ้น "เกิดแล้ว")
+function fmtAgo(ms) {
+  const s = Math.floor(Math.max(0, ms) / 1000);
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  if (h > 0) return `${h} ชม. ${m} นาที`;
+  if (m > 0) return `${m} นาที`;
+  return `${s} วินาที`;
+}
+
 function render() {
   if (!data || !data.bosses) {
     APP.innerHTML = '<div class="status">โหลดไม่สำเร็จ — ตรวจสอบ bosses.json</div>';
@@ -49,7 +59,9 @@ function render() {
     const soon = !alive && b.remain < 5 * 60 * 1000; // < 5 min
     const killer = b.killer ? `<b>ปราบโดย ${escapeHtml(b.killer)}</b> · ` : '';
     const timerCls = alive ? 'timer alive' : `timer${soon ? ' soon' : ''}`;
-    const timerText = alive ? 'เกิดแล้ว 🟢' : fmt(b.remain);
+    const timerText = alive
+      ? `เกิดแล้ว 🟢 <span class="unit">· ${fmtAgo(-b.remain)}</span>`
+      : fmt(b.remain);
     return `
       <div class="card">
         <div class="top">
