@@ -78,11 +78,11 @@ async function scanMap(map) {
   try {
     room = await Promise.race([
       client.joinOrCreate(`map_${map}_ch${CH}`, { name, gender: 'f', profile: key, autoChannel: false }),
-      new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), 5000)),
+      new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), 8000)),
     ]);
   } catch (e) { return null; }
   room.onMessage('server', () => {}); // suppress warning
-  await new Promise(r => setTimeout(r, 1500));
+  await new Promise(r => setTimeout(r, 1200));
   const st = room.state;
   const worldTime = st.worldTime;
   const graves = [];
@@ -91,20 +91,26 @@ async function scanMap(map) {
   return { worldTime, graves };
 }
 
-console.log('scanning', maps.length, 'maps on ch', CH, '...');
+// แมพที่มี Field Boss / gatekeeper (สแกนแค่กลุ่มนี้ → เร็ว ~20 วิ)
+const BOSS_MAPS = [
+  'bloomcrown_glade', 'ancient_ruins', 'cinder_eyrie', 'lotus_hollow',
+  'duskgate_pass', 'cloudspire_ruins', 'aurora_hollow', 'tempest_aerie',
+  'opalweb_grotto', 'wardens_seat',
+];
+
+console.log('scanning', BOSS_MAPS.length, 'boss maps on ch', CH, '...');
 const scannedAt = Date.now();
 const bosses = [];
-for (const map of maps) {
+for (const map of BOSS_MAPS) {
   const r = await scanMap(map);
   if (!r) continue;
   for (const g of r.graves) {
     const remainingMs = Math.max(0, g.respawnAt - r.worldTime);
     const intervalMs = Math.max(0, g.respawnAt - g.at);
-    const L = label(g.mobType, map);
     bosses.push({
-      id: L.id,
-      name: L.name,
-      map: L.map,
+      id: g.mobType,
+      name: gameName(g.mobType),
+      map: MAP_LABELS[map] || map,
       level: g.level,
       killer: g.killer || null,
       remainingMs,

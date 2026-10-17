@@ -1,7 +1,7 @@
 {
-  "scannedAt": 1792238503295,
-  "generatedAt": "2026-10-17T12:03:54.996Z",
-  "count": 6,
+  "scannedAt": 1792238683068,
+  "generatedAt": "2026-10-17T12:04:57.342Z",
+  "count": 8,
   "bosses": [
     {
       "id": "vale_keeper",
@@ -9,7 +9,7 @@
       "map": "Ancient Ruins",
       "level": 22,
       "killer": null,
-      "remainingMs": 457187,
+      "remainingMs": 295584,
       "intervalMs": 1200000,
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png"
@@ -20,7 +20,7 @@
       "map": "Duskgate Pass",
       "level": 47,
       "killer": null,
-      "remainingMs": 642206,
+      "remainingMs": 510255,
       "intervalMs": 1200000,
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png"
@@ -31,7 +31,7 @@
       "map": "Cloudspire Ruins",
       "level": 72,
       "killer": null,
-      "remainingMs": 835224,
+      "remainingMs": 719431,
       "intervalMs": 1200000,
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png"
@@ -42,7 +42,7 @@
       "map": "Tempest Aerie",
       "level": 70,
       "killer": "A9A9",
-      "remainingMs": 10081055,
+      "remainingMs": 9965672,
       "intervalMs": 10800000,
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png"
@@ -53,7 +53,7 @@
       "map": "Bloomcrown Glade",
       "level": 25,
       "killer": "KhxuTxas",
-      "remainingMs": 10585857,
+      "remainingMs": 10418066,
       "intervalMs": 10800000,
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png"
@@ -64,10 +64,32 @@
       "map": "Aurora Hollow",
       "level": 58,
       "killer": "KhxuTxas",
-      "remainingMs": 10724425,
+      "remainingMs": 10601514,
       "intervalMs": 10800000,
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png"
+    },
+    {
+      "id": "cinder_plume_roc",
+      "name": "Cinder Plume Roc",
+      "map": "Cinder Eyrie",
+      "level": 36,
+      "killer": "KhxuTxas",
+      "remainingMs": 10690852,
+      "intervalMs": 10800000,
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png"
+    },
+    {
+      "id": "prism_shell_sovereign",
+      "name": "Prism Shell Sovereign",
+      "map": "Ancient Ruins",
+      "level": 25,
+      "killer": "ExoCistZ",
+      "remainingMs": 10783387,
+      "intervalMs": 10800000,
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png"
     }
   ]
 }
