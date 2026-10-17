@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792249938453,
-  "generatedAt": "2026-10-17T15:12:46.533Z",
+  "scannedAt": 1792250058288,
+  "generatedAt": "2026-10-17T15:14:43.872Z",
   "count": 11,
   "bosses": [
     {
@@ -56,19 +56,6 @@
       "remainingMs": null
     },
     {
-      "id": "vale_keeper",
-      "name": "Vale Keeper",
-      "map": "Ancient Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
-      "state": "dead",
-      "level": 22,
-      "killer": null,
-      "respawnAt": 1792249989129,
-      "intervalMs": 1200000,
-      "remainingMs": 45177
-    },
-    {
       "id": "opal_weaver_queen",
       "name": "Opal Weaver Queen",
       "map": "Opalweb Grotto",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 80,
       "killer": "Peacezz",
-      "respawnAt": 1792250587611,
+      "respawnAt": 1792250588545,
       "intervalMs": 10800000,
-      "remainingMs": 629851
+      "remainingMs": 512624
     },
     {
       "id": "dusk_herald",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792250721077,
+      "respawnAt": 1792250720975,
       "intervalMs": 1200000,
-      "remainingMs": 757831
+      "remainingMs": 639998
     },
     {
       "id": "sky_sentinel",
@@ -103,9 +90,22 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792250725012,
+      "respawnAt": 1792250724956,
       "intervalMs": 1200000,
-      "remainingMs": 758985
+      "remainingMs": 641510
+    },
+    {
+      "id": "vale_keeper",
+      "name": "Vale Keeper",
+      "map": "Ancient Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
+      "state": "dead",
+      "level": 22,
+      "killer": null,
+      "respawnAt": 1792251208875,
+      "intervalMs": 1200000,
+      "remainingMs": 1145521
     },
     {
       "id": "vale_warden",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 99,
       "killer": "TheTAOz",
-      "respawnAt": 1792252531925,
+      "respawnAt": 1792252532092,
       "intervalMs": 10800000,
-      "remainingMs": 2571439
+      "remainingMs": 2453670
     },
     {
       "id": "lotus_maw_matriarch",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 40,
       "killer": "Peacezz",
-      "respawnAt": 1792252646440,
+      "respawnAt": 1792252646432,
       "intervalMs": 10800000,
-      "remainingMs": 2696961
+      "remainingMs": 2578056
     },
     {
       "id": "bloom_crowned_stag",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 25,
       "killer": "RTB",
-      "respawnAt": 1792260700263,
+      "respawnAt": 1792260700464,
       "intervalMs": 10800000,
-      "remainingMs": 10759031
+      "remainingMs": 10639618
     }
   ],
   "worldBoss": {
