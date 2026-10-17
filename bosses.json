@@ -1,33 +1,20 @@
 {
-  "scannedAt": 1792246823803,
-  "generatedAt": "2026-10-17T14:20:50.316Z",
+  "scannedAt": 1792246937859,
+  "generatedAt": "2026-10-17T14:22:45.914Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "sky_sentinel",
-      "name": "Sky Sentinel",
-      "map": "Cloudspire Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
-      "state": "alive",
-      "level": 72,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 1200000,
-      "remainingMs": null
-    },
     {
       "id": "dusk_herald",
       "name": "Dusk Herald",
       "map": "Duskgate Pass",
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
-      "state": "dead",
+      "state": "alive",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792246899364,
+      "respawnAt": null,
       "intervalMs": 1200000,
-      "remainingMs": 52136
+      "remainingMs": null
     },
     {
       "id": "vale_keeper",
@@ -38,9 +25,22 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792247499838,
+      "respawnAt": 1792247499864,
       "intervalMs": 1200000,
-      "remainingMs": 670746
+      "remainingMs": 556455
+    },
+    {
+      "id": "sky_sentinel",
+      "name": "Sky Sentinel",
+      "map": "Cloudspire Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
+      "state": "dead",
+      "level": 72,
+      "killer": null,
+      "respawnAt": 1792248056075,
+      "intervalMs": 1200000,
+      "remainingMs": 1090657
     },
     {
       "id": "tempest_kite_empress",
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 70,
       "killer": "A9A9",
-      "respawnAt": 1792248692409,
+      "respawnAt": 1792248693991,
       "intervalMs": 10800000,
-      "remainingMs": 1852933
+      "remainingMs": 1739545
     },
     {
       "id": "bloom_crowned_stag",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 25,
       "killer": "KhxuTxas",
-      "respawnAt": 1792249139377,
+      "respawnAt": 1792249139994,
       "intervalMs": 10800000,
-      "remainingMs": 2312893
+      "remainingMs": 2199364
     },
     {
       "id": "aurora_antler_regent",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 58,
       "killer": "KhxuTxas",
-      "respawnAt": 1792249316881,
+      "respawnAt": 1792249316863,
       "intervalMs": 10800000,
-      "remainingMs": 2479977
+      "remainingMs": 2365191
     },
     {
       "id": "cinder_plume_roc",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 36,
       "killer": "KhxuTxas",
-      "respawnAt": 1792249412085,
+      "respawnAt": 1792249412920,
       "intervalMs": 10800000,
-      "remainingMs": 2580418
+      "remainingMs": 2466746
     },
     {
       "id": "prism_shell_sovereign",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "ExoCistZ",
-      "respawnAt": 1792249471124,
+      "respawnAt": 1792249471150,
       "intervalMs": 10800000,
-      "remainingMs": 2642032
+      "remainingMs": 2527741
     },
     {
       "id": "opal_weaver_queen",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 80,
       "killer": "Peacezz",
-      "respawnAt": 1792250573923,
+      "respawnAt": 1792250574879,
       "intervalMs": 10800000,
-      "remainingMs": 3731868
+      "remainingMs": 3617695
     },
     {
       "id": "vale_warden",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 99,
       "killer": "TheTAOz",
-      "respawnAt": 1792252521532,
+      "respawnAt": 1792252522041,
       "intervalMs": 10800000,
-      "remainingMs": 5676877
+      "remainingMs": 5562111
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 40,
       "killer": "Peacezz",
-      "respawnAt": 1792252639477,
+      "respawnAt": 1792252639924,
       "intervalMs": 10800000,
-      "remainingMs": 5805207
+      "remainingMs": 5691026
     }
   ],
   "worldBoss": {
