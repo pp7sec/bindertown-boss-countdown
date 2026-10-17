@@ -66,19 +66,30 @@ function escapeHtml(s) {
   }[c]));
 }
 
+let lastLoadedAt = 0;
+
 async function load() {
   try {
     const res = await fetch('bosses.json?t=' + Date.now());
-    data = await res.json();
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const fresh = await res.json();
+    data = fresh;
+    lastLoadedAt = Date.now();
     if (UPDATED) {
       const d = new Date(data.scannedAt);
       UPDATED.textContent = 'ข้อมูลล่าสุด: ' + d.toLocaleString('th-TH');
     }
     render();
   } catch (e) {
-    APP.innerHTML = '<div class="status">โหลดไม่สำเร็จ: ' + escapeHtml(e.message) + '</div>';
+    // keep showing old data if we already have some; only show error on first load
+    if (!data) {
+      APP.innerHTML = '<div class="status">โหลดไม่สำเร็จ: ' + escapeHtml(e.message) + '</div>';
+    } else if (UPDATED) {
+      UPDATED.textContent = 'ข้อมูลล่าสุด: ' + new Date(data.scannedAt).toLocaleString('th-TH') + ' (อัปเดตใหม่ไม่สำเร็จ)';
+    }
   }
 }
 
 load();
-setInterval(render, 1000);
+setInterval(render, 1000);        // นับถอยหลังติ๊กทุก 1 วิ
+setInterval(load, 60000);         // re-fetch ข้อมูลบอสใหม่ทุก 60 วิ
