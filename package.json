@@ -1,0 +1,13 @@
+{
+  "name": "bindertown-boss-countdown",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Binder Town Field Boss respawn countdown — static site + Colyseus scanner",
+  "scripts": {
+    "scan": "node scan-bosses.mjs"
+  },
+  "dependencies": {
+    "colyseus.js": "^0.16.0"
+  }
+}

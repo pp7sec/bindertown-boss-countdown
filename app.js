@@ -1,0 +1,84 @@
+// Binder Town — Boss Countdown (static, reads bosses.json)
+const APP = document.getElementById('app');
+const UPDATED = document.getElementById('updated');
+
+let data = null;
+
+function fmt(ms) {
+  if (ms < 0) ms = 0;
+  const s = Math.floor(ms / 1000);
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const sec = s % 60;
+  if (h > 0) return `${h}:${String(m).padStart(2, '0')}:${String(sec).padStart(2, '0')}`;
+  return `${m}:${String(sec).padStart(2, '0')}`;
+}
+
+function fmtLabel(ms) {
+  const s = Math.floor(ms / 1000);
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const sec = s % 60;
+  if (h > 0) return `${h} ชม. ${m} น.`;
+  if (m > 0) return `${m} น. ${sec} วิ`;
+  return `${sec} วิ`;
+}
+
+function render() {
+  if (!data || !data.bosses) {
+    APP.innerHTML = '<div class="status">โหลดไม่สำเร็จ — ตรวจสอบ bosses.json</div>';
+    return;
+  }
+  const now = Date.now();
+  const elapsed = now - data.scannedAt;
+
+  // compute remaining, sort soonest-first
+  const list = data.bosses.map((b) => {
+    const remain = b.remainingMs - elapsed;
+    const pct = b.intervalMs > 0 ? Math.max(0, Math.min(100, (1 - remain / b.intervalMs) * 100)) : 0;
+    return { ...b, remain, pct };
+  }).sort((a, b) => a.remain - b.remain);
+
+  const html = list.map((b) => {
+    const alive = b.remain <= 0;
+    const soon = !alive && b.remain < 5 * 60 * 1000; // < 5 min
+    const killer = b.killer ? `<b>ปราบโดย ${escapeHtml(b.killer)}</b> · ` : '';
+    const timerCls = alive ? 'timer alive' : `timer${soon ? ' soon' : ''}`;
+    const timerText = alive ? 'เกิดแล้ว 🟢' : fmt(b.remain);
+    return `
+      <div class="card">
+        <div class="top">
+          <span class="lv">Lv ${b.level}</span>
+          <span class="name" title="${escapeHtml(b.id)}">${escapeHtml(b.name)}</span>
+        </div>
+        <div class="${timerCls}">${timerText}</div>
+        <div class="meta">${killer}${escapeHtml(b.map)} · Ch${b.channel} · รอบเกิด ${fmtLabel(b.intervalMs)}</div>
+        <div class="bar"><span style="width:${b.pct.toFixed(2)}%"></span></div>
+      </div>`;
+  }).join('');
+
+  APP.innerHTML = html;
+}
+
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, (c) => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+  }[c]));
+}
+
+async function load() {
+  try {
+    const res = await fetch('bosses.json?t=' + Date.now());
+    data = await res.json();
+    if (UPDATED) {
+      const d = new Date(data.scannedAt);
+      UPDATED.textContent = 'ข้อมูลล่าสุด: ' + d.toLocaleString('th-TH');
+    }
+    render();
+  } catch (e) {
+    APP.innerHTML = '<div class="status">โหลดไม่สำเร็จ: ' + escapeHtml(e.message) + '</div>';
+  }
+}
+
+load();
+setInterval(render, 1000);

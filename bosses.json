@@ -1,0 +1,117 @@
+{
+  "scannedAt": 1792231138134,
+  "generatedAt": "2026-10-17T10:00:18.737Z",
+  "count": 11,
+  "bosses": [
+    {
+      "id": "dusk_herald",
+      "name": "ผู้ประกาศสนธยา",
+      "map": "Duskgate Pass",
+      "level": 47,
+      "killer": null,
+      "remainingMs": 510333,
+      "intervalMs": 1200000,
+      "channel": 10
+    },
+    {
+      "id": "sky_sentinel",
+      "name": "Sky Sentinel",
+      "map": "cloudspire_ruins",
+      "level": 72,
+      "killer": null,
+      "remainingMs": 844326,
+      "intervalMs": 1200000,
+      "channel": 10
+    },
+    {
+      "id": "vale_keeper",
+      "name": "Vale Keeper",
+      "map": "Ancient Ruins",
+      "level": 22,
+      "killer": null,
+      "remainingMs": 950716,
+      "intervalMs": 1200000,
+      "channel": 10
+    },
+    {
+      "id": "lotus_maw_matriarch",
+      "name": "มารดาอสูรปากบัว",
+      "map": "Lotus Hollow",
+      "level": 40,
+      "killer": "แมวตกน้ํา",
+      "remainingMs": 1814126,
+      "intervalMs": 10800000,
+      "channel": 10
+    },
+    {
+      "id": "cinder_plume_roc",
+      "name": "ร็อคขนเพลิงถ่าน",
+      "map": "Cinder Eyrie",
+      "level": 36,
+      "killer": "แมวตกน้ํา",
+      "remainingMs": 2149212,
+      "intervalMs": 10800000,
+      "channel": 10
+    },
+    {
+      "id": "prism_shell_sovereign",
+      "name": "จักรพรรดิกระดองปริซึม",
+      "map": "Ancient Ruins",
+      "level": 25,
+      "killer": "แมวตกน้ํา",
+      "remainingMs": 3376082,
+      "intervalMs": 10800000,
+      "channel": 10
+    },
+    {
+      "id": "bloom_crowned_stag",
+      "name": "กวางมงกุฎบุปผา",
+      "map": "Bloomcrown Glade",
+      "level": 25,
+      "killer": "Limp",
+      "remainingMs": 5751512,
+      "intervalMs": 10800000,
+      "channel": 10
+    },
+    {
+      "id": "tempest_kite_empress",
+      "name": "จักรพรรดินีว่าวพายุ",
+      "map": "Tempest Aerie",
+      "level": 70,
+      "killer": "TheTAOz",
+      "remainingMs": 6443310,
+      "intervalMs": 10800000,
+      "channel": 10
+    },
+    {
+      "id": "opal_weaver_queen",
+      "name": "ราชินีช่างทอโอปอล",
+      "map": "Opalweb Grotto",
+      "level": 80,
+      "killer": "A9A9",
+      "remainingMs": 6585688,
+      "intervalMs": 10800000,
+      "channel": 10
+    },
+    {
+      "id": "vale_warden",
+      "name": "ผู้พิทักษ์หุบผา",
+      "map": "Warden's Seat",
+      "level": 99,
+      "killer": "A9A9",
+      "remainingMs": 8197704,
+      "intervalMs": 10800000,
+      "channel": 10
+    },
+    {
+      "id": "aurora_antler_regent",
+      "name": "ราชันเขากวางออโรร่า",
+      "map": "Aurora Hollow",
+      "level": 58,
+      "killer": "แมวตกน้ํา",
+      "remainingMs": 9385096,
+      "intervalMs": 10800000,
+      "channel": 10
+    }
+  ]
+}
