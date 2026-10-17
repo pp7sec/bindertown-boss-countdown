@@ -1,8 +1,21 @@
 {
-  "scannedAt": 1792276338854,
-  "generatedAt": "2026-10-17T22:32:46.843Z",
+  "scannedAt": 1792276459442,
+  "generatedAt": "2026-10-17T22:34:44.379Z",
   "count": 11,
   "bosses": [
+    {
+      "id": "lotus_maw_matriarch",
+      "name": "Lotus Maw Matriarch",
+      "map": "Lotus Hollow",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
+      "state": "alive",
+      "level": 40,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
     {
       "id": "vale_warden",
       "name": "Vale Warden",
@@ -17,32 +30,6 @@
       "remainingMs": null
     },
     {
-      "id": "vale_keeper",
-      "name": "Vale Keeper",
-      "map": "Ancient Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
-      "state": "dead",
-      "level": 22,
-      "killer": null,
-      "respawnAt": 1792276384996,
-      "intervalMs": 1200000,
-      "remainingMs": 40638
-    },
-    {
-      "id": "lotus_maw_matriarch",
-      "name": "Lotus Maw Matriarch",
-      "map": "Lotus Hollow",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
-      "state": "dead",
-      "level": 40,
-      "killer": "นักฮัน",
-      "respawnAt": 1792276438275,
-      "intervalMs": 10800000,
-      "remainingMs": 88402
-    },
-    {
       "id": "sky_sentinel",
       "name": "Sky Sentinel",
       "map": "Cloudspire Ruins",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792276521483,
+      "respawnAt": 1792276521928,
       "intervalMs": 1200000,
-      "remainingMs": 155140
+      "remainingMs": 37946
     },
     {
       "id": "dusk_herald",
@@ -64,9 +51,22 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792277114276,
+      "respawnAt": 1792277114218,
       "intervalMs": 1200000,
-      "remainingMs": 750682
+      "remainingMs": 632695
+    },
+    {
+      "id": "vale_keeper",
+      "name": "Vale Keeper",
+      "map": "Ancient Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
+      "state": "dead",
+      "level": 22,
+      "killer": null,
+      "respawnAt": 1792277593758,
+      "intervalMs": 1200000,
+      "remainingMs": 1129373
     },
     {
       "id": "bloom_crowned_stag",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792282483414,
+      "respawnAt": 1792282483854,
       "intervalMs": 10800000,
-      "remainingMs": 6141800
+      "remainingMs": 6021927
     },
     {
       "id": "prism_shell_sovereign",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792282568750,
+      "respawnAt": 1792282568787,
       "intervalMs": 10800000,
-      "remainingMs": 6224392
+      "remainingMs": 6104402
     },
     {
       "id": "cinder_plume_roc",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 36,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792282931019,
+      "respawnAt": 1792282930971,
       "intervalMs": 10800000,
-      "remainingMs": 6583894
+      "remainingMs": 6464144
     },
     {
       "id": "aurora_antler_regent",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 58,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792283147038,
+      "respawnAt": 1792283147139,
       "intervalMs": 10800000,
-      "remainingMs": 6794415
+      "remainingMs": 6675384
     },
     {
       "id": "tempest_kite_empress",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 70,
       "killer": "็HappyX",
-      "respawnAt": 1792283579569,
+      "respawnAt": 1792283579618,
       "intervalMs": 10800000,
-      "remainingMs": 7224230
+      "remainingMs": 7105458
     },
     {
       "id": "opal_weaver_queen",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 80,
       "killer": "็HappyX",
-      "respawnAt": 1792285593154,
+      "respawnAt": 1792285593743,
       "intervalMs": 10800000,
-      "remainingMs": 9235068
+      "remainingMs": 9117149
     }
   ],
   "worldBoss": {
