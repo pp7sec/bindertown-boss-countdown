@@ -1,8 +1,86 @@
 {
-  "scannedAt": 1792244657406,
-  "generatedAt": "2026-10-17T13:44:45.105Z",
+  "scannedAt": 1792244777667,
+  "generatedAt": "2026-10-17T13:47:08.004Z",
   "count": 11,
   "bosses": [
+    {
+      "id": "aurora_antler_regent",
+      "name": "Aurora Antler Regent",
+      "map": "Aurora Hollow",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png",
+      "state": "alive",
+      "level": 58,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
+      "id": "tempest_kite_empress",
+      "name": "Tempest Kite Empress",
+      "map": "Tempest Aerie",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
+      "state": "alive",
+      "level": 70,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
+      "id": "opal_weaver_queen",
+      "name": "Opal Weaver Queen",
+      "map": "Opalweb Grotto",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/opal_weaver_queen/idle/0.png",
+      "state": "alive",
+      "level": 80,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
+      "id": "vale_warden",
+      "name": "Vale Warden",
+      "map": "Warden's Seat",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_warden/idle/0.png",
+      "state": "alive",
+      "level": 99,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
+      "id": "dusk_herald",
+      "name": "Dusk Herald",
+      "map": "Duskgate Pass",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
+      "state": "alive",
+      "level": 47,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 1200000,
+      "remainingMs": null
+    },
+    {
+      "id": "sky_sentinel",
+      "name": "Sky Sentinel",
+      "map": "Cloudspire Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
+      "state": "alive",
+      "level": 72,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 1200000,
+      "remainingMs": null
+    },
     {
       "id": "vale_keeper",
       "name": "Vale Keeper",
@@ -12,48 +90,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792245046573,
+      "respawnAt": 1792245046466,
       "intervalMs": 1200000,
-      "remainingMs": 383881
-    },
-    {
-      "id": "sky_sentinel",
-      "name": "Sky Sentinel",
-      "map": "Cloudspire Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
-      "state": "dead",
-      "level": 72,
-      "killer": null,
-      "respawnAt": 1792245220959,
-      "intervalMs": 1200000,
-      "remainingMs": 536157
-    },
-    {
-      "id": "dusk_herald",
-      "name": "Dusk Herald",
-      "map": "Duskgate Pass",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
-      "state": "dead",
-      "level": 47,
-      "killer": null,
-      "respawnAt": 1792245484622,
-      "intervalMs": 1200000,
-      "remainingMs": 802578
-    },
-    {
-      "id": "tempest_kite_empress",
-      "name": "Tempest Kite Empress",
-      "map": "Tempest Aerie",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
-      "state": "dead",
-      "level": 70,
-      "killer": "A9A9",
-      "respawnAt": 1792248684332,
-      "intervalMs": 10800000,
-      "remainingMs": 4010527
+      "remainingMs": 261253
     },
     {
       "id": "bloom_crowned_stag",
@@ -64,22 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "KhxuTxas",
-      "respawnAt": 1792249128417,
+      "respawnAt": 1792249129206,
       "intervalMs": 10800000,
-      "remainingMs": 4468479
-    },
-    {
-      "id": "aurora_antler_regent",
-      "name": "Aurora Antler Regent",
-      "map": "Aurora Hollow",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png",
-      "state": "dead",
-      "level": 58,
-      "killer": "KhxuTxas",
-      "respawnAt": 1792249316878,
-      "intervalMs": 10800000,
-      "remainingMs": 4645821
+      "remainingMs": 4349070
     },
     {
       "id": "cinder_plume_roc",
@@ -90,9 +116,9 @@
       "state": "dead",
       "level": 36,
       "killer": "KhxuTxas",
-      "respawnAt": 1792249402796,
+      "respawnAt": 1792249402894,
       "intervalMs": 10800000,
-      "remainingMs": 4737302
+      "remainingMs": 4614981
     },
     {
       "id": "prism_shell_sovereign",
@@ -103,35 +129,9 @@
       "state": "dead",
       "level": 25,
       "killer": "ExoCistZ",
-      "respawnAt": 1792249471186,
+      "respawnAt": 1792249471079,
       "intervalMs": 10800000,
-      "remainingMs": 4808494
-    },
-    {
-      "id": "opal_weaver_queen",
-      "name": "Opal Weaver Queen",
-      "map": "Opalweb Grotto",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/opal_weaver_queen/idle/0.png",
-      "state": "dead",
-      "level": 80,
-      "killer": "Peacezz",
-      "respawnAt": 1792250566054,
-      "intervalMs": 10800000,
-      "remainingMs": 5889493
-    },
-    {
-      "id": "vale_warden",
-      "name": "Vale Warden",
-      "map": "Warden's Seat",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_warden/idle/0.png",
-      "state": "dead",
-      "level": 99,
-      "killer": "TheTAOz",
-      "respawnAt": 1792252516261,
-      "intervalMs": 10800000,
-      "remainingMs": 7836954
+      "remainingMs": 4685866
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 40,
       "killer": "Peacezz",
-      "respawnAt": 1792252631537,
+      "respawnAt": 1792252631820,
       "intervalMs": 10800000,
-      "remainingMs": 7963269
+      "remainingMs": 7837324
     }
   ],
   "worldBoss": {
