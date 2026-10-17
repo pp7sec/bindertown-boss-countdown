@@ -40,11 +40,12 @@ function render() {
     return;
   }
   const now = Date.now();
-  const elapsed = now - data.scannedAt;
 
   // compute remaining, sort soonest-first
   const list = data.bosses.map((b) => {
-    const remain = b.remainingMs - elapsed;
+    const remain = (b.respawnAt != null)
+      ? b.respawnAt - now
+      : b.remainingMs - (now - data.scannedAt);
     const pct = b.intervalMs > 0 ? Math.max(0, Math.min(100, (1 - remain / b.intervalMs) * 100)) : 0;
     return { ...b, remain, pct };
   }).sort((a, b) => a.remain - b.remain);

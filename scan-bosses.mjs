@@ -94,8 +94,20 @@ async function scanMap(map) {
   await new Promise(r => setTimeout(r, 1200));
   const st = room.state;
   const worldTime = st.worldTime;
+  const readAt = Date.now();
   const graves = [];
-  try { for (const [id, g] of st.graves) graves.push({ mobType: g.mobType, level: g.level, killer: g.killer, at: g.at, respawnAt: g.respawnAt }); } catch (e) {}
+  try {
+    for (const [id, g] of st.graves) {
+      graves.push({
+        mobType: g.mobType,
+        level: g.level,
+        killer: g.killer,
+        remainingMs: Math.max(0, g.respawnAt - worldTime),
+        intervalMs: Math.max(0, g.respawnAt - g.at),
+        readAt,
+      });
+    }
+  } catch (e) {}
   try { await room.leave(); } catch {}
   return { worldTime, graves };
 }
@@ -114,16 +126,15 @@ for (const map of BOSS_MAPS) {
   const r = await scanMap(map);
   if (!r) continue;
   for (const g of r.graves) {
-    const remainingMs = Math.max(0, g.respawnAt - r.worldTime);
-    const intervalMs = Math.max(0, g.respawnAt - g.at);
     bosses.push({
       id: g.mobType,
       name: gameName(g.mobType),
       map: MAP_LABELS[map] || map,
       level: g.level,
       killer: g.killer || null,
-      remainingMs,
-      intervalMs,
+      respawnAt: g.readAt + g.remainingMs, // เวลาจริง (Unix ms) ที่บอสจะเกิด
+      intervalMs: g.intervalMs,
+      remainingMs: g.remainingMs,
       channel: CH,
       sprite: `https://play.bindertowngame.com/sprites/mob/${g.mobType}/idle/0.png`,
     });
