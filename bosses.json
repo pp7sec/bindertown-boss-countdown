@@ -1,21 +1,8 @@
 {
-  "scannedAt": 1792250058288,
-  "generatedAt": "2026-10-17T15:14:43.872Z",
+  "scannedAt": 1792250178790,
+  "generatedAt": "2026-10-17T15:16:44.348Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "prism_shell_sovereign",
-      "name": "Prism Shell Sovereign",
-      "map": "Ancient Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
-      "state": "alive",
-      "level": 25,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 10800000,
-      "remainingMs": null
-    },
     {
       "id": "cinder_plume_roc",
       "name": "Cinder Plume Roc",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 80,
       "killer": "Peacezz",
-      "respawnAt": 1792250588545,
+      "respawnAt": 1792250588648,
       "intervalMs": 10800000,
-      "remainingMs": 512624
+      "remainingMs": 392249
     },
     {
       "id": "dusk_herald",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792250720975,
+      "respawnAt": 1792250720929,
       "intervalMs": 1200000,
-      "remainingMs": 639998
+      "remainingMs": 519487
     },
     {
       "id": "sky_sentinel",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792250724956,
+      "respawnAt": 1792250724919,
       "intervalMs": 1200000,
-      "remainingMs": 641510
+      "remainingMs": 520997
     },
     {
       "id": "vale_keeper",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792251208875,
+      "respawnAt": 1792251208850,
       "intervalMs": 1200000,
-      "remainingMs": 1145521
+      "remainingMs": 1024999
     },
     {
       "id": "vale_warden",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 99,
       "killer": "TheTAOz",
-      "respawnAt": 1792252532092,
+      "respawnAt": 1792252532307,
       "intervalMs": 10800000,
-      "remainingMs": 2453670
+      "remainingMs": 2333386
     },
     {
       "id": "lotus_maw_matriarch",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 40,
       "killer": "Peacezz",
-      "respawnAt": 1792252646432,
+      "respawnAt": 1792252646530,
       "intervalMs": 10800000,
-      "remainingMs": 2578056
+      "remainingMs": 2457661
     },
     {
       "id": "bloom_crowned_stag",
@@ -142,9 +129,22 @@
       "state": "dead",
       "level": 25,
       "killer": "RTB",
-      "respawnAt": 1792260700464,
+      "respawnAt": 1792260700572,
       "intervalMs": 10800000,
-      "remainingMs": 10639618
+      "remainingMs": 10519225
+    },
+    {
+      "id": "prism_shell_sovereign",
+      "name": "Prism Shell Sovereign",
+      "map": "Ancient Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
+      "state": "dead",
+      "level": 25,
+      "killer": "ma1",
+      "respawnAt": 1792260909094,
+      "intervalMs": 10800000,
+      "remainingMs": 10725243
     }
   ],
   "worldBoss": {
