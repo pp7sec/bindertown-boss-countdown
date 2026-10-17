@@ -32,7 +32,7 @@ function label(mobType, map) {
 // ---- identity: create a fresh GUEST (no credentials needed) ----
 async function createGuest() {
   let lastErr;
-  for (let attempt = 1; attempt <= 3; attempt++) {
+  for (let attempt = 1; attempt <= 5; attempt++) {
     try {
       const r = await fetch(baseUrl + '/api/guest', {
         method: 'POST',
@@ -47,8 +47,8 @@ async function createGuest() {
       return { key: d.account.key, name: 'guest' };
     } catch (e) {
       lastErr = e;
-      console.log(`guest attempt ${attempt}/3 failed: ${e.message}`);
-      await new Promise((r) => setTimeout(r, 4000));
+      console.log(`guest attempt ${attempt}/5 failed: ${e.message}`);
+      await new Promise((r) => setTimeout(r, 5000));
     }
   }
   throw lastErr;
