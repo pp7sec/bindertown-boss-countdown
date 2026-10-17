@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792250779268,
-  "generatedAt": "2026-10-17T15:26:44.331Z",
+  "scannedAt": 1792250896875,
+  "generatedAt": "2026-10-17T15:28:44.993Z",
   "count": 11,
   "bosses": [
     {
@@ -17,32 +17,6 @@
       "remainingMs": null
     },
     {
-      "id": "dusk_herald",
-      "name": "Dusk Herald",
-      "map": "Duskgate Pass",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
-      "state": "alive",
-      "level": 47,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 1200000,
-      "remainingMs": null
-    },
-    {
-      "id": "sky_sentinel",
-      "name": "Sky Sentinel",
-      "map": "Cloudspire Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
-      "state": "alive",
-      "level": 72,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 1200000,
-      "remainingMs": null
-    },
-    {
       "id": "vale_keeper",
       "name": "Vale Keeper",
       "map": "Ancient Ruins",
@@ -51,9 +25,35 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792251208817,
+      "respawnAt": 1792251208865,
       "intervalMs": 1200000,
-      "remainingMs": 424503
+      "remainingMs": 306420
+    },
+    {
+      "id": "sky_sentinel",
+      "name": "Sky Sentinel",
+      "map": "Cloudspire Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
+      "state": "dead",
+      "level": 72,
+      "killer": null,
+      "respawnAt": 1792252040145,
+      "intervalMs": 1200000,
+      "remainingMs": 1115671
+    },
+    {
+      "id": "dusk_herald",
+      "name": "Dusk Herald",
+      "map": "Duskgate Pass",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
+      "state": "dead",
+      "level": 47,
+      "killer": null,
+      "respawnAt": 1792252044338,
+      "intervalMs": 1200000,
+      "remainingMs": 1122614
     },
     {
       "id": "vale_warden",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 99,
       "killer": "TheTAOz",
-      "respawnAt": 1792252535144,
+      "respawnAt": 1792252535535,
       "intervalMs": 10800000,
-      "remainingMs": 1736047
+      "remainingMs": 1616584
     },
     {
       "id": "lotus_maw_matriarch",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 40,
       "killer": "Peacezz",
-      "respawnAt": 1792252648987,
+      "respawnAt": 1792252649905,
       "intervalMs": 10800000,
-      "remainingMs": 1859816
+      "remainingMs": 1741986
     },
     {
       "id": "bloom_crowned_stag",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "RTB",
-      "respawnAt": 1792260702425,
+      "respawnAt": 1792260703165,
       "intervalMs": 10800000,
-      "remainingMs": 9920603
+      "remainingMs": 9803482
     },
     {
       "id": "prism_shell_sovereign",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "ma1",
-      "respawnAt": 1792260909061,
+      "respawnAt": 1792260909109,
       "intervalMs": 10800000,
-      "remainingMs": 10124747
+      "remainingMs": 10006664
     },
     {
       "id": "aurora_antler_regent",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 58,
       "killer": "Munchkin",
-      "respawnAt": 1792261098095,
+      "respawnAt": 1792261098121,
       "intervalMs": 10800000,
-      "remainingMs": 10306473
+      "remainingMs": 10187451
     },
     {
       "id": "cinder_plume_roc",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 36,
       "killer": "แมวตกน้ํา",
-      "respawnAt": 1792261158775,
+      "respawnAt": 1792261159847,
       "intervalMs": 10800000,
-      "remainingMs": 10372040
+      "remainingMs": 10254670
     },
     {
       "id": "tempest_kite_empress",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 70,
       "killer": "Munchkin",
-      "respawnAt": 1792261526008,
+      "respawnAt": 1792261526280,
       "intervalMs": 10800000,
-      "remainingMs": 10731869
+      "remainingMs": 10612871
     }
   ],
   "worldBoss": {
