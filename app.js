@@ -107,10 +107,10 @@ function wbHtml(wb) {
   }
   return `
     <section class="group">
-      <h2 class="sec-title">🌍 World Boss <span>ทั้งเซิร์ฟ · ระบบแยก</span></h2>
+      <h2 class="sec-title">🌍 World Boss <span>ทั้งเซิร์ฟ · รอบ 12 ชม.</span></h2>
       <div class="card wb">
         <div class="top">
-          <span class="name">World Boss</span>
+          <span class="name">Wraithroot Colossus</span>
         </div>
         <div class="${cls}">${text}</div>
         <div class="meta">${escapeHtml(meta)}</div>
