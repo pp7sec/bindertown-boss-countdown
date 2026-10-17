@@ -47,7 +47,10 @@ function render() {
     const remain = dead ? b.respawnAt - now : Infinity;
     const pct = dead && b.intervalMs > 0 ? Math.max(0, Math.min(100, (1 - remain / b.intervalMs) * 100)) : 0;
     return { ...b, dead, remain, pct };
-  }).sort((a, b) => a.remain - b.remain);
+  }).sort((a, b) => {
+    if (a.dead !== b.dead) return a.dead ? 1 : -1; // ยังไม่ตาย (alive) ขึ้นก่อน
+    return a.remain - b.remain;
+  });
 
   // split into mini boss (20 min) vs big boss (3 h)
   const MINI_MS = 20 * 60 * 1000;
