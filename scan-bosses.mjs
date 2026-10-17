@@ -112,32 +112,59 @@ async function scanMap(map) {
   return { worldTime, graves };
 }
 
-// แมพที่มี Field Boss / gatekeeper (สแกนแค่กลุ่มนี้ → เร็ว ~20 วิ)
-const BOSS_MAPS = [
-  'bloomcrown_glade', 'ancient_ruins', 'cinder_eyrie', 'lotus_hollow',
-  'duskgate_pass', 'cloudspire_ruins', 'aurora_hollow', 'tempest_aerie',
-  'opalweb_grotto', 'wardens_seat',
+// บอสทั้งหมดในเกม (mobType → แมพ + รอบเกิด + เลเวล)
+const BOSS_DEFS = [
+  // Field Boss (3 ชม.)
+  { mobType: 'bloom_crowned_stag', map: 'bloomcrown_glade', intervalMs: 3 * 3600e3, level: 25 },
+  { mobType: 'prism_shell_sovereign', map: 'ancient_ruins', intervalMs: 3 * 3600e3, level: 25 },
+  { mobType: 'cinder_plume_roc', map: 'cinder_eyrie', intervalMs: 3 * 3600e3, level: 36 },
+  { mobType: 'lotus_maw_matriarch', map: 'lotus_hollow', intervalMs: 3 * 3600e3, level: 40 },
+  { mobType: 'aurora_antler_regent', map: 'aurora_hollow', intervalMs: 3 * 3600e3, level: 58 },
+  { mobType: 'tempest_kite_empress', map: 'tempest_aerie', intervalMs: 3 * 3600e3, level: 70 },
+  { mobType: 'opal_weaver_queen', map: 'opalweb_grotto', intervalMs: 3 * 3600e3, level: 80 },
+  { mobType: 'vale_warden', map: 'wardens_seat', intervalMs: 3 * 3600e3, level: 99 },
+  // Mini-boss (20 นาที)
+  { mobType: 'dusk_herald', map: 'duskgate_pass', intervalMs: 20 * 60e3, level: 47 },
+  { mobType: 'sky_sentinel', map: 'cloudspire_ruins', intervalMs: 20 * 60e3, level: 72 },
+  { mobType: 'vale_keeper', map: 'ancient_ruins', intervalMs: 20 * 60e3, level: 22 },
 ];
+const BOSS_MAPS = [...new Set(BOSS_DEFS.map((b) => b.map))];
 
-console.log('scanning', BOSS_MAPS.length, 'boss maps on ch', CH, '...');
+console.log('scanning', BOSS_MAPS.length, 'maps for', BOSS_DEFS.length, 'bosses on ch', CH, '...');
 const scannedAt = Date.now();
-const bosses = [];
+
+// สแกนแมพ → เก็บ graves แยกตามแมพ
+const gravesByMap = {};
 for (const map of BOSS_MAPS) {
   const r = await scanMap(map);
   if (!r) continue;
-  for (const g of r.graves) {
+  gravesByMap[map] = {};
+  for (const g of r.graves) gravesByMap[map][g.mobType] = g;
+}
+
+// สร้างรายการบอสครบทุกตัว (dead = มีหลุมศพ, alive = ยังไม่ตาย)
+const bosses = [];
+for (const def of BOSS_DEFS) {
+  const g = gravesByMap[def.map] && gravesByMap[def.map][def.mobType];
+  const base = {
+    id: def.mobType,
+    name: gameName(def.mobType),
+    map: MAP_LABELS[def.map] || def.map,
+    channel: CH,
+    sprite: `https://play.bindertowngame.com/sprites/mob/${def.mobType}/idle/0.png`,
+  };
+  if (g) {
     bosses.push({
-      id: g.mobType,
-      name: gameName(g.mobType),
-      map: MAP_LABELS[map] || map,
-      level: g.level,
+      ...base,
+      state: 'dead',
+      level: g.level || def.level,
       killer: g.killer || null,
       respawnAt: g.readAt + g.remainingMs, // เวลาจริง (Unix ms) ที่บอสจะเกิด
-      intervalMs: g.intervalMs,
+      intervalMs: g.intervalMs || def.intervalMs,
       remainingMs: g.remainingMs,
-      channel: CH,
-      sprite: `https://play.bindertowngame.com/sprites/mob/${g.mobType}/idle/0.png`,
     });
+  } else {
+    bosses.push({ ...base, state: 'alive', level: def.level, killer: null, respawnAt: null, intervalMs: def.intervalMs, remainingMs: null });
   }
 }
 bosses.sort((a, b) => a.remainingMs - b.remainingMs);

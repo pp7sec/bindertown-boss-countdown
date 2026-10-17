@@ -41,13 +41,12 @@ function render() {
   }
   const now = Date.now();
 
-  // compute remaining, sort soonest-first
+  // compute remaining, sort soonest-first (alive -> last)
   const list = data.bosses.map((b) => {
-    const remain = (b.respawnAt != null)
-      ? b.respawnAt - now
-      : b.remainingMs - (now - data.scannedAt);
-    const pct = b.intervalMs > 0 ? Math.max(0, Math.min(100, (1 - remain / b.intervalMs) * 100)) : 0;
-    return { ...b, remain, pct };
+    const dead = b.state !== 'alive' && b.respawnAt != null;
+    const remain = dead ? b.respawnAt - now : Infinity;
+    const pct = dead && b.intervalMs > 0 ? Math.max(0, Math.min(100, (1 - remain / b.intervalMs) * 100)) : 0;
+    return { ...b, dead, remain, pct };
   }).sort((a, b) => a.remain - b.remain);
 
   // split into mini boss (20 min) vs big boss (3 h)
@@ -56,13 +55,19 @@ function render() {
   const big = list.filter((b) => b.intervalMs > MINI_MS);
 
   const cardHtml = (b) => {
-    const alive = b.remain <= 0;
-    const soon = !alive && b.remain < 5 * 60 * 1000; // < 5 min
+    let timerCls, timerText;
+    if (!b.dead) {
+      timerCls = 'timer alive';
+      timerText = 'ยังไม่ตาย 🟢';
+    } else {
+      const spawned = b.remain <= 0;
+      const soon = !spawned && b.remain < 5 * 60 * 1000;
+      timerCls = spawned ? 'timer alive' : `timer${soon ? ' soon' : ''}`;
+      timerText = spawned
+        ? `เกิดแล้ว 🟢 <span class="unit">· ${fmtAgo(-b.remain)}</span>`
+        : fmt(b.remain);
+    }
     const killer = b.killer ? `<b>ปราบโดย ${escapeHtml(b.killer)}</b> · ` : '';
-    const timerCls = alive ? 'timer alive' : `timer${soon ? ' soon' : ''}`;
-    const timerText = alive
-      ? `เกิดแล้ว 🟢 <span class="unit">· ${fmtAgo(-b.remain)}</span>`
-      : fmt(b.remain);
     const sprite = b.sprite || `https://play.bindertowngame.com/sprites/mob/${b.id}/idle/0.png`;
     return `
       <div class="card">
