@@ -1,7 +1,7 @@
 {
-  "scannedAt": 1792238193973,
-  "generatedAt": "2026-10-17T11:58:54.510Z",
-  "count": 4,
+  "scannedAt": 1792238503295,
+  "generatedAt": "2026-10-17T12:03:54.996Z",
+  "count": 6,
   "bosses": [
     {
       "id": "vale_keeper",
@@ -9,7 +9,7 @@
       "map": "Ancient Ruins",
       "level": 22,
       "killer": null,
-      "remainingMs": 765280,
+      "remainingMs": 457187,
       "intervalMs": 1200000,
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png"
@@ -20,7 +20,7 @@
       "map": "Duskgate Pass",
       "level": 47,
       "killer": null,
-      "remainingMs": 944557,
+      "remainingMs": 642206,
       "intervalMs": 1200000,
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png"
@@ -31,7 +31,7 @@
       "map": "Cloudspire Ruins",
       "level": 72,
       "killer": null,
-      "remainingMs": 1134793,
+      "remainingMs": 835224,
       "intervalMs": 1200000,
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png"
@@ -42,10 +42,32 @@
       "map": "Tempest Aerie",
       "level": 70,
       "killer": "A9A9",
-      "remainingMs": 10378523,
+      "remainingMs": 10081055,
       "intervalMs": 10800000,
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png"
+    },
+    {
+      "id": "bloom_crowned_stag",
+      "name": "Bloom Crowned Stag",
+      "map": "Bloomcrown Glade",
+      "level": 25,
+      "killer": "KhxuTxas",
+      "remainingMs": 10585857,
+      "intervalMs": 10800000,
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png"
+    },
+    {
+      "id": "aurora_antler_regent",
+      "name": "Aurora Antler Regent",
+      "map": "Aurora Hollow",
+      "level": 58,
+      "killer": "KhxuTxas",
+      "remainingMs": 10724425,
+      "intervalMs": 10800000,
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png"
     }
   ]
 }
