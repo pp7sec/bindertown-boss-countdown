@@ -1,8 +1,60 @@
 {
-  "scannedAt": 1792244777667,
-  "generatedAt": "2026-10-17T13:47:08.004Z",
+  "scannedAt": 1792244900564,
+  "generatedAt": "2026-10-17T13:49:13.882Z",
   "count": 11,
   "bosses": [
+    {
+      "id": "bloom_crowned_stag",
+      "name": "Bloom Crowned Stag",
+      "map": "Bloomcrown Glade",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
+      "state": "alive",
+      "level": 25,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
+      "id": "prism_shell_sovereign",
+      "name": "Prism Shell Sovereign",
+      "map": "Ancient Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
+      "state": "alive",
+      "level": 25,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
+      "id": "cinder_plume_roc",
+      "name": "Cinder Plume Roc",
+      "map": "Cinder Eyrie",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
+      "state": "alive",
+      "level": 36,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
+      "id": "lotus_maw_matriarch",
+      "name": "Lotus Maw Matriarch",
+      "map": "Lotus Hollow",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
+      "state": "alive",
+      "level": 40,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
     {
       "id": "aurora_antler_regent",
       "name": "Aurora Antler Regent",
@@ -87,77 +139,14 @@
       "map": "Ancient Ruins",
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
-      "state": "dead",
+      "state": "alive",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792245046466,
+      "respawnAt": null,
       "intervalMs": 1200000,
-      "remainingMs": 261253
-    },
-    {
-      "id": "bloom_crowned_stag",
-      "name": "Bloom Crowned Stag",
-      "map": "Bloomcrown Glade",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
-      "state": "dead",
-      "level": 25,
-      "killer": "KhxuTxas",
-      "respawnAt": 1792249129206,
-      "intervalMs": 10800000,
-      "remainingMs": 4349070
-    },
-    {
-      "id": "cinder_plume_roc",
-      "name": "Cinder Plume Roc",
-      "map": "Cinder Eyrie",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
-      "state": "dead",
-      "level": 36,
-      "killer": "KhxuTxas",
-      "respawnAt": 1792249402894,
-      "intervalMs": 10800000,
-      "remainingMs": 4614981
-    },
-    {
-      "id": "prism_shell_sovereign",
-      "name": "Prism Shell Sovereign",
-      "map": "Ancient Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
-      "state": "dead",
-      "level": 25,
-      "killer": "ExoCistZ",
-      "respawnAt": 1792249471079,
-      "intervalMs": 10800000,
-      "remainingMs": 4685866
-    },
-    {
-      "id": "lotus_maw_matriarch",
-      "name": "Lotus Maw Matriarch",
-      "map": "Lotus Hollow",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
-      "state": "dead",
-      "level": 40,
-      "killer": "Peacezz",
-      "respawnAt": 1792252631820,
-      "intervalMs": 10800000,
-      "remainingMs": 7837324
+      "remainingMs": null
     }
   ],
-  "worldBoss": {
-    "id": "wb-1792301400000",
-    "state": "idle",
-    "startAt": 1792301400000,
-    "endsAt": 0,
-    "nextAt": 1792301400000,
-    "fighters": 0
-  },
-  "worldBossLast": {
-    "at": 1792240491330,
-    "seconds": 289,
-    "fighters": 1262
-  }
+  "worldBoss": null,
+  "worldBossLast": null
 }
