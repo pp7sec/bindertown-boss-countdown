@@ -5,20 +5,10 @@ import { Client } from 'colyseus.js';
 const baseUrl = 'https://play.bindertowngame.com';
 const CH = 10; // field boss channel (PvP)
 
-// human-readable Thai labels for bosses (fallback to title-case mobType)
-const NAMES = {
-  bloom_crowned_stag: 'กวางมงกุฎบุปผา',
-  prism_shell_sovereign: 'จักรพรรดิกระดองปริซึม',
-  cinder_plume_roc: 'ร็อคขนเพลิงถ่าน',
-  lotus_maw_matriarch: 'มารดาอสูรปากบัว',
-  dusk_herald: 'ผู้ประกาศสนธยา',
-  sky_sentinel: 'ผู้พิทักษ์เวหา',
-  vale_keeper: 'ผู้ดูแลหุบผา',
-  aurora_antler_regent: 'ราชันเขากวางออโรร่า',
-  tempest_kite_empress: 'จักรพรรดินีว่าวพายุ',
-  opal_weaver_queen: 'ราชินีช่างทอโอปอล',
-  vale_warden: 'ผู้พิทักษ์หุบผา',
-};
+// ชื่อจริงในเกม = title-case ของ mobType (ตรงกับฟังก์ชัน ae() ในโค้ด client)
+function gameName(t) {
+  return t.replace(/_/g, ' ').replace(/\b\w/g, (c) => c.toUpperCase());
+}
 const MAP_LABELS = {
   bloomcrown_glade: 'Bloomcrown Glade',
   ancient_ruins: 'Ancient Ruins',
@@ -34,7 +24,7 @@ const MAP_LABELS = {
 function label(mobType, map) {
   return {
     id: mobType,
-    th: NAMES[mobType] || mobType.split('_').map(w => w[0].toUpperCase() + w.slice(1)).join(' '),
+    name: gameName(mobType), // ชื่อจริงในเกม (อังกฤษ)
     map: MAP_LABELS[map] || map,
   };
 }
@@ -113,7 +103,7 @@ for (const map of maps) {
     const L = label(g.mobType, map);
     bosses.push({
       id: L.id,
-      name: L.th,
+      name: L.name,
       map: L.map,
       level: g.level,
       killer: g.killer || null,
