@@ -1,21 +1,8 @@
 {
-  "scannedAt": 1792248258764,
-  "generatedAt": "2026-10-17T14:44:45.411Z",
+  "scannedAt": 1792248378387,
+  "generatedAt": "2026-10-17T14:46:46.515Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "dusk_herald",
-      "name": "Dusk Herald",
-      "map": "Duskgate Pass",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
-      "state": "alive",
-      "level": 47,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 1200000,
-      "remainingMs": null
-    },
     {
       "id": "tempest_kite_empress",
       "name": "Tempest Kite Empress",
@@ -25,9 +12,9 @@
       "state": "dead",
       "level": 70,
       "killer": "A9A9",
-      "respawnAt": 1792248697989,
+      "respawnAt": 1792248697945,
       "intervalMs": 10800000,
-      "remainingMs": 423489
+      "remainingMs": 302976
     },
     {
       "id": "vale_keeper",
@@ -38,9 +25,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792248724137,
+      "respawnAt": 1792248724210,
       "intervalMs": 1200000,
-      "remainingMs": 460130
+      "remainingMs": 340258
     },
     {
       "id": "bloom_crowned_stag",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 25,
       "killer": "KhxuTxas",
-      "respawnAt": 1792249146662,
+      "respawnAt": 1792249146907,
       "intervalMs": 10800000,
-      "remainingMs": 885280
+      "remainingMs": 765725
     },
     {
       "id": "sky_sentinel",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792249327983,
+      "respawnAt": 1792249328025,
       "intervalMs": 1200000,
-      "remainingMs": 1043045
+      "remainingMs": 922005
     },
     {
       "id": "aurora_antler_regent",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 58,
       "killer": "KhxuTxas",
-      "respawnAt": 1792249317202,
+      "respawnAt": 1792249317219,
       "intervalMs": 10800000,
-      "remainingMs": 1045298
+      "remainingMs": 925035
     },
     {
       "id": "cinder_plume_roc",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 36,
       "killer": "KhxuTxas",
-      "respawnAt": 1792249421530,
+      "respawnAt": 1792249421859,
       "intervalMs": 10800000,
-      "remainingMs": 1154888
+      "remainingMs": 1035158
     },
     {
       "id": "prism_shell_sovereign",
@@ -103,9 +90,22 @@
       "state": "dead",
       "level": 25,
       "killer": "ExoCistZ",
-      "respawnAt": 1792249471072,
+      "respawnAt": 1792249471145,
       "intervalMs": 10800000,
-      "remainingMs": 1207065
+      "remainingMs": 1087193
+    },
+    {
+      "id": "dusk_herald",
+      "name": "Dusk Herald",
+      "map": "Duskgate Pass",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
+      "state": "dead",
+      "level": 47,
+      "killer": null,
+      "respawnAt": 1792249505425,
+      "intervalMs": 1200000,
+      "remainingMs": 1102159
     },
     {
       "id": "opal_weaver_queen",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 80,
       "killer": "Peacezz",
-      "respawnAt": 1792250580596,
+      "respawnAt": 1792250581399,
       "intervalMs": 10800000,
-      "remainingMs": 2303509
+      "remainingMs": 2183675
     },
     {
       "id": "vale_warden",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 99,
       "killer": "TheTAOz",
-      "respawnAt": 1792252524779,
+      "respawnAt": 1792252524994,
       "intervalMs": 10800000,
-      "remainingMs": 4245119
+      "remainingMs": 4124485
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 40,
       "killer": "Peacezz",
-      "respawnAt": 1792252646585,
+      "respawnAt": 1792252646483,
       "intervalMs": 10800000,
-      "remainingMs": 4377308
+      "remainingMs": 4257056
     }
   ],
   "worldBoss": {
