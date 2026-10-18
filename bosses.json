@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792283296708,
-  "generatedAt": "2026-10-18T00:28:43.411Z",
+  "scannedAt": 1792283428571,
+  "generatedAt": "2026-10-18T00:30:54.138Z",
   "count": 11,
   "bosses": [
     {
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 70,
       "killer": "็HappyX",
-      "respawnAt": 1792283604141,
+      "respawnAt": 1792283604086,
       "intervalMs": 10800000,
-      "remainingMs": 291650
+      "remainingMs": 160370
     },
     {
       "id": "vale_keeper",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792283665703,
+      "respawnAt": 1792283665728,
       "intervalMs": 1200000,
-      "remainingMs": 363688
+      "remainingMs": 232082
     },
     {
       "id": "sky_sentinel",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792283719796,
+      "respawnAt": 1792283719880,
       "intervalMs": 1200000,
-      "remainingMs": 396837
+      "remainingMs": 266187
     },
     {
       "id": "dusk_herald",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792283847660,
+      "respawnAt": 1792283848385,
       "intervalMs": 1200000,
-      "remainingMs": 527302
+      "remainingMs": 397197
     },
     {
       "id": "opal_weaver_queen",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 80,
       "killer": "็HappyX",
-      "respawnAt": 1792285611719,
+      "respawnAt": 1792285611702,
       "intervalMs": 10800000,
-      "remainingMs": 2296583
+      "remainingMs": 2165494
     },
     {
       "id": "lotus_maw_matriarch",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 40,
       "killer": "xJoseph",
-      "respawnAt": 1792287299447,
+      "respawnAt": 1792287299691,
       "intervalMs": 10800000,
-      "remainingMs": 3992229
+      "remainingMs": 3860955
     },
     {
       "id": "cinder_plume_roc",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 36,
       "killer": "ICZ",
-      "respawnAt": 1792293824025,
+      "respawnAt": 1792293824811,
       "intervalMs": 10800000,
-      "remainingMs": 10519438
+      "remainingMs": 10388611
     },
     {
       "id": "aurora_antler_regent",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 58,
       "killer": "Meeyum",
-      "respawnAt": 1792294029145,
+      "respawnAt": 1792294029062,
       "intervalMs": 10800000,
-      "remainingMs": 10719296
+      "remainingMs": 10587832
     }
   ],
   "worldBoss": {
