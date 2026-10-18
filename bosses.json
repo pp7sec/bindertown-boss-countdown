@@ -1,21 +1,8 @@
 {
-  "scannedAt": 1792335259305,
-  "generatedAt": "2026-10-18T14:54:47.456Z",
+  "scannedAt": 1792335378003,
+  "generatedAt": "2026-10-18T14:56:46.058Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "aurora_antler_regent",
-      "name": "Aurora Antler Regent",
-      "map": "Aurora Hollow",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png",
-      "state": "alive",
-      "level": 58,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 10800000,
-      "remainingMs": null
-    },
     {
       "id": "tempest_kite_empress",
       "name": "Tempest Kite Empress",
@@ -38,9 +25,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792335488027,
+      "respawnAt": 1792335488019,
       "intervalMs": 1200000,
-      "remainingMs": 201066
+      "remainingMs": 82461
     },
     {
       "id": "vale_warden",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 99,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792335783088,
+      "respawnAt": 1792335783014,
       "intervalMs": 10800000,
-      "remainingMs": 501804
+      "remainingMs": 383009
     },
     {
       "id": "vale_keeper",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792335803602,
+      "respawnAt": 1792335803579,
       "intervalMs": 1200000,
-      "remainingMs": 538770
+      "remainingMs": 420035
     },
     {
       "id": "dusk_herald",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792335825391,
+      "respawnAt": 1792335825486,
       "intervalMs": 1200000,
-      "remainingMs": 541357
+      "remainingMs": 422738
     },
     {
       "id": "opal_weaver_queen",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 80,
       "killer": "CAPY",
-      "respawnAt": 1792335903862,
+      "respawnAt": 1792335904456,
       "intervalMs": 10800000,
-      "remainingMs": 625299
+      "remainingMs": 507200
     },
     {
       "id": "prism_shell_sovereign",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "AokeTN",
-      "respawnAt": 1792344776977,
+      "respawnAt": 1792344776954,
       "intervalMs": 10800000,
-      "remainingMs": 9512145
+      "remainingMs": 9393410
     },
     {
       "id": "bloom_crowned_stag",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "TouHi",
-      "respawnAt": 1792345189418,
+      "respawnAt": 1792345190356,
       "intervalMs": 10800000,
-      "remainingMs": 9927366
+      "remainingMs": 9809561
     },
     {
       "id": "lotus_maw_matriarch",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 40,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792345625516,
+      "respawnAt": 1792345625546,
       "intervalMs": 10800000,
-      "remainingMs": 10355132
+      "remainingMs": 10236575
     },
     {
       "id": "cinder_plume_roc",
@@ -142,9 +129,22 @@
       "state": "dead",
       "level": 36,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792345993205,
+      "respawnAt": 1792345993725,
       "intervalMs": 10800000,
-      "remainingMs": 10725616
+      "remainingMs": 10607462
+    },
+    {
+      "id": "aurora_antler_regent",
+      "name": "Aurora Antler Regent",
+      "map": "Aurora Hollow",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png",
+      "state": "dead",
+      "level": 58,
+      "killer": "AtoZp",
+      "respawnAt": 1792346149741,
+      "intervalMs": 10800000,
+      "remainingMs": 10758041
     }
   ],
   "worldBoss": {
