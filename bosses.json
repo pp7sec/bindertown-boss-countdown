@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792295898412,
-  "generatedAt": "2026-10-18T03:58:46.308Z",
+  "scannedAt": 1792296033448,
+  "generatedAt": "2026-10-18T04:00:58.111Z",
   "count": 11,
   "bosses": [
     {
@@ -30,19 +30,6 @@
       "remainingMs": null
     },
     {
-      "id": "sky_sentinel",
-      "name": "Sky Sentinel",
-      "map": "Cloudspire Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
-      "state": "dead",
-      "level": 72,
-      "killer": null,
-      "respawnAt": 1792295947788,
-      "intervalMs": 1200000,
-      "remainingMs": 21975
-    },
-    {
       "id": "vale_keeper",
       "name": "Vale Keeper",
       "map": "Ancient Ruins",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792296246172,
+      "respawnAt": 1792296246157,
       "intervalMs": 1200000,
-      "remainingMs": 342254
+      "remainingMs": 207825
     },
     {
       "id": "opal_weaver_queen",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 80,
       "killer": "JOHNNYBRAVO",
-      "respawnAt": 1792296834095,
+      "respawnAt": 1792296834775,
       "intervalMs": 10800000,
-      "remainingMs": 916443
+      "remainingMs": 784366
     },
     {
       "id": "dusk_herald",
@@ -77,9 +64,22 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792297078090,
+      "respawnAt": 1792297078184,
       "intervalMs": 1200000,
-      "remainingMs": 1154991
+      "remainingMs": 1022898
+    },
+    {
+      "id": "sky_sentinel",
+      "name": "Sky Sentinel",
+      "map": "Cloudspire Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
+      "state": "dead",
+      "level": 72,
+      "killer": null,
+      "respawnAt": 1792297179845,
+      "intervalMs": 1200000,
+      "remainingMs": 1122127
     },
     {
       "id": "lotus_maw_matriarch",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 40,
       "killer": "KickAss",
-      "respawnAt": 1792299242638,
+      "respawnAt": 1792299243459,
       "intervalMs": 10800000,
-      "remainingMs": 3333219
+      "remainingMs": 3200298
     },
     {
       "id": "cinder_plume_roc",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 36,
       "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792304782196,
+      "respawnAt": 1792304782648,
       "intervalMs": 10800000,
-      "remainingMs": 8875542
+      "remainingMs": 8741904
     },
     {
       "id": "aurora_antler_regent",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 58,
       "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792305143007,
+      "respawnAt": 1792305142937,
       "intervalMs": 10800000,
-      "remainingMs": 9230830
+      "remainingMs": 9097342
     },
     {
       "id": "tempest_kite_empress",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 70,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792305471657,
+      "respawnAt": 1792305471553,
       "intervalMs": 10800000,
-      "remainingMs": 9556747
+      "remainingMs": 9423550
     },
     {
       "id": "prism_shell_sovereign",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 25,
       "killer": "mysister saki",
-      "respawnAt": 1792306510919,
+      "respawnAt": 1792306510904,
       "intervalMs": 10800000,
-      "remainingMs": 10607001
+      "remainingMs": 10472572
     }
   ],
   "worldBoss": {
