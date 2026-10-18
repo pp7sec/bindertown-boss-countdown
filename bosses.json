@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792334898920,
-  "generatedAt": "2026-10-18T14:48:44.392Z",
+  "scannedAt": 1792335024265,
+  "generatedAt": "2026-10-18T14:50:49.254Z",
   "count": 11,
   "bosses": [
     {
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792335488047,
+      "respawnAt": 1792335487954,
       "intervalMs": 1200000,
-      "remainingMs": 564077
+      "remainingMs": 439130
     },
     {
       "id": "vale_warden",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 99,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792335783032,
+      "respawnAt": 1792335783056,
       "intervalMs": 10800000,
-      "remainingMs": 864076
+      "remainingMs": 739127
     },
     {
       "id": "vale_keeper",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792335802972,
+      "respawnAt": 1792335803418,
       "intervalMs": 1200000,
-      "remainingMs": 899043
+      "remainingMs": 774192
     },
     {
       "id": "dusk_herald",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792335825268,
+      "respawnAt": 1792335825442,
       "intervalMs": 1200000,
-      "remainingMs": 903773
+      "remainingMs": 779015
     },
     {
       "id": "opal_weaver_queen",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 80,
       "killer": "CAPY",
-      "respawnAt": 1792335902486,
+      "respawnAt": 1792335902966,
       "intervalMs": 10800000,
-      "remainingMs": 986036
+      "remainingMs": 861450
     },
     {
       "id": "prism_shell_sovereign",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 25,
       "killer": "AokeTN",
-      "respawnAt": 1792344776347,
+      "respawnAt": 1792344776793,
       "intervalMs": 10800000,
-      "remainingMs": 9872418
+      "remainingMs": 9747567
     },
     {
       "id": "bloom_crowned_stag",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 25,
       "killer": "TouHi",
-      "respawnAt": 1792345188278,
+      "respawnAt": 1792345188420,
       "intervalMs": 10800000,
-      "remainingMs": 10286816
+      "remainingMs": 10161612
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 40,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792345623861,
+      "respawnAt": 1792345624335,
       "intervalMs": 10800000,
-      "remainingMs": 10714896
+      "remainingMs": 10590307
     }
   ],
   "worldBoss": {
