@@ -1,33 +1,20 @@
 {
-  "scannedAt": 1792358301029,
-  "generatedAt": "2026-10-18T21:18:46.914Z",
+  "scannedAt": 1792358423410,
+  "generatedAt": "2026-10-18T21:20:51.281Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "tempest_kite_empress",
-      "name": "Tempest Kite Empress",
-      "map": "Tempest Aerie",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
-      "state": "dead",
-      "level": 70,
-      "killer": "KINGLER",
-      "respawnAt": 1792358319323,
-      "intervalMs": 10800000,
-      "remainingMs": 3072
-    },
     {
       "id": "vale_warden",
       "name": "Vale Warden",
       "map": "Warden's Seat",
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/vale_warden/idle/0.png",
-      "state": "dead",
+      "state": "alive",
       "level": 99,
-      "killer": "oโก๋เอ๋อo",
-      "respawnAt": 1792358437343,
+      "killer": null,
+      "respawnAt": null,
       "intervalMs": 10800000,
-      "remainingMs": 116024
+      "remainingMs": null
     },
     {
       "id": "opal_weaver_queen",
@@ -38,9 +25,9 @@
       "state": "dead",
       "level": 80,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792358587461,
+      "respawnAt": 1792358587533,
       "intervalMs": 10800000,
-      "remainingMs": 268683
+      "remainingMs": 144905
     },
     {
       "id": "vale_keeper",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792358771042,
+      "respawnAt": 1792358771012,
       "intervalMs": 1200000,
-      "remainingMs": 464861
+      "remainingMs": 342046
     },
     {
       "id": "dusk_herald",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792359290672,
+      "respawnAt": 1792359290861,
       "intervalMs": 1200000,
-      "remainingMs": 966832
+      "remainingMs": 842820
     },
     {
       "id": "sky_sentinel",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792359414307,
+      "respawnAt": 1792359414271,
       "intervalMs": 1200000,
-      "remainingMs": 1087813
+      "remainingMs": 963487
     },
     {
       "id": "prism_shell_sovereign",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 25,
       "killer": "KINGLER",
-      "respawnAt": 1792366902486,
+      "respawnAt": 1792366902456,
       "intervalMs": 10800000,
-      "remainingMs": 8596305
+      "remainingMs": 8473490
     },
     {
       "id": "bloom_crowned_stag",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792367710096,
+      "respawnAt": 1792367709999,
       "intervalMs": 10800000,
-      "remainingMs": 9406446
+      "remainingMs": 9283792
     },
     {
       "id": "cinder_plume_roc",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 36,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792367853189,
+      "respawnAt": 1792367853981,
       "intervalMs": 10800000,
-      "remainingMs": 9544506
+      "remainingMs": 9422307
     },
     {
       "id": "lotus_maw_matriarch",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 40,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792367993698,
+      "respawnAt": 1792367994615,
       "intervalMs": 10800000,
-      "remainingMs": 9682504
+      "remainingMs": 9560208
     },
     {
       "id": "aurora_antler_regent",
@@ -142,9 +129,22 @@
       "state": "dead",
       "level": 58,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792368224628,
+      "respawnAt": 1792368224750,
       "intervalMs": 10800000,
-      "remainingMs": 9910875
+      "remainingMs": 9787605
+    },
+    {
+      "id": "tempest_kite_empress",
+      "name": "Tempest Kite Empress",
+      "map": "Tempest Aerie",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
+      "state": "dead",
+      "level": 70,
+      "killer": "หําตุง",
+      "respawnAt": 1792369170869,
+      "intervalMs": 10800000,
+      "remainingMs": 10731024
     }
   ],
   "worldBoss": {
