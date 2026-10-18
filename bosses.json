@@ -1,8 +1,21 @@
 {
-  "scannedAt": 1792316421418,
-  "generatedAt": "2026-10-18T09:40:48.155Z",
+  "scannedAt": 1792316536885,
+  "generatedAt": "2026-10-18T09:42:43.437Z",
   "count": 11,
   "bosses": [
+    {
+      "id": "tempest_kite_empress",
+      "name": "Tempest Kite Empress",
+      "map": "Tempest Aerie",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
+      "state": "alive",
+      "level": 70,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
     {
       "id": "vale_keeper",
       "name": "Vale Keeper",
@@ -17,32 +30,6 @@
       "remainingMs": null
     },
     {
-      "id": "tempest_kite_empress",
-      "name": "Tempest Kite Empress",
-      "map": "Tempest Aerie",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
-      "state": "dead",
-      "level": 70,
-      "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792316464683,
-      "intervalMs": 10800000,
-      "remainingMs": 27527
-    },
-    {
-      "id": "sky_sentinel",
-      "name": "Sky Sentinel",
-      "map": "Cloudspire Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
-      "state": "dead",
-      "level": 72,
-      "killer": null,
-      "respawnAt": 1792316493062,
-      "intervalMs": 1200000,
-      "remainingMs": 45346
-    },
-    {
       "id": "dusk_herald",
       "name": "Dusk Herald",
       "map": "Duskgate Pass",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792317289853,
+      "respawnAt": 1792317289742,
       "intervalMs": 1200000,
-      "remainingMs": 844773
+      "remainingMs": 729320
     },
     {
       "id": "prism_shell_sovereign",
@@ -64,9 +51,22 @@
       "state": "dead",
       "level": 25,
       "killer": "SUMMONNER",
-      "respawnAt": 1792317646557,
+      "respawnAt": 1792317646638,
       "intervalMs": 10800000,
-      "remainingMs": 1219917
+      "remainingMs": 1104384
+    },
+    {
+      "id": "sky_sentinel",
+      "name": "Sky Sentinel",
+      "map": "Cloudspire Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
+      "state": "dead",
+      "level": 72,
+      "killer": null,
+      "respawnAt": 1792317747384,
+      "intervalMs": 1200000,
+      "remainingMs": 1184396
     },
     {
       "id": "bloom_crowned_stag",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 25,
       "killer": "Araiwa",
-      "respawnAt": 1792318356727,
+      "respawnAt": 1792318357468,
       "intervalMs": 10800000,
-      "remainingMs": 1932715
+      "remainingMs": 1817941
     },
     {
       "id": "opal_weaver_queen",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 80,
       "killer": "memid",
-      "respawnAt": 1792319062408,
+      "respawnAt": 1792319062819,
       "intervalMs": 10800000,
-      "remainingMs": 2622534
+      "remainingMs": 2507534
     },
     {
       "id": "vale_warden",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 99,
       "killer": "xJoseph",
-      "respawnAt": 1792320612368,
+      "respawnAt": 1792320613091,
       "intervalMs": 10800000,
-      "remainingMs": 4169879
+      "remainingMs": 4055231
     },
     {
       "id": "lotus_maw_matriarch",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 40,
       "killer": "MasumiX",
-      "respawnAt": 1792322622076,
+      "respawnAt": 1792322622085,
       "intervalMs": 10800000,
-      "remainingMs": 6190183
+      "remainingMs": 6074556
     },
     {
       "id": "cinder_plume_roc",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 36,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792326511951,
+      "respawnAt": 1792326513280,
       "intervalMs": 10800000,
-      "remainingMs": 10082710
+      "remainingMs": 9968445
     },
     {
       "id": "aurora_antler_regent",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 58,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792326931333,
+      "respawnAt": 1792326932308,
       "intervalMs": 10800000,
-      "remainingMs": 10496783
+      "remainingMs": 10382218
     }
   ],
   "worldBoss": {
