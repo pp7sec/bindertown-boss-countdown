@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792322897419,
-  "generatedAt": "2026-10-18T11:28:45.116Z",
+  "scannedAt": 1792323026723,
+  "generatedAt": "2026-10-18T11:30:55.179Z",
   "count": 11,
   "bosses": [
     {
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792324080019,
+      "respawnAt": 1792324080014,
       "intervalMs": 1200000,
-      "remainingMs": 1155360
+      "remainingMs": 1025373
     }
   ],
   "worldBoss": {
