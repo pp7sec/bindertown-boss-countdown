@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792282823844,
-  "generatedAt": "2026-10-18T00:20:51.955Z",
+  "scannedAt": 1792282939103,
+  "generatedAt": "2026-10-18T00:22:46.135Z",
   "count": 11,
   "bosses": [
     {
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 36,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792282949628,
+      "respawnAt": 1792282949612,
       "intervalMs": 10800000,
-      "remainingMs": 117422
+      "remainingMs": 2469
     },
     {
       "id": "aurora_antler_regent",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 58,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792283177945,
+      "respawnAt": 1792283178134,
       "intervalMs": 10800000,
-      "remainingMs": 340255
+      "remainingMs": 225741
     },
     {
       "id": "tempest_kite_empress",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 70,
       "killer": "็HappyX",
-      "respawnAt": 1792283601584,
+      "respawnAt": 1792283602280,
       "intervalMs": 10800000,
-      "remainingMs": 761171
+      "remainingMs": 647243
     },
     {
       "id": "vale_keeper",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792283665817,
+      "respawnAt": 1792283665693,
       "intervalMs": 1200000,
-      "remainingMs": 836385
+      "remainingMs": 721220
     },
     {
       "id": "sky_sentinel",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792283719805,
+      "respawnAt": 1792283719809,
       "intervalMs": 1200000,
-      "remainingMs": 868362
+      "remainingMs": 754142
     },
     {
       "id": "dusk_herald",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792283847466,
+      "respawnAt": 1792283847462,
       "intervalMs": 1200000,
-      "remainingMs": 998746
+      "remainingMs": 884456
     },
     {
       "id": "opal_weaver_queen",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 80,
       "killer": "็HappyX",
-      "respawnAt": 1792285611778,
+      "respawnAt": 1792285611743,
       "intervalMs": 10800000,
-      "remainingMs": 2768601
+      "remainingMs": 2654028
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 40,
       "killer": "xJoseph",
-      "respawnAt": 1792287297387,
+      "respawnAt": 1792287297711,
       "intervalMs": 10800000,
-      "remainingMs": 4462437
+      "remainingMs": 4347950
     }
   ],
   "worldBoss": {
