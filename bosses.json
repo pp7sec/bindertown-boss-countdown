@@ -1,8 +1,21 @@
 {
-  "scannedAt": 1792287258678,
-  "generatedAt": "2026-10-18T01:34:44.496Z",
+  "scannedAt": 1792287378588,
+  "generatedAt": "2026-10-18T01:36:46.678Z",
   "count": 11,
   "bosses": [
+    {
+      "id": "lotus_maw_matriarch",
+      "name": "Lotus Maw Matriarch",
+      "map": "Lotus Hollow",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
+      "state": "alive",
+      "level": 40,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
     {
       "id": "vale_warden",
       "name": "Vale Warden",
@@ -17,43 +30,17 @@
       "remainingMs": null
     },
     {
-      "id": "vale_keeper",
-      "name": "Vale Keeper",
-      "map": "Ancient Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
-      "state": "dead",
-      "level": 22,
-      "killer": null,
-      "respawnAt": 1792287292706,
-      "intervalMs": 1200000,
-      "remainingMs": 28825
-    },
-    {
-      "id": "lotus_maw_matriarch",
-      "name": "Lotus Maw Matriarch",
-      "map": "Lotus Hollow",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
-      "state": "dead",
-      "level": 40,
-      "killer": "xJoseph",
-      "respawnAt": 1792287319011,
-      "intervalMs": 10800000,
-      "remainingMs": 50053
-    },
-    {
       "id": "dusk_herald",
       "name": "Dusk Herald",
       "map": "Duskgate Pass",
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
-      "state": "dead",
+      "state": "alive",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792287357627,
+      "respawnAt": null,
       "intervalMs": 1200000,
-      "remainingMs": 76077
+      "remainingMs": null
     },
     {
       "id": "sky_sentinel",
@@ -64,9 +51,22 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792287981541,
+      "respawnAt": 1792287981537,
       "intervalMs": 1200000,
-      "remainingMs": 697482
+      "remainingMs": 575373
+    },
+    {
+      "id": "vale_keeper",
+      "name": "Vale Keeper",
+      "map": "Ancient Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
+      "state": "dead",
+      "level": 22,
+      "killer": null,
+      "respawnAt": 1792288499276,
+      "intervalMs": 1200000,
+      "remainingMs": 1115159
     },
     {
       "id": "cinder_plume_roc",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 36,
       "killer": "ICZ",
-      "respawnAt": 1792293840208,
+      "respawnAt": 1792293840452,
       "intervalMs": 10800000,
-      "remainingMs": 6573772
+      "remainingMs": 6453526
     },
     {
       "id": "aurora_antler_regent",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 58,
       "killer": "Meeyum",
-      "respawnAt": 1792294044465,
+      "respawnAt": 1792294044864,
       "intervalMs": 10800000,
-      "remainingMs": 6772926
+      "remainingMs": 6652458
     },
     {
       "id": "tempest_kite_empress",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 70,
       "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792294491509,
+      "respawnAt": 1792294492149,
       "intervalMs": 10800000,
-      "remainingMs": 7217471
+      "remainingMs": 7096997
     },
     {
       "id": "bloom_crowned_stag",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792295582662,
+      "respawnAt": 1792295582731,
       "intervalMs": 10800000,
-      "remainingMs": 8321354
+      "remainingMs": 8201359
     },
     {
       "id": "prism_shell_sovereign",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792295632594,
+      "respawnAt": 1792295632638,
       "intervalMs": 10800000,
-      "remainingMs": 8368713
+      "remainingMs": 8248521
     },
     {
       "id": "opal_weaver_queen",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 80,
       "killer": "JOHNNYBRAVO",
-      "respawnAt": 1792296804468,
+      "respawnAt": 1792296804738,
       "intervalMs": 10800000,
-      "remainingMs": 9527930
+      "remainingMs": 9406805
     }
   ],
   "worldBoss": {
