@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792289423059,
-  "generatedAt": "2026-10-18T02:10:51.146Z",
+  "scannedAt": 1792289538296,
+  "generatedAt": "2026-10-18T02:12:46.517Z",
   "count": 11,
   "bosses": [
     {
@@ -22,12 +22,12 @@
       "map": "Cloudspire Ruins",
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
-      "state": "dead",
+      "state": "alive",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792289544916,
+      "respawnAt": null,
       "intervalMs": 1200000,
-      "remainingMs": 94277
+      "remainingMs": null
     },
     {
       "id": "vale_keeper",
@@ -38,9 +38,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792289736966,
+      "respawnAt": 1792289736978,
       "intervalMs": 1200000,
-      "remainingMs": 308318
+      "remainingMs": 193150
     },
     {
       "id": "dusk_herald",
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792290142651,
+      "respawnAt": 1792290142679,
       "intervalMs": 1200000,
-      "remainingMs": 694756
+      "remainingMs": 579399
     },
     {
       "id": "cinder_plume_roc",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 36,
       "killer": "ICZ",
-      "respawnAt": 1792293850035,
+      "respawnAt": 1792293850680,
       "intervalMs": 10800000,
-      "remainingMs": 4418658
+      "remainingMs": 4304128
     },
     {
       "id": "aurora_antler_regent",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 58,
       "killer": "Meeyum",
-      "respawnAt": 1792294051220,
+      "respawnAt": 1792294052107,
       "intervalMs": 10800000,
-      "remainingMs": 4614272
+      "remainingMs": 4499888
     },
     {
       "id": "tempest_kite_empress",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 70,
       "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792294504470,
+      "respawnAt": 1792294505061,
       "intervalMs": 10800000,
-      "remainingMs": 5064793
+      "remainingMs": 4950078
     },
     {
       "id": "bloom_crowned_stag",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792295589143,
+      "respawnAt": 1792295590156,
       "intervalMs": 10800000,
-      "remainingMs": 6163260
+      "remainingMs": 6049062
     },
     {
       "id": "prism_shell_sovereign",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792295632656,
+      "respawnAt": 1792295632668,
       "intervalMs": 10800000,
-      "remainingMs": 6204008
+      "remainingMs": 6088840
     },
     {
       "id": "opal_weaver_queen",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 80,
       "killer": "JOHNNYBRAVO",
-      "respawnAt": 1792296814556,
+      "respawnAt": 1792296814546,
       "intervalMs": 10800000,
-      "remainingMs": 7372154
+      "remainingMs": 7256789
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 40,
       "killer": "KickAss",
-      "respawnAt": 1792299218043,
+      "respawnAt": 1792299218164,
       "intervalMs": 10800000,
-      "remainingMs": 9783883
+      "remainingMs": 9668676
     }
   ],
   "worldBoss": {
