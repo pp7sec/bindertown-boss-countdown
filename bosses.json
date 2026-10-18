@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792350981527,
-  "generatedAt": "2026-10-18T19:16:46.780Z",
+  "scannedAt": 1792351099097,
+  "generatedAt": "2026-10-18T19:18:44.308Z",
   "count": 11,
   "bosses": [
     {
@@ -12,9 +12,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792351143650,
+      "respawnAt": 1792351144262,
       "intervalMs": 1200000,
-      "remainingMs": 157060
+      "remainingMs": 40184
     },
     {
       "id": "sky_sentinel",
@@ -25,9 +25,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792351559349,
+      "respawnAt": 1792351559223,
       "intervalMs": 1200000,
-      "remainingMs": 552982
+      "remainingMs": 435340
     },
     {
       "id": "dusk_herald",
@@ -38,9 +38,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792351923208,
+      "respawnAt": 1792351923238,
       "intervalMs": 1200000,
-      "remainingMs": 919288
+      "remainingMs": 801807
     },
     {
       "id": "prism_shell_sovereign",
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 25,
       "killer": "TITANTWO",
-      "respawnAt": 1792355760748,
+      "respawnAt": 1792355761360,
       "intervalMs": 10800000,
-      "remainingMs": 4774158
+      "remainingMs": 4657282
     },
     {
       "id": "bloom_crowned_stag",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 25,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792356364859,
+      "respawnAt": 1792356365150,
       "intervalMs": 10800000,
-      "remainingMs": 5380764
+      "remainingMs": 5263538
     },
     {
       "id": "lotus_maw_matriarch",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 40,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792356583411,
+      "respawnAt": 1792356584359,
       "intervalMs": 10800000,
-      "remainingMs": 5591866
+      "remainingMs": 5475328
     },
     {
       "id": "cinder_plume_roc",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 36,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792356993300,
+      "respawnAt": 1792356993707,
       "intervalMs": 10800000,
-      "remainingMs": 6004247
+      "remainingMs": 5887154
     },
     {
       "id": "aurora_antler_regent",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 58,
       "killer": "Martyr",
-      "respawnAt": 1792357293042,
+      "respawnAt": 1792357293098,
       "intervalMs": 10800000,
-      "remainingMs": 6299033
+      "remainingMs": 6181585
     },
     {
       "id": "tempest_kite_empress",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 70,
       "killer": "KINGLER",
-      "respawnAt": 1792358302916,
+      "respawnAt": 1792358303065,
       "intervalMs": 10800000,
-      "remainingMs": 7306428
+      "remainingMs": 7189064
     },
     {
       "id": "vale_warden",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 99,
       "killer": "oโก๋เอ๋อo",
-      "respawnAt": 1792358420136,
+      "respawnAt": 1792358420894,
       "intervalMs": 10800000,
-      "remainingMs": 7418674
+      "remainingMs": 7301937
     },
     {
       "id": "opal_weaver_queen",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 80,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792358558627,
+      "respawnAt": 1792358559408,
       "intervalMs": 10800000,
-      "remainingMs": 7559649
+      "remainingMs": 7442947
     }
   ],
   "worldBoss": {
