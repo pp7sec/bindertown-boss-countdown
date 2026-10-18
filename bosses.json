@@ -1,33 +1,33 @@
 {
-  "scannedAt": 1792305026457,
-  "generatedAt": "2026-10-18T06:30:52.968Z",
+  "scannedAt": 1792305138528,
+  "generatedAt": "2026-10-18T06:32:43.272Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "vale_keeper",
-      "name": "Vale Keeper",
-      "map": "Ancient Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
-      "state": "dead",
-      "level": 22,
-      "killer": null,
-      "respawnAt": 1792305050472,
-      "intervalMs": 1200000,
-      "remainingMs": 18772
-    },
     {
       "id": "aurora_antler_regent",
       "name": "Aurora Antler Regent",
       "map": "Aurora Hollow",
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png",
-      "state": "dead",
+      "state": "alive",
       "level": 58,
-      "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792305142830,
+      "killer": null,
+      "respawnAt": null,
       "intervalMs": 10800000,
-      "remainingMs": 103283
+      "remainingMs": null
+    },
+    {
+      "id": "vale_keeper",
+      "name": "Vale Keeper",
+      "map": "Ancient Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
+      "state": "alive",
+      "level": 22,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 1200000,
+      "remainingMs": null
     },
     {
       "id": "tempest_kite_empress",
@@ -38,9 +38,9 @@
       "state": "dead",
       "level": 70,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792305498194,
+      "respawnAt": 1792305498762,
       "intervalMs": 10800000,
-      "remainingMs": 456069
+      "remainingMs": 345600
     },
     {
       "id": "dusk_herald",
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792305641435,
+      "respawnAt": 1792305641371,
       "intervalMs": 1200000,
-      "remainingMs": 591549
+      "remainingMs": 480922
     },
     {
       "id": "sky_sentinel",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792306098663,
+      "respawnAt": 1792306098689,
       "intervalMs": 1200000,
-      "remainingMs": 1046146
+      "remainingMs": 935810
     },
     {
       "id": "prism_shell_sovereign",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 25,
       "killer": "mysister saki",
-      "respawnAt": 1792306512327,
+      "respawnAt": 1792306512258,
       "intervalMs": 10800000,
-      "remainingMs": 1480627
+      "remainingMs": 1368826
     },
     {
       "id": "bloom_crowned_stag",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "ma1",
-      "respawnAt": 1792307112307,
+      "respawnAt": 1792307113043,
       "intervalMs": 10800000,
-      "remainingMs": 2083197
+      "remainingMs": 1972029
     },
     {
       "id": "opal_weaver_queen",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 80,
       "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792307946412,
+      "respawnAt": 1792307946321,
       "intervalMs": 10800000,
-      "remainingMs": 2901683
+      "remainingMs": 2790762
     },
     {
       "id": "vale_warden",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 99,
       "killer": "Munchkin",
-      "respawnAt": 1792308333041,
+      "respawnAt": 1792308333022,
       "intervalMs": 10800000,
-      "remainingMs": 3285733
+      "remainingMs": 3175061
     },
     {
       "id": "lotus_maw_matriarch",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 40,
       "killer": "MasumiX",
-      "respawnAt": 1792311449045,
+      "respawnAt": 1792311449741,
       "intervalMs": 10800000,
-      "remainingMs": 6412089
+      "remainingMs": 6301414
     },
     {
       "id": "cinder_plume_roc",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 36,
       "killer": "memid",
-      "respawnAt": 1792315648452,
+      "respawnAt": 1792315648993,
       "intervalMs": 10800000,
-      "remainingMs": 10614065
+      "remainingMs": 10503135
     }
   ],
   "worldBoss": {
