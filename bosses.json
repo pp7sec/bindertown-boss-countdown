@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792284498350,
-  "generatedAt": "2026-10-18T00:48:44.050Z",
+  "scannedAt": 1792284622737,
+  "generatedAt": "2026-10-18T00:50:49.292Z",
   "count": 11,
   "bosses": [
     {
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792284872475,
+      "respawnAt": 1792284872570,
       "intervalMs": 1200000,
-      "remainingMs": 369017
+      "remainingMs": 244601
     },
     {
       "id": "sky_sentinel",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792285450948,
+      "respawnAt": 1792285450977,
       "intervalMs": 1200000,
-      "remainingMs": 927305
+      "remainingMs": 802137
     },
     {
       "id": "opal_weaver_queen",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 80,
       "killer": "็HappyX",
-      "respawnAt": 1792285611831,
+      "respawnAt": 1792285611704,
       "intervalMs": 10800000,
-      "remainingMs": 1095608
+      "remainingMs": 970677
     },
     {
       "id": "lotus_maw_matriarch",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 40,
       "killer": "xJoseph",
-      "respawnAt": 1792287304367,
+      "respawnAt": 1792287304746,
       "intervalMs": 10800000,
-      "remainingMs": 2795779
+      "remainingMs": 2671569
     },
     {
       "id": "cinder_plume_roc",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 36,
       "killer": "ICZ",
-      "respawnAt": 1792293829289,
+      "respawnAt": 1792293830138,
       "intervalMs": 10800000,
-      "remainingMs": 9323222
+      "remainingMs": 9199552
     },
     {
       "id": "aurora_antler_regent",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 58,
       "killer": "Meeyum",
-      "respawnAt": 1792294031803,
+      "respawnAt": 1792294032439,
       "intervalMs": 10800000,
-      "remainingMs": 9520562
+      "remainingMs": 9396663
     },
     {
       "id": "tempest_kite_empress",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 70,
       "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792294475274,
+      "respawnAt": 1792294475873,
       "intervalMs": 10800000,
-      "remainingMs": 9961572
+      "remainingMs": 9837472
     }
   ],
   "worldBoss": {
