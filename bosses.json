@@ -1,33 +1,20 @@
 {
-  "scannedAt": 1792346059816,
-  "generatedAt": "2026-10-18T17:54:45.619Z",
+  "scannedAt": 1792346178490,
+  "generatedAt": "2026-10-18T17:56:46.533Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "cinder_plume_roc",
-      "name": "Cinder Plume Roc",
-      "map": "Cinder Eyrie",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
-      "state": "alive",
-      "level": 36,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 10800000,
-      "remainingMs": null
-    },
     {
       "id": "aurora_antler_regent",
       "name": "Aurora Antler Regent",
       "map": "Aurora Hollow",
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png",
-      "state": "dead",
+      "state": "alive",
       "level": 58,
-      "killer": "AtoZp",
-      "respawnAt": 1792346179914,
+      "killer": null,
+      "respawnAt": null,
       "intervalMs": 10800000,
-      "remainingMs": 107405
+      "remainingMs": null
     },
     {
       "id": "vale_keeper",
@@ -38,9 +25,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792346512127,
+      "respawnAt": 1792346512170,
       "intervalMs": 1200000,
-      "remainingMs": 447254
+      "remainingMs": 328191
     },
     {
       "id": "sky_sentinel",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792346605571,
+      "respawnAt": 1792346605542,
       "intervalMs": 1200000,
-      "remainingMs": 520387
+      "remainingMs": 399507
     },
     {
       "id": "vale_warden",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 99,
       "killer": "oโก๋เอ๋อo",
-      "respawnAt": 1792346853938,
+      "respawnAt": 1792346853910,
       "intervalMs": 10800000,
-      "remainingMs": 773822
+      "remainingMs": 653498
     },
     {
       "id": "dusk_herald",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792346952018,
+      "respawnAt": 1792346952745,
       "intervalMs": 1200000,
-      "remainingMs": 869406
+      "remainingMs": 749587
     },
     {
       "id": "opal_weaver_queen",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 80,
       "killer": "oโก๋เอ๋อo",
-      "respawnAt": 1792346966318,
+      "respawnAt": 1792346966344,
       "intervalMs": 10800000,
-      "remainingMs": 888795
+      "remainingMs": 768674
     },
     {
       "id": "tempest_kite_empress",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 70,
       "killer": "oโก๋เอ๋อo",
-      "respawnAt": 1792347087337,
+      "respawnAt": 1792347088109,
       "intervalMs": 10800000,
-      "remainingMs": 1012299
+      "remainingMs": 893184
     },
     {
       "id": "prism_shell_sovereign",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "TITANTWO",
-      "respawnAt": 1792355760773,
+      "respawnAt": 1792355760816,
       "intervalMs": 10800000,
-      "remainingMs": 9695900
+      "remainingMs": 9576837
     },
     {
       "id": "bloom_crowned_stag",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 25,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792356357528,
+      "respawnAt": 1792356357579,
       "intervalMs": 10800000,
-      "remainingMs": 10295139
+      "remainingMs": 10176309
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,9 +129,22 @@
       "state": "dead",
       "level": 40,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792356563640,
+      "respawnAt": 1792356564582,
       "intervalMs": 10800000,
-      "remainingMs": 10493690
+      "remainingMs": 10375123
+    },
+    {
+      "id": "cinder_plume_roc",
+      "name": "Cinder Plume Roc",
+      "map": "Cinder Eyrie",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
+      "state": "dead",
+      "level": 36,
+      "killer": "ลาบไม่ข้าวคั่ว",
+      "respawnAt": 1792356972904,
+      "intervalMs": 10800000,
+      "remainingMs": 10786210
     }
   ],
   "worldBoss": {
