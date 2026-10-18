@@ -1,8 +1,34 @@
 {
-  "scannedAt": 1792295537080,
-  "generatedAt": "2026-10-18T03:52:43.719Z",
+  "scannedAt": 1792295658089,
+  "generatedAt": "2026-10-18T03:54:46.240Z",
   "count": 11,
   "bosses": [
+    {
+      "id": "bloom_crowned_stag",
+      "name": "Bloom Crowned Stag",
+      "map": "Bloomcrown Glade",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
+      "state": "alive",
+      "level": 25,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
+      "id": "prism_shell_sovereign",
+      "name": "Prism Shell Sovereign",
+      "map": "Ancient Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
+      "state": "alive",
+      "level": 25,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
     {
       "id": "vale_warden",
       "name": "Vale Warden",
@@ -30,32 +56,6 @@
       "remainingMs": null
     },
     {
-      "id": "bloom_crowned_stag",
-      "name": "Bloom Crowned Stag",
-      "map": "Bloomcrown Glade",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
-      "state": "dead",
-      "level": 25,
-      "killer": "xJoseph",
-      "respawnAt": 1792295612858,
-      "intervalMs": 10800000,
-      "remainingMs": 73096
-    },
-    {
-      "id": "prism_shell_sovereign",
-      "name": "Prism Shell Sovereign",
-      "map": "Ancient Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
-      "state": "dead",
-      "level": 25,
-      "killer": "xJoseph",
-      "respawnAt": 1792295633905,
-      "intervalMs": 10800000,
-      "remainingMs": 91474
-    },
-    {
       "id": "sky_sentinel",
       "name": "Sky Sentinel",
       "map": "Cloudspire Ruins",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792295947717,
+      "respawnAt": 1792295947744,
       "intervalMs": 1200000,
-      "remainingMs": 384448
+      "remainingMs": 262005
     },
     {
       "id": "vale_keeper",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792296246105,
+      "respawnAt": 1792296246149,
       "intervalMs": 1200000,
-      "remainingMs": 703674
+      "remainingMs": 582517
     },
     {
       "id": "opal_weaver_queen",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 80,
       "killer": "JOHNNYBRAVO",
-      "respawnAt": 1792296832969,
+      "respawnAt": 1792296833202,
       "intervalMs": 10800000,
-      "remainingMs": 1277612
+      "remainingMs": 1155856
     },
     {
       "id": "lotus_maw_matriarch",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 40,
       "killer": "KickAss",
-      "respawnAt": 1792299241143,
+      "respawnAt": 1792299241505,
       "intervalMs": 10800000,
-      "remainingMs": 3693567
+      "remainingMs": 3572399
     },
     {
       "id": "cinder_plume_roc",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 36,
       "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792304781254,
+      "respawnAt": 1792304781644,
       "intervalMs": 10800000,
-      "remainingMs": 9236261
+      "remainingMs": 9115267
     },
     {
       "id": "aurora_antler_regent",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 58,
       "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792305142954,
+      "respawnAt": 1792305142851,
       "intervalMs": 10800000,
-      "remainingMs": 9592790
+      "remainingMs": 9470982
     },
     {
       "id": "tempest_kite_empress",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 70,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792305471706,
+      "respawnAt": 1792305471634,
       "intervalMs": 10800000,
-      "remainingMs": 9918954
+      "remainingMs": 9797003
     }
   ],
   "worldBoss": {
