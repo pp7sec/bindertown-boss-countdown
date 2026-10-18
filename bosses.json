@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792334423011,
-  "generatedAt": "2026-10-18T14:40:49.635Z",
+  "scannedAt": 1792334536852,
+  "generatedAt": "2026-10-18T14:42:43.345Z",
   "count": 11,
   "bosses": [
     {
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792334570312,
+      "respawnAt": 1792334570327,
       "intervalMs": 1200000,
-      "remainingMs": 123770
+      "remainingMs": 10024
     },
     {
       "id": "vale_keeper",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792334593958,
+      "respawnAt": 1792334594059,
       "intervalMs": 1200000,
-      "remainingMs": 165647
+      "remainingMs": 52021
     },
     {
       "id": "lotus_maw_matriarch",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 40,
       "killer": "บักจ่อe",
-      "respawnAt": 1792334736551,
+      "respawnAt": 1792334737011,
       "intervalMs": 10800000,
-      "remainingMs": 303025
+      "remainingMs": 189778
     },
     {
       "id": "sky_sentinel",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792335488034,
+      "respawnAt": 1792335487957,
       "intervalMs": 1200000,
-      "remainingMs": 1038851
+      "remainingMs": 925061
     },
     {
       "id": "vale_warden",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 99,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792335783155,
+      "respawnAt": 1792335782952,
       "intervalMs": 10800000,
-      "remainingMs": 1339237
+      "remainingMs": 1225256
     },
     {
       "id": "opal_weaver_queen",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 80,
       "killer": "CAPY",
-      "respawnAt": 1792335901475,
+      "respawnAt": 1792335901880,
       "intervalMs": 10800000,
-      "remainingMs": 1460190
+      "remainingMs": 1346750
     },
     {
       "id": "prism_shell_sovereign",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 25,
       "killer": "AokeTN",
-      "respawnAt": 1792344774826,
+      "respawnAt": 1792344774927,
       "intervalMs": 10800000,
-      "remainingMs": 10346515
+      "remainingMs": 10232889
     },
     {
       "id": "bloom_crowned_stag",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 25,
       "killer": "TouHi",
-      "respawnAt": 1792345187199,
+      "respawnAt": 1792345187353,
       "intervalMs": 10800000,
-      "remainingMs": 10761508
+      "remainingMs": 10647902
     }
   ],
   "worldBoss": {
