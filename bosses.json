@@ -1,21 +1,8 @@
 {
-  "scannedAt": 1792301298830,
-  "generatedAt": "2026-10-18T05:28:44.020Z",
+  "scannedAt": 1792301427355,
+  "generatedAt": "2026-10-18T05:30:54.191Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "vale_keeper",
-      "name": "Vale Keeper",
-      "map": "Ancient Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
-      "state": "dead",
-      "level": 22,
-      "killer": null,
-      "respawnAt": 1792301414129,
-      "intervalMs": 1200000,
-      "remainingMs": 110325
-    },
     {
       "id": "sky_sentinel",
       "name": "Sky Sentinel",
@@ -25,9 +12,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792302161773,
+      "respawnAt": 1792302161956,
       "intervalMs": 1200000,
-      "remainingMs": 838159
+      "remainingMs": 708218
     },
     {
       "id": "dusk_herald",
@@ -38,9 +25,22 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792302464464,
+      "respawnAt": 1792302464524,
       "intervalMs": 1200000,
-      "remainingMs": 1143294
+      "remainingMs": 1013421
+    },
+    {
+      "id": "vale_keeper",
+      "name": "Vale Keeper",
+      "map": "Ancient Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
+      "state": "dead",
+      "level": 22,
+      "killer": null,
+      "respawnAt": 1792302628596,
+      "intervalMs": 1200000,
+      "remainingMs": 1195931
     },
     {
       "id": "cinder_plume_roc",
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 36,
       "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792304806182,
+      "respawnAt": 1792304806971,
       "intervalMs": 10800000,
-      "remainingMs": 3499880
+      "remainingMs": 3371734
     },
     {
       "id": "aurora_antler_regent",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 58,
       "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792305142908,
+      "respawnAt": 1792305142945,
       "intervalMs": 10800000,
-      "remainingMs": 3831673
+      "remainingMs": 3702520
     },
     {
       "id": "tempest_kite_empress",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 70,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792305484752,
+      "respawnAt": 1792305484827,
       "intervalMs": 10800000,
-      "remainingMs": 4171026
+      "remainingMs": 4041722
     },
     {
       "id": "prism_shell_sovereign",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "mysister saki",
-      "respawnAt": 1792306510849,
+      "respawnAt": 1792306510869,
       "intervalMs": 10800000,
-      "remainingMs": 5207045
+      "remainingMs": 5078204
     },
     {
       "id": "bloom_crowned_stag",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "ma1",
-      "respawnAt": 1792307094909,
+      "respawnAt": 1792307095535,
       "intervalMs": 10800000,
-      "remainingMs": 5793551
+      "remainingMs": 5665499
     },
     {
       "id": "opal_weaver_queen",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 80,
       "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792307938136,
+      "respawnAt": 1792307938127,
       "intervalMs": 10800000,
-      "remainingMs": 6621922
+      "remainingMs": 6492345
     },
     {
       "id": "vale_warden",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 99,
       "killer": "Munchkin",
-      "respawnAt": 1792308326833,
+      "respawnAt": 1792308326997,
       "intervalMs": 10800000,
-      "remainingMs": 7008182
+      "remainingMs": 6878554
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,18 +142,18 @@
       "state": "dead",
       "level": 40,
       "killer": "MasumiX",
-      "respawnAt": 1792311433300,
+      "respawnAt": 1792311433718,
       "intervalMs": 10800000,
-      "remainingMs": 10124533
+      "remainingMs": 9995892
     }
   ],
   "worldBoss": {
     "id": "wb-1792301400000",
-    "state": "idle",
+    "state": "live",
     "startAt": 1792301400000,
-    "endsAt": 0,
-    "nextAt": 1792301400000,
-    "fighters": 0
+    "endsAt": 1792302600000,
+    "nextAt": 0,
+    "fighters": 937
   },
   "worldBossLast": {
     "at": 1792240491330,
