@@ -1,34 +1,8 @@
 {
-  "scannedAt": 1792304778962,
-  "generatedAt": "2026-10-18T06:26:45.701Z",
+  "scannedAt": 1792304898835,
+  "generatedAt": "2026-10-18T06:28:44.275Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "sky_sentinel",
-      "name": "Sky Sentinel",
-      "map": "Cloudspire Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
-      "state": "alive",
-      "level": 72,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 1200000,
-      "remainingMs": null
-    },
-    {
-      "id": "cinder_plume_roc",
-      "name": "Cinder Plume Roc",
-      "map": "Cinder Eyrie",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
-      "state": "dead",
-      "level": 36,
-      "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792304814326,
-      "intervalMs": 10800000,
-      "remainingMs": 27470
-    },
     {
       "id": "vale_keeper",
       "name": "Vale Keeper",
@@ -38,9 +12,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792305050418,
+      "respawnAt": 1792305050399,
       "intervalMs": 1200000,
-      "remainingMs": 266140
+      "remainingMs": 146600
     },
     {
       "id": "aurora_antler_regent",
@@ -51,9 +25,9 @@
       "state": "dead",
       "level": 58,
       "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792305142893,
+      "respawnAt": 1792305142931,
       "intervalMs": 10800000,
-      "remainingMs": 350654
+      "remainingMs": 231583
     },
     {
       "id": "tempest_kite_empress",
@@ -64,9 +38,9 @@
       "state": "dead",
       "level": 70,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792305497343,
+      "respawnAt": 1792305497339,
       "intervalMs": 10800000,
-      "remainingMs": 702528
+      "remainingMs": 583501
     },
     {
       "id": "dusk_herald",
@@ -77,9 +51,22 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792305641426,
+      "respawnAt": 1792305641469,
       "intervalMs": 1200000,
-      "remainingMs": 838793
+      "remainingMs": 720102
+    },
+    {
+      "id": "sky_sentinel",
+      "name": "Sky Sentinel",
+      "map": "Cloudspire Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
+      "state": "dead",
+      "level": 72,
+      "killer": null,
+      "respawnAt": 1792306098760,
+      "intervalMs": 1200000,
+      "remainingMs": 1174915
     },
     {
       "id": "prism_shell_sovereign",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 25,
       "killer": "mysister saki",
-      "respawnAt": 1792306512273,
+      "respawnAt": 1792306512254,
       "intervalMs": 10800000,
-      "remainingMs": 1727995
+      "remainingMs": 1608455
     },
     {
       "id": "bloom_crowned_stag",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "ma1",
-      "respawnAt": 1792307110680,
+      "respawnAt": 1792307111469,
       "intervalMs": 10800000,
-      "remainingMs": 2329088
+      "remainingMs": 2210161
     },
     {
       "id": "opal_weaver_queen",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 80,
       "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792307946318,
+      "respawnAt": 1792307946278,
       "intervalMs": 10800000,
-      "remainingMs": 3148886
+      "remainingMs": 3029952
     },
     {
       "id": "vale_warden",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 99,
       "killer": "Munchkin",
-      "respawnAt": 1792308333028,
+      "respawnAt": 1792308333100,
       "intervalMs": 10800000,
-      "remainingMs": 3532978
+      "remainingMs": 3414301
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,9 +129,22 @@
       "state": "dead",
       "level": 40,
       "killer": "MasumiX",
-      "respawnAt": 1792311448022,
+      "respawnAt": 1792311448898,
       "intervalMs": 10800000,
-      "remainingMs": 6658574
+      "remainingMs": 6540074
+    },
+    {
+      "id": "cinder_plume_roc",
+      "name": "Cinder Plume Roc",
+      "map": "Cinder Eyrie",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
+      "state": "dead",
+      "level": 36,
+      "killer": "memid",
+      "respawnAt": 1792315648398,
+      "intervalMs": 10800000,
+      "remainingMs": 10742118
     }
   ],
   "worldBoss": {
