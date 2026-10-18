@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792283902200,
-  "generatedAt": "2026-10-18T00:38:48.690Z",
+  "scannedAt": 1792284024462,
+  "generatedAt": "2026-10-18T00:40:49.097Z",
   "count": 11,
   "bosses": [
     {
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792284872618,
+      "respawnAt": 1792284872479,
       "intervalMs": 1200000,
-      "remainingMs": 965144
+      "remainingMs": 843111
     },
     {
       "id": "opal_weaver_queen",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 80,
       "killer": "็HappyX",
-      "respawnAt": 1792285611801,
+      "respawnAt": 1792285611754,
       "intervalMs": 10800000,
-      "remainingMs": 1691299
+      "remainingMs": 1570306
     },
     {
       "id": "lotus_maw_matriarch",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 40,
       "killer": "xJoseph",
-      "respawnAt": 1792287301630,
+      "respawnAt": 1792287302071,
       "intervalMs": 10800000,
-      "remainingMs": 3388897
+      "remainingMs": 3267860
     },
     {
       "id": "cinder_plume_roc",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 36,
       "killer": "ICZ",
-      "respawnAt": 1792293826620,
+      "respawnAt": 1792293826590,
       "intervalMs": 10800000,
-      "remainingMs": 9916514
+      "remainingMs": 9794795
     },
     {
       "id": "aurora_antler_regent",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 58,
       "killer": "Meeyum",
-      "respawnAt": 1792294029764,
+      "respawnAt": 1792294029947,
       "intervalMs": 10800000,
-      "remainingMs": 10114438
+      "remainingMs": 9993332
     },
     {
       "id": "tempest_kite_empress",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 70,
       "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792294473027,
+      "respawnAt": 1792294473371,
       "intervalMs": 10800000,
-      "remainingMs": 10555099
+      "remainingMs": 10434337
     }
   ],
   "worldBoss": {
