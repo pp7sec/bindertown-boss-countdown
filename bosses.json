@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792283537337,
-  "generatedAt": "2026-10-18T00:32:45.200Z",
+  "scannedAt": 1792283659227,
+  "generatedAt": "2026-10-18T00:34:47.346Z",
   "count": 11,
   "bosses": [
     {
@@ -43,19 +43,6 @@
       "remainingMs": null
     },
     {
-      "id": "tempest_kite_empress",
-      "name": "Tempest Kite Empress",
-      "map": "Tempest Aerie",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
-      "state": "dead",
-      "level": 70,
-      "killer": "็HappyX",
-      "respawnAt": 1792283604144,
-      "intervalMs": 10800000,
-      "remainingMs": 50394
-    },
-    {
       "id": "vale_keeper",
       "name": "Vale Keeper",
       "map": "Ancient Ruins",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792283665680,
+      "respawnAt": 1792283665792,
       "intervalMs": 1200000,
-      "remainingMs": 122858
+      "remainingMs": 982
     },
     {
       "id": "sky_sentinel",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792283719861,
+      "respawnAt": 1792283719834,
       "intervalMs": 1200000,
-      "remainingMs": 155158
+      "remainingMs": 32993
     },
     {
       "id": "dusk_herald",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792283848417,
+      "respawnAt": 1792283848440,
       "intervalMs": 1200000,
-      "remainingMs": 286424
+      "remainingMs": 164380
     },
     {
       "id": "opal_weaver_queen",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 80,
       "killer": "็HappyX",
-      "respawnAt": 1792285611744,
+      "respawnAt": 1792285611832,
       "intervalMs": 10800000,
-      "remainingMs": 2055246
+      "remainingMs": 1933234
     },
     {
       "id": "lotus_maw_matriarch",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 40,
       "killer": "xJoseph",
-      "respawnAt": 1792287299974,
+      "respawnAt": 1792287300335,
       "intervalMs": 10800000,
-      "remainingMs": 3751642
+      "remainingMs": 3630017
     },
     {
       "id": "cinder_plume_roc",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 36,
       "killer": "ICZ",
-      "respawnAt": 1792293824967,
+      "respawnAt": 1792293825217,
       "intervalMs": 10800000,
-      "remainingMs": 10279398
+      "remainingMs": 10157639
     },
     {
       "id": "aurora_antler_regent",
@@ -142,9 +129,22 @@
       "state": "dead",
       "level": 58,
       "killer": "Meeyum",
-      "respawnAt": 1792294029159,
+      "respawnAt": 1792294029510,
       "intervalMs": 10800000,
-      "remainingMs": 10478114
+      "remainingMs": 10356429
+    },
+    {
+      "id": "tempest_kite_empress",
+      "name": "Tempest Kite Empress",
+      "map": "Tempest Aerie",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
+      "state": "dead",
+      "level": 70,
+      "killer": "เดินบัพครับพี่",
+      "respawnAt": 1792294473091,
+      "intervalMs": 10800000,
+      "remainingMs": 10797220
     }
   ],
   "worldBoss": {
