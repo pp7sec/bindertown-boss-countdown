@@ -1,21 +1,8 @@
 {
-  "scannedAt": 1792316536885,
-  "generatedAt": "2026-10-18T09:42:43.437Z",
+  "scannedAt": 1792316659423,
+  "generatedAt": "2026-10-18T09:44:45.970Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "tempest_kite_empress",
-      "name": "Tempest Kite Empress",
-      "map": "Tempest Aerie",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
-      "state": "alive",
-      "level": 70,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 10800000,
-      "remainingMs": null
-    },
     {
       "id": "vale_keeper",
       "name": "Vale Keeper",
@@ -38,9 +25,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792317289742,
+      "respawnAt": 1792317290300,
       "intervalMs": 1200000,
-      "remainingMs": 729320
+      "remainingMs": 607363
     },
     {
       "id": "prism_shell_sovereign",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 25,
       "killer": "SUMMONNER",
-      "respawnAt": 1792317646638,
+      "respawnAt": 1792317647495,
       "intervalMs": 10800000,
-      "remainingMs": 1104384
+      "remainingMs": 982801
     },
     {
       "id": "sky_sentinel",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792317747384,
+      "respawnAt": 1792317747462,
       "intervalMs": 1200000,
-      "remainingMs": 1184396
+      "remainingMs": 1061949
     },
     {
       "id": "bloom_crowned_stag",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 25,
       "killer": "Araiwa",
-      "respawnAt": 1792318357468,
+      "respawnAt": 1792318357418,
       "intervalMs": 10800000,
-      "remainingMs": 1817941
+      "remainingMs": 1695330
     },
     {
       "id": "opal_weaver_queen",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 80,
       "killer": "memid",
-      "respawnAt": 1792319062819,
+      "respawnAt": 1792319063053,
       "intervalMs": 10800000,
-      "remainingMs": 2507534
+      "remainingMs": 2385306
     },
     {
       "id": "vale_warden",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 99,
       "killer": "xJoseph",
-      "respawnAt": 1792320613091,
+      "respawnAt": 1792320613808,
       "intervalMs": 10800000,
-      "remainingMs": 4055231
+      "remainingMs": 3933427
     },
     {
       "id": "lotus_maw_matriarch",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 40,
       "killer": "MasumiX",
-      "respawnAt": 1792322622085,
+      "respawnAt": 1792322622127,
       "intervalMs": 10800000,
-      "remainingMs": 6074556
+      "remainingMs": 5952180
     },
     {
       "id": "cinder_plume_roc",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 36,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792326513280,
+      "respawnAt": 1792326513411,
       "intervalMs": 10800000,
-      "remainingMs": 9968445
+      "remainingMs": 9846067
     },
     {
       "id": "aurora_antler_regent",
@@ -142,9 +129,22 @@
       "state": "dead",
       "level": 58,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792326932308,
+      "respawnAt": 1792326933347,
       "intervalMs": 10800000,
-      "remainingMs": 10382218
+      "remainingMs": 10260817
+    },
+    {
+      "id": "tempest_kite_empress",
+      "name": "Tempest Kite Empress",
+      "map": "Tempest Aerie",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
+      "state": "dead",
+      "level": 70,
+      "killer": "xJoseph",
+      "respawnAt": 1792327407158,
+      "intervalMs": 10800000,
+      "remainingMs": 10731973
     }
   ],
   "worldBoss": {
