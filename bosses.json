@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792323139289,
-  "generatedAt": "2026-10-18T11:32:47.642Z",
+  "scannedAt": 1792323258704,
+  "generatedAt": "2026-10-18T11:34:43.938Z",
   "count": 11,
   "bosses": [
     {
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792324080063,
+      "respawnAt": 1792324080039,
       "intervalMs": 1200000,
-      "remainingMs": 912922
+      "remainingMs": 796515
     },
     {
       "id": "vale_keeper",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792324264912,
+      "respawnAt": 1792324264920,
       "intervalMs": 1200000,
-      "remainingMs": 1120063
+      "remainingMs": 1001304
     },
     {
       "id": "prism_shell_sovereign",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 25,
       "killer": "PungTeng",
-      "respawnAt": 1792333839615,
+      "respawnAt": 1792333839623,
       "intervalMs": 10800000,
-      "remainingMs": 10694766
+      "remainingMs": 10576007
     }
   ],
   "worldBoss": {
