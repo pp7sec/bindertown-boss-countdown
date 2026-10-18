@@ -1,8 +1,21 @@
 {
-  "scannedAt": 1792282339299,
-  "generatedAt": "2026-10-18T00:12:45.994Z",
+  "scannedAt": 1792282459576,
+  "generatedAt": "2026-10-18T00:14:44.751Z",
   "count": 11,
   "bosses": [
+    {
+      "id": "prism_shell_sovereign",
+      "name": "Prism Shell Sovereign",
+      "map": "Ancient Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
+      "state": "alive",
+      "level": 25,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
     {
       "id": "vale_warden",
       "name": "Vale Warden",
@@ -48,12 +61,12 @@
       "map": "Ancient Ruins",
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
-      "state": "dead",
+      "state": "alive",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792282459199,
+      "respawnAt": null,
       "intervalMs": 1200000,
-      "remainingMs": 114622
+      "remainingMs": null
     },
     {
       "id": "bloom_crowned_stag",
@@ -64,22 +77,9 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792282513515,
+      "respawnAt": 1792282514354,
       "intervalMs": 10800000,
-      "remainingMs": 171534
-    },
-    {
-      "id": "prism_shell_sovereign",
-      "name": "Prism Shell Sovereign",
-      "map": "Ancient Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
-      "state": "dead",
-      "level": 25,
-      "killer": "xJoseph",
-      "respawnAt": 1792282568740,
-      "intervalMs": 10800000,
-      "remainingMs": 224163
+      "remainingMs": 52335
     },
     {
       "id": "cinder_plume_roc",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 36,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792282949563,
+      "respawnAt": 1792282949599,
       "intervalMs": 10800000,
-      "remainingMs": 602391
+      "remainingMs": 482383
     },
     {
       "id": "aurora_antler_regent",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 58,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792283175561,
+      "respawnAt": 1792283176142,
       "intervalMs": 10800000,
-      "remainingMs": 823177
+      "remainingMs": 704101
     },
     {
       "id": "tempest_kite_empress",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 70,
       "killer": "็HappyX",
-      "respawnAt": 1792283599419,
+      "respawnAt": 1792283599773,
       "intervalMs": 10800000,
-      "remainingMs": 1244439
+      "remainingMs": 1125301
     },
     {
       "id": "opal_weaver_queen",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 80,
       "killer": "็HappyX",
-      "respawnAt": 1792285611705,
+      "respawnAt": 1792285611690,
       "intervalMs": 10800000,
-      "remainingMs": 3254020
+      "remainingMs": 3134733
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 40,
       "killer": "xJoseph",
-      "respawnAt": 1792287295068,
+      "respawnAt": 1792287295774,
       "intervalMs": 10800000,
-      "remainingMs": 4945296
+      "remainingMs": 4826138
     }
   ],
   "worldBoss": {
