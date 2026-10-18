@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792282939103,
-  "generatedAt": "2026-10-18T00:22:46.135Z",
+  "scannedAt": 1792283059358,
+  "generatedAt": "2026-10-18T00:24:44.541Z",
   "count": 11,
   "bosses": [
     {
@@ -43,19 +43,6 @@
       "remainingMs": null
     },
     {
-      "id": "cinder_plume_roc",
-      "name": "Cinder Plume Roc",
-      "map": "Cinder Eyrie",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
-      "state": "dead",
-      "level": 36,
-      "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792282949612,
-      "intervalMs": 10800000,
-      "remainingMs": 2469
-    },
-    {
       "id": "aurora_antler_regent",
       "name": "Aurora Antler Regent",
       "map": "Aurora Hollow",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 58,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792283178134,
+      "respawnAt": 1792283179098,
       "intervalMs": 10800000,
-      "remainingMs": 225741
+      "remainingMs": 107251
     },
     {
       "id": "tempest_kite_empress",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 70,
       "killer": "็HappyX",
-      "respawnAt": 1792283602280,
+      "respawnAt": 1792283602623,
       "intervalMs": 10800000,
-      "remainingMs": 647243
+      "remainingMs": 528362
     },
     {
       "id": "vale_keeper",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792283665693,
+      "respawnAt": 1792283665731,
       "intervalMs": 1200000,
-      "remainingMs": 721220
+      "remainingMs": 601337
     },
     {
       "id": "sky_sentinel",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792283719809,
+      "respawnAt": 1792283719851,
       "intervalMs": 1200000,
-      "remainingMs": 754142
+      "remainingMs": 635706
     },
     {
       "id": "dusk_herald",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792283847462,
+      "respawnAt": 1792283847442,
       "intervalMs": 1200000,
-      "remainingMs": 884456
+      "remainingMs": 765768
     },
     {
       "id": "opal_weaver_queen",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 80,
       "killer": "็HappyX",
-      "respawnAt": 1792285611743,
+      "respawnAt": 1792285611783,
       "intervalMs": 10800000,
-      "remainingMs": 2654028
+      "remainingMs": 2535065
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,9 +129,22 @@
       "state": "dead",
       "level": 40,
       "killer": "xJoseph",
-      "respawnAt": 1792287297711,
+      "respawnAt": 1792287298602,
       "intervalMs": 10800000,
-      "remainingMs": 4347950
+      "remainingMs": 4229219
+    },
+    {
+      "id": "cinder_plume_roc",
+      "name": "Cinder Plume Roc",
+      "map": "Cinder Eyrie",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
+      "state": "dead",
+      "level": 36,
+      "killer": "ICZ",
+      "respawnAt": 1792293823193,
+      "intervalMs": 10800000,
+      "remainingMs": 10756332
     }
   ],
   "worldBoss": {
