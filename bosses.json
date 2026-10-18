@@ -1,21 +1,8 @@
 {
-  "scannedAt": 1792357098133,
-  "generatedAt": "2026-10-18T20:58:46.058Z",
+  "scannedAt": 1792357235622,
+  "generatedAt": "2026-10-18T21:01:01.345Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "lotus_maw_matriarch",
-      "name": "Lotus Maw Matriarch",
-      "map": "Lotus Hollow",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
-      "state": "alive",
-      "level": 40,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 10800000,
-      "remainingMs": null
-    },
     {
       "id": "aurora_antler_regent",
       "name": "Aurora Antler Regent",
@@ -25,9 +12,9 @@
       "state": "dead",
       "level": 58,
       "killer": "Martyr",
-      "respawnAt": 1792357316608,
+      "respawnAt": 1792357317062,
       "intervalMs": 10800000,
-      "remainingMs": 204737
+      "remainingMs": 68740
     },
     {
       "id": "vale_keeper",
@@ -38,9 +25,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792357557859,
+      "respawnAt": 1792357557778,
       "intervalMs": 1200000,
-      "remainingMs": 454226
+      "remainingMs": 317038
     },
     {
       "id": "dusk_herald",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792357919039,
+      "respawnAt": 1792357919299,
       "intervalMs": 1200000,
-      "remainingMs": 796221
+      "remainingMs": 660856
     },
     {
       "id": "sky_sentinel",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792358202102,
+      "respawnAt": 1792358202026,
       "intervalMs": 1200000,
-      "remainingMs": 1076543
+      "remainingMs": 941104
     },
     {
       "id": "tempest_kite_empress",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 70,
       "killer": "KINGLER",
-      "respawnAt": 1792358319456,
+      "respawnAt": 1792358319432,
       "intervalMs": 10800000,
-      "remainingMs": 1204853
+      "remainingMs": 1068610
     },
     {
       "id": "vale_warden",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 99,
       "killer": "oโก๋เอ๋อo",
-      "respawnAt": 1792358436523,
+      "respawnAt": 1792358436436,
       "intervalMs": 10800000,
-      "remainingMs": 1316420
+      "remainingMs": 1180576
     },
     {
       "id": "opal_weaver_queen",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 80,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792358583174,
+      "respawnAt": 1792358583842,
       "intervalMs": 10800000,
-      "remainingMs": 1465832
+      "remainingMs": 1330460
     },
     {
       "id": "prism_shell_sovereign",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "KINGLER",
-      "respawnAt": 1792366902516,
+      "respawnAt": 1792366902435,
       "intervalMs": 10800000,
-      "remainingMs": 9798883
+      "remainingMs": 9661695
     },
     {
       "id": "bloom_crowned_stag",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 25,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792367708880,
+      "respawnAt": 1792367709102,
       "intervalMs": 10800000,
-      "remainingMs": 10607997
+      "remainingMs": 10470905
     },
     {
       "id": "cinder_plume_roc",
@@ -142,9 +129,22 @@
       "state": "dead",
       "level": 36,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792367848407,
+      "respawnAt": 1792367849081,
       "intervalMs": 10800000,
-      "remainingMs": 10742021
+      "remainingMs": 10605800
+    },
+    {
+      "id": "lotus_maw_matriarch",
+      "name": "Lotus Maw Matriarch",
+      "map": "Lotus Hollow",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
+      "state": "dead",
+      "level": 40,
+      "killer": "StickyRicEPoweR",
+      "respawnAt": 1792367990240,
+      "intervalMs": 10800000,
+      "remainingMs": 10744477
     }
   ],
   "worldBoss": {
