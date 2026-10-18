@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792347139427,
-  "generatedAt": "2026-10-18T18:12:47.467Z",
+  "scannedAt": 1792347259874,
+  "generatedAt": "2026-10-18T18:14:45.116Z",
   "count": 11,
   "bosses": [
     {
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792347815143,
+      "respawnAt": 1792347815188,
       "intervalMs": 1200000,
-      "remainingMs": 648178
+      "remainingMs": 530496
     },
     {
       "id": "dusk_herald",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792348216314,
+      "respawnAt": 1792348216290,
       "intervalMs": 1200000,
-      "remainingMs": 1052103
+      "remainingMs": 934111
     },
     {
       "id": "prism_shell_sovereign",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "TITANTWO",
-      "respawnAt": 1792355760749,
+      "respawnAt": 1792355760849,
       "intervalMs": 10800000,
-      "remainingMs": 8615755
+      "remainingMs": 8496013
     },
     {
       "id": "bloom_crowned_stag",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792356357444,
+      "respawnAt": 1792356357416,
       "intervalMs": 10800000,
-      "remainingMs": 9215201
+      "remainingMs": 9095058
     },
     {
       "id": "lotus_maw_matriarch",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 40,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792356569040,
+      "respawnAt": 1792356569406,
       "intervalMs": 10800000,
-      "remainingMs": 9418570
+      "remainingMs": 9299593
     },
     {
       "id": "cinder_plume_roc",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 36,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792356977318,
+      "respawnAt": 1792356977982,
       "intervalMs": 10800000,
-      "remainingMs": 9829586
+      "remainingMs": 9710653
     },
     {
       "id": "aurora_antler_regent",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 58,
       "killer": "Martyr",
-      "respawnAt": 1792357277643,
+      "respawnAt": 1792357278038,
       "intervalMs": 10800000,
-      "remainingMs": 10124431
+      "remainingMs": 10005736
     }
   ],
   "worldBoss": {
