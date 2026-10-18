@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792345223907,
-  "generatedAt": "2026-10-18T17:40:48.392Z",
+  "scannedAt": 1792345339359,
+  "generatedAt": "2026-10-18T17:42:44.726Z",
   "count": 11,
   "bosses": [
     {
@@ -17,19 +17,6 @@
       "remainingMs": null
     },
     {
-      "id": "vale_keeper",
-      "name": "Vale Keeper",
-      "map": "Ancient Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
-      "state": "dead",
-      "level": 22,
-      "killer": null,
-      "respawnAt": 1792345302794,
-      "intervalMs": 1200000,
-      "remainingMs": 73973
-    },
-    {
       "id": "sky_sentinel",
       "name": "Sky Sentinel",
       "map": "Cloudspire Ruins",
@@ -38,9 +25,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792345398113,
+      "respawnAt": 1792345398040,
       "intervalMs": 1200000,
-      "remainingMs": 150099
+      "remainingMs": 33729
     },
     {
       "id": "lotus_maw_matriarch",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 40,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792345667850,
+      "respawnAt": 1792345667861,
       "intervalMs": 10800000,
-      "remainingMs": 434246
+      "remainingMs": 318527
     },
     {
       "id": "dusk_herald",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792345741530,
+      "respawnAt": 1792345741922,
       "intervalMs": 1200000,
-      "remainingMs": 496005
+      "remainingMs": 380092
     },
     {
       "id": "cinder_plume_roc",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 36,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792346035632,
+      "respawnAt": 1792346036228,
       "intervalMs": 10800000,
-      "remainingMs": 804415
+      "remainingMs": 689369
     },
     {
       "id": "aurora_antler_regent",
@@ -90,9 +77,22 @@
       "state": "dead",
       "level": 58,
       "killer": "AtoZp",
-      "respawnAt": 1792346177004,
+      "respawnAt": 1792346177716,
       "intervalMs": 10800000,
-      "remainingMs": 940986
+      "remainingMs": 825850
+    },
+    {
+      "id": "vale_keeper",
+      "name": "Vale Keeper",
+      "map": "Ancient Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
+      "state": "dead",
+      "level": 22,
+      "killer": null,
+      "respawnAt": 1792346512129,
+      "intervalMs": 1200000,
+      "remainingMs": 1167751
     },
     {
       "id": "vale_warden",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 99,
       "killer": "oโก๋เอ๋อo",
-      "respawnAt": 1792346853923,
+      "respawnAt": 1792346853925,
       "intervalMs": 10800000,
-      "remainingMs": 1610743
+      "remainingMs": 1494608
     },
     {
       "id": "opal_weaver_queen",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 80,
       "killer": "oโก๋เอ๋อo",
-      "respawnAt": 1792346963097,
+      "respawnAt": 1792346963342,
       "intervalMs": 10800000,
-      "remainingMs": 1722320
+      "remainingMs": 1606498
     },
     {
       "id": "tempest_kite_empress",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 70,
       "killer": "oโก๋เอ๋อo",
-      "respawnAt": 1792347087267,
+      "respawnAt": 1792347087333,
       "intervalMs": 10800000,
-      "remainingMs": 1848842
+      "remainingMs": 1732986
     },
     {
       "id": "prism_shell_sovereign",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 25,
       "killer": "TITANTWO",
-      "respawnAt": 1792355760846,
+      "respawnAt": 1792355760775,
       "intervalMs": 10800000,
-      "remainingMs": 10532025
+      "remainingMs": 10416397
     }
   ],
   "worldBoss": {
