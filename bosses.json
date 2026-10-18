@@ -1,33 +1,20 @@
 {
-  "scannedAt": 1792358059183,
-  "generatedAt": "2026-10-18T21:14:44.466Z",
+  "scannedAt": 1792358177976,
+  "generatedAt": "2026-10-18T21:16:44.455Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "dusk_herald",
-      "name": "Dusk Herald",
-      "map": "Duskgate Pass",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
-      "state": "alive",
-      "level": 47,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 1200000,
-      "remainingMs": null
-    },
     {
       "id": "sky_sentinel",
       "name": "Sky Sentinel",
       "map": "Cloudspire Ruins",
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
-      "state": "dead",
+      "state": "alive",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792358202060,
+      "respawnAt": null,
       "intervalMs": 1200000,
-      "remainingMs": 118011
+      "remainingMs": null
     },
     {
       "id": "tempest_kite_empress",
@@ -38,9 +25,9 @@
       "state": "dead",
       "level": 70,
       "killer": "KINGLER",
-      "respawnAt": 1792358319366,
+      "respawnAt": 1792358319340,
       "intervalMs": 10800000,
-      "remainingMs": 245273
+      "remainingMs": 125718
     },
     {
       "id": "vale_warden",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 99,
       "killer": "oโก๋เอ๋อo",
-      "respawnAt": 1792358436483,
+      "respawnAt": 1792358437213,
       "intervalMs": 10800000,
-      "remainingMs": 357389
+      "remainingMs": 238440
     },
     {
       "id": "opal_weaver_queen",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 80,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792358586899,
+      "respawnAt": 1792358587041,
       "intervalMs": 10800000,
-      "remainingMs": 510301
+      "remainingMs": 390839
     },
     {
       "id": "vale_keeper",
@@ -77,9 +64,22 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792358771020,
+      "respawnAt": 1792358771016,
       "intervalMs": 1200000,
-      "remainingMs": 706854
+      "remainingMs": 587794
+    },
+    {
+      "id": "dusk_herald",
+      "name": "Dusk Herald",
+      "map": "Duskgate Pass",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
+      "state": "dead",
+      "level": 47,
+      "killer": null,
+      "respawnAt": 1792359289737,
+      "intervalMs": 1200000,
+      "remainingMs": 1088323
     },
     {
       "id": "prism_shell_sovereign",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "KINGLER",
-      "respawnAt": 1792366902464,
+      "respawnAt": 1792366902460,
       "intervalMs": 10800000,
-      "remainingMs": 8838298
+      "remainingMs": 8719238
     },
     {
       "id": "bloom_crowned_stag",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792367710105,
+      "respawnAt": 1792367710038,
       "intervalMs": 10800000,
-      "remainingMs": 9648400
+      "remainingMs": 9529399
     },
     {
       "id": "cinder_plume_roc",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 36,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792367852150,
+      "respawnAt": 1792367853022,
       "intervalMs": 10800000,
-      "remainingMs": 9785451
+      "remainingMs": 9667189
     },
     {
       "id": "lotus_maw_matriarch",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 40,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792367993611,
+      "respawnAt": 1792367993538,
       "intervalMs": 10800000,
-      "remainingMs": 9924453
+      "remainingMs": 9805137
     },
     {
       "id": "aurora_antler_regent",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 58,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792368224197,
+      "respawnAt": 1792368224392,
       "intervalMs": 10800000,
-      "remainingMs": 10152566
+      "remainingMs": 10033364
     }
   ],
   "worldBoss": {
