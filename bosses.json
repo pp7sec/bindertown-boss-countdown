@@ -1,33 +1,20 @@
 {
-  "scannedAt": 1792356024121,
-  "generatedAt": "2026-10-18T20:40:52.329Z",
+  "scannedAt": 1792356140761,
+  "generatedAt": "2026-10-18T20:42:47.680Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "prism_shell_sovereign",
-      "name": "Prism Shell Sovereign",
-      "map": "Ancient Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
-      "state": "alive",
-      "level": 25,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 10800000,
-      "remainingMs": null
-    },
     {
       "id": "dusk_herald",
       "name": "Dusk Herald",
       "map": "Duskgate Pass",
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
-      "state": "dead",
+      "state": "alive",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792356070127,
+      "respawnAt": null,
       "intervalMs": 1200000,
-      "remainingMs": 21116
+      "remainingMs": null
     },
     {
       "id": "vale_keeper",
@@ -38,9 +25,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792356303486,
+      "respawnAt": 1792356303469,
       "intervalMs": 1200000,
-      "remainingMs": 273753
+      "remainingMs": 157186
     },
     {
       "id": "bloom_crowned_stag",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 25,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792356387111,
+      "respawnAt": 1792356387491,
       "intervalMs": 10800000,
-      "remainingMs": 360175
+      "remainingMs": 244115
     },
     {
       "id": "lotus_maw_matriarch",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 40,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792356602798,
+      "respawnAt": 1792356602840,
       "intervalMs": 10800000,
-      "remainingMs": 567531
+      "remainingMs": 451319
     },
     {
       "id": "sky_sentinel",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792356976875,
+      "respawnAt": 1792356976724,
       "intervalMs": 1200000,
-      "remainingMs": 925065
+      "remainingMs": 809496
     },
     {
       "id": "cinder_plume_roc",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 36,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792357011067,
+      "respawnAt": 1792357011384,
       "intervalMs": 10800000,
-      "remainingMs": 978573
+      "remainingMs": 862506
     },
     {
       "id": "aurora_antler_regent",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 58,
       "killer": "Martyr",
-      "respawnAt": 1792357312335,
+      "respawnAt": 1792357312783,
       "intervalMs": 10800000,
-      "remainingMs": 1274345
+      "remainingMs": 1158676
     },
     {
       "id": "tempest_kite_empress",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 70,
       "killer": "KINGLER",
-      "respawnAt": 1792358317285,
+      "respawnAt": 1792358317895,
       "intervalMs": 10800000,
-      "remainingMs": 2276485
+      "remainingMs": 2161185
     },
     {
       "id": "vale_warden",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 99,
       "killer": "oโก๋เอ๋อo",
-      "respawnAt": 1792358435265,
+      "respawnAt": 1792358435411,
       "intervalMs": 10800000,
-      "remainingMs": 2388974
+      "remainingMs": 2273415
     },
     {
       "id": "opal_weaver_queen",
@@ -142,9 +129,22 @@
       "state": "dead",
       "level": 80,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792358578922,
+      "respawnAt": 1792358578933,
       "intervalMs": 10800000,
-      "remainingMs": 2535388
+      "remainingMs": 2419574
+    },
+    {
+      "id": "prism_shell_sovereign",
+      "name": "Prism Shell Sovereign",
+      "map": "Ancient Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
+      "state": "dead",
+      "level": 25,
+      "killer": "KINGLER",
+      "respawnAt": 1792366901591,
+      "intervalMs": 10800000,
+      "remainingMs": 10755308
     }
   ],
   "worldBoss": {
