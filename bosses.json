@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792302858190,
-  "generatedAt": "2026-10-18T05:54:46.251Z",
+  "scannedAt": 1792302977542,
+  "generatedAt": "2026-10-18T05:56:45.546Z",
   "count": 11,
   "bosses": [
     {
@@ -25,9 +25,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792303511796,
+      "respawnAt": 1792303511724,
       "intervalMs": 1200000,
-      "remainingMs": 626047
+      "remainingMs": 506673
     },
     {
       "id": "vale_keeper",
@@ -38,9 +38,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792303841153,
+      "respawnAt": 1792303841223,
       "intervalMs": 1200000,
-      "remainingMs": 977409
+      "remainingMs": 858153
     },
     {
       "id": "cinder_plume_roc",
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 36,
       "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792304814068,
+      "respawnAt": 1792304814389,
       "intervalMs": 10800000,
-      "remainingMs": 1947587
+      "remainingMs": 1828542
     },
     {
       "id": "aurora_antler_regent",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 58,
       "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792305142949,
+      "respawnAt": 1792305142890,
       "intervalMs": 10800000,
-      "remainingMs": 2270966
+      "remainingMs": 2151587
     },
     {
       "id": "tempest_kite_empress",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 70,
       "killer": "ปังปอนมาแล้ว",
-      "respawnAt": 1792305491232,
+      "respawnAt": 1792305491489,
       "intervalMs": 10800000,
-      "remainingMs": 2616541
+      "remainingMs": 2497462
     },
     {
       "id": "prism_shell_sovereign",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "mysister saki",
-      "respawnAt": 1792306512300,
+      "respawnAt": 1792306512370,
       "intervalMs": 10800000,
-      "remainingMs": 3648556
+      "remainingMs": 3529300
     },
     {
       "id": "bloom_crowned_stag",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "ma1",
-      "respawnAt": 1792307102959,
+      "respawnAt": 1792307103757,
       "intervalMs": 10800000,
-      "remainingMs": 4242003
+      "remainingMs": 4123456
     },
     {
       "id": "opal_weaver_queen",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 80,
       "killer": "เดินบัพครับพี่",
-      "respawnAt": 1792307945072,
+      "respawnAt": 1792307945440,
       "intervalMs": 10800000,
-      "remainingMs": 5067659
+      "remainingMs": 4948671
     },
     {
       "id": "vale_warden",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 99,
       "killer": "Munchkin",
-      "respawnAt": 1792308331061,
+      "respawnAt": 1792308331001,
       "intervalMs": 10800000,
-      "remainingMs": 5450889
+      "remainingMs": 5331491
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 40,
       "killer": "MasumiX",
-      "respawnAt": 1792311442469,
+      "respawnAt": 1792311442510,
       "intervalMs": 10800000,
-      "remainingMs": 8573248
+      "remainingMs": 8453916
     }
   ],
   "worldBoss": {
