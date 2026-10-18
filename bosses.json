@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792324832967,
-  "generatedAt": "2026-10-18T12:00:57.700Z",
+  "scannedAt": 1792324939111,
+  "generatedAt": "2026-10-18T12:02:45.578Z",
   "count": 11,
   "bosses": [
     {
@@ -17,19 +17,6 @@
       "remainingMs": null
     },
     {
-      "id": "vale_warden",
-      "name": "Vale Warden",
-      "map": "Warden's Seat",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_warden/idle/0.png",
-      "state": "alive",
-      "level": 99,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 10800000,
-      "remainingMs": null
-    },
-    {
       "id": "sky_sentinel",
       "name": "Sky Sentinel",
       "map": "Cloudspire Ruins",
@@ -38,9 +25,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792325322936,
+      "respawnAt": 1792325322836,
       "intervalMs": 1200000,
-      "remainingMs": 465635
+      "remainingMs": 357708
     },
     {
       "id": "vale_keeper",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792325493896,
+      "respawnAt": 1792325493916,
       "intervalMs": 1200000,
-      "remainingMs": 656062
+      "remainingMs": 549586
     },
     {
       "id": "dusk_herald",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792325830754,
+      "respawnAt": 1792325830829,
       "intervalMs": 1200000,
-      "remainingMs": 975860
+      "remainingMs": 868286
     },
     {
       "id": "prism_shell_sovereign",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 25,
       "killer": "PungTeng",
-      "respawnAt": 1792333841029,
+      "respawnAt": 1792333841049,
       "intervalMs": 10800000,
-      "remainingMs": 9003195
+      "remainingMs": 8896719
     },
     {
       "id": "cinder_plume_roc",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 36,
       "killer": "Nkk",
-      "respawnAt": 1792334185997,
+      "respawnAt": 1792334186199,
       "intervalMs": 10800000,
-      "remainingMs": 9345707
+      "remainingMs": 9239234
     },
     {
       "id": "aurora_antler_regent",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 58,
       "killer": "GXB",
-      "respawnAt": 1792334209221,
+      "respawnAt": 1792334209307,
       "intervalMs": 10800000,
-      "remainingMs": 9364119
+      "remainingMs": 9257173
     },
     {
       "id": "tempest_kite_empress",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 70,
       "killer": "CAPY",
-      "respawnAt": 1792334255454,
+      "respawnAt": 1792334256502,
       "intervalMs": 10800000,
-      "remainingMs": 9407936
+      "remainingMs": 9301760
     },
     {
       "id": "bloom_crowned_stag",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 25,
       "killer": "Nkk",
-      "respawnAt": 1792334296113,
+      "respawnAt": 1792334296613,
       "intervalMs": 10800000,
-      "remainingMs": 9460715
+      "remainingMs": 9354872
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,9 +129,22 @@
       "state": "dead",
       "level": 40,
       "killer": "บักจ่อe",
-      "respawnAt": 1792334695412,
+      "respawnAt": 1792334695637,
       "intervalMs": 10800000,
-      "remainingMs": 9852706
+      "remainingMs": 9746071
+    },
+    {
+      "id": "vale_warden",
+      "name": "Vale Warden",
+      "map": "Warden's Seat",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_warden/idle/0.png",
+      "state": "dead",
+      "level": 99,
+      "killer": "StickyRicEPoweR",
+      "respawnAt": 1792335759080,
+      "intervalMs": 10800000,
+      "remainingMs": 10799147
     }
   ],
   "worldBoss": {
