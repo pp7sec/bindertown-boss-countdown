@@ -1,21 +1,8 @@
 {
-  "scannedAt": 1792324939111,
-  "generatedAt": "2026-10-18T12:02:45.578Z",
+  "scannedAt": 1792325059398,
+  "generatedAt": "2026-10-18T12:04:43.631Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "opal_weaver_queen",
-      "name": "Opal Weaver Queen",
-      "map": "Opalweb Grotto",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/opal_weaver_queen/idle/0.png",
-      "state": "alive",
-      "level": 80,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 10800000,
-      "remainingMs": null
-    },
     {
       "id": "sky_sentinel",
       "name": "Sky Sentinel",
@@ -25,9 +12,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792325322836,
+      "respawnAt": 1792325322859,
       "intervalMs": 1200000,
-      "remainingMs": 357708
+      "remainingMs": 239606
     },
     {
       "id": "vale_keeper",
@@ -38,9 +25,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792325493916,
+      "respawnAt": 1792325493896,
       "intervalMs": 1200000,
-      "remainingMs": 549586
+      "remainingMs": 429691
     },
     {
       "id": "dusk_herald",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792325830829,
+      "respawnAt": 1792325830787,
       "intervalMs": 1200000,
-      "remainingMs": 868286
+      "remainingMs": 749914
     },
     {
       "id": "prism_shell_sovereign",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 25,
       "killer": "PungTeng",
-      "respawnAt": 1792333841049,
+      "respawnAt": 1792333841029,
       "intervalMs": 10800000,
-      "remainingMs": 8896719
+      "remainingMs": 8776824
     },
     {
       "id": "cinder_plume_roc",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 36,
       "killer": "Nkk",
-      "respawnAt": 1792334186199,
+      "respawnAt": 1792334186302,
       "intervalMs": 10800000,
-      "remainingMs": 9239234
+      "remainingMs": 9119713
     },
     {
       "id": "aurora_antler_regent",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 58,
       "killer": "GXB",
-      "respawnAt": 1792334209307,
+      "respawnAt": 1792334209224,
       "intervalMs": 10800000,
-      "remainingMs": 9257173
+      "remainingMs": 9137867
     },
     {
       "id": "tempest_kite_empress",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 70,
       "killer": "CAPY",
-      "respawnAt": 1792334256502,
+      "respawnAt": 1792334257095,
       "intervalMs": 10800000,
-      "remainingMs": 9301760
+      "remainingMs": 9183358
     },
     {
       "id": "bloom_crowned_stag",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "Nkk",
-      "respawnAt": 1792334296613,
+      "respawnAt": 1792334296972,
       "intervalMs": 10800000,
-      "remainingMs": 9354872
+      "remainingMs": 9235128
     },
     {
       "id": "lotus_maw_matriarch",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 40,
       "killer": "บักจ่อe",
-      "respawnAt": 1792334695637,
+      "respawnAt": 1792334696506,
       "intervalMs": 10800000,
-      "remainingMs": 9746071
+      "remainingMs": 9627540
     },
     {
       "id": "vale_warden",
@@ -142,9 +129,22 @@
       "state": "dead",
       "level": 99,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792335759080,
+      "respawnAt": 1792335759355,
       "intervalMs": 10800000,
-      "remainingMs": 10799147
+      "remainingMs": 10680888
+    },
+    {
+      "id": "opal_weaver_queen",
+      "name": "Opal Weaver Queen",
+      "map": "Opalweb Grotto",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/opal_weaver_queen/idle/0.png",
+      "state": "dead",
+      "level": 80,
+      "killer": "CAPY",
+      "respawnAt": 1792335873774,
+      "intervalMs": 10800000,
+      "remainingMs": 10797684
     }
   ],
   "worldBoss": {
