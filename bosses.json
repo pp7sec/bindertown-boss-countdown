@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792409428000,
-  "generatedAt": "2026-10-19T11:30:56.887Z",
+  "scannedAt": 1792409538820,
+  "generatedAt": "2026-10-19T11:32:45.825Z",
   "count": 11,
   "bosses": [
     {
@@ -17,6 +17,32 @@
       "remainingMs": null
     },
     {
+      "id": "vale_warden",
+      "name": "Vale Warden",
+      "map": "Warden's Seat",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_warden/idle/0.png",
+      "state": "alive",
+      "level": 99,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
+      "id": "dusk_herald",
+      "name": "Dusk Herald",
+      "map": "Duskgate Pass",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
+      "state": "alive",
+      "level": 47,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 1200000,
+      "remainingMs": null
+    },
+    {
       "id": "sky_sentinel",
       "name": "Sky Sentinel",
       "map": "Cloudspire Ruins",
@@ -30,32 +56,6 @@
       "remainingMs": null
     },
     {
-      "id": "dusk_herald",
-      "name": "Dusk Herald",
-      "map": "Duskgate Pass",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
-      "state": "dead",
-      "level": 47,
-      "killer": null,
-      "respawnAt": 1792409479843,
-      "intervalMs": 1200000,
-      "remainingMs": 26177
-    },
-    {
-      "id": "vale_warden",
-      "name": "Vale Warden",
-      "map": "Warden's Seat",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_warden/idle/0.png",
-      "state": "dead",
-      "level": 99,
-      "killer": "Allnadez",
-      "respawnAt": 1792409505748,
-      "intervalMs": 10800000,
-      "remainingMs": 54817
-    },
-    {
       "id": "vale_keeper",
       "name": "Vale Keeper",
       "map": "Ancient Ruins",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792410002435,
+      "respawnAt": 1792410003051,
       "intervalMs": 1200000,
-      "remainingMs": 568537
+      "remainingMs": 458647
     },
     {
       "id": "tempest_kite_empress",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 70,
       "killer": "GXB",
-      "respawnAt": 1792410498492,
+      "respawnAt": 1792410498593,
       "intervalMs": 10800000,
-      "remainingMs": 1053085
+      "remainingMs": 943707
     },
     {
       "id": "opal_weaver_queen",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 80,
       "killer": "JOHNNYBRAVO",
-      "respawnAt": 1792411668571,
+      "respawnAt": 1792411668620,
       "intervalMs": 10800000,
-      "remainingMs": 2220401
+      "remainingMs": 2111094
     },
     {
       "id": "bloom_crowned_stag",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "PockyChickyChic",
-      "respawnAt": 1792411831761,
+      "respawnAt": 1792411832202,
       "intervalMs": 10800000,
-      "remainingMs": 2400693
+      "remainingMs": 2290714
     },
     {
       "id": "prism_shell_sovereign",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 25,
       "killer": "SUSMHA",
-      "respawnAt": 1792412418043,
+      "respawnAt": 1792412418659,
       "intervalMs": 10800000,
-      "remainingMs": 2984145
+      "remainingMs": 2874255
     },
     {
       "id": "lotus_maw_matriarch",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 40,
       "killer": "PockyChickyChic",
-      "respawnAt": 1792413274563,
+      "respawnAt": 1792413275385,
       "intervalMs": 10800000,
-      "remainingMs": 3834692
+      "remainingMs": 3725719
     },
     {
       "id": "aurora_antler_regent",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 58,
       "killer": "แพรรี่",
-      "respawnAt": 1792415813823,
+      "respawnAt": 1792415814584,
       "intervalMs": 10800000,
-      "remainingMs": 6371143
+      "remainingMs": 6262288
     }
   ],
   "worldBoss": {
