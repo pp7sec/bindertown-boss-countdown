@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792423967266,
-  "generatedAt": "2026-10-19T15:33:15.362Z",
+  "scannedAt": 1792424271620,
+  "generatedAt": "2026-10-19T15:38:19.453Z",
   "count": 11,
   "bosses": [
     {
@@ -17,32 +17,6 @@
       "remainingMs": null
     },
     {
-      "id": "lotus_maw_matriarch",
-      "name": "Lotus Maw Matriarch",
-      "map": "Lotus Hollow",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
-      "state": "dead",
-      "level": 40,
-      "killer": "นายหอยโข่ง",
-      "respawnAt": 1792424212521,
-      "intervalMs": 10800000,
-      "remainingMs": 234256
-    },
-    {
-      "id": "sky_sentinel",
-      "name": "Sky Sentinel",
-      "map": "Cloudspire Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
-      "state": "dead",
-      "level": 72,
-      "killer": null,
-      "respawnAt": 1792424259319,
-      "intervalMs": 1200000,
-      "remainingMs": 264461
-    },
-    {
       "id": "dusk_herald",
       "name": "Dusk Herald",
       "map": "Duskgate Pass",
@@ -51,9 +25,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792424789169,
+      "respawnAt": 1792424789127,
       "intervalMs": 1200000,
-      "remainingMs": 797049
+      "remainingMs": 492843
     },
     {
       "id": "vale_keeper",
@@ -64,9 +38,22 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792424948275,
+      "respawnAt": 1792424948177,
       "intervalMs": 1200000,
-      "remainingMs": 975493
+      "remainingMs": 671101
+    },
+    {
+      "id": "sky_sentinel",
+      "name": "Sky Sentinel",
+      "map": "Cloudspire Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
+      "state": "dead",
+      "level": 72,
+      "killer": null,
+      "respawnAt": 1792425484498,
+      "intervalMs": 1200000,
+      "remainingMs": 1185530
     },
     {
       "id": "aurora_antler_regent",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 58,
       "killer": "Cashew",
-      "respawnAt": 1792429521456,
+      "respawnAt": 1792429521761,
       "intervalMs": 10800000,
-      "remainingMs": 5540454
+      "remainingMs": 5236270
     },
     {
       "id": "vale_warden",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 99,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792432574007,
+      "respawnAt": 1792432575233,
       "intervalMs": 10800000,
-      "remainingMs": 8584666
+      "remainingMs": 8281615
     },
     {
       "id": "tempest_kite_empress",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 70,
       "killer": "M95",
-      "respawnAt": 1792432928420,
+      "respawnAt": 1792432928557,
       "intervalMs": 10800000,
-      "remainingMs": 8944682
+      "remainingMs": 8640406
     },
     {
       "id": "opal_weaver_queen",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 80,
       "killer": "xJoseph",
-      "respawnAt": 1792433571599,
+      "respawnAt": 1792433571587,
       "intervalMs": 10800000,
-      "remainingMs": 9585058
+      "remainingMs": 9280631
     },
     {
       "id": "cinder_plume_roc",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 36,
       "killer": "KyoZayRiizZ",
-      "respawnAt": 1792433596733,
+      "respawnAt": 1792433596988,
       "intervalMs": 10800000,
-      "remainingMs": 9621203
+      "remainingMs": 9317257
     },
     {
       "id": "prism_shell_sovereign",
@@ -142,9 +129,22 @@
       "state": "dead",
       "level": 25,
       "killer": "Tanny",
-      "respawnAt": 1792434273135,
+      "respawnAt": 1792434273037,
       "intervalMs": 10800000,
-      "remainingMs": 10300353
+      "remainingMs": 9995961
+    },
+    {
+      "id": "lotus_maw_matriarch",
+      "name": "Lotus Maw Matriarch",
+      "map": "Lotus Hollow",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
+      "state": "dead",
+      "level": 40,
+      "killer": "KyoZayRiizZ",
+      "respawnAt": 1792435045796,
+      "intervalMs": 10800000,
+      "remainingMs": 10763142
     }
   ],
   "worldBoss": {
