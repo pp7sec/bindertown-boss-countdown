@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792413260270,
-  "generatedAt": "2026-10-19T12:34:45.585Z",
+  "scannedAt": 1792413379889,
+  "generatedAt": "2026-10-19T12:36:44.358Z",
   "count": 11,
   "bosses": [
     {
@@ -17,19 +17,6 @@
       "remainingMs": null
     },
     {
-      "id": "lotus_maw_matriarch",
-      "name": "Lotus Maw Matriarch",
-      "map": "Lotus Hollow",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
-      "state": "dead",
-      "level": 40,
-      "killer": "PockyChickyChic",
-      "respawnAt": 1792413286621,
-      "intervalMs": 10800000,
-      "remainingMs": 16307
-    },
-    {
       "id": "dusk_herald",
       "name": "Dusk Herald",
       "map": "Duskgate Pass",
@@ -38,9 +25,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792413404847,
+      "respawnAt": 1792413404903,
       "intervalMs": 1200000,
-      "remainingMs": 122194
+      "remainingMs": 3309
     },
     {
       "id": "vale_keeper",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792414336309,
+      "respawnAt": 1792414336184,
       "intervalMs": 1200000,
-      "remainingMs": 1070986
+      "remainingMs": 951382
     },
     {
       "id": "aurora_antler_regent",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 58,
       "killer": "แพรรี่",
-      "respawnAt": 1792415823670,
+      "respawnAt": 1792415824615,
       "intervalMs": 10800000,
-      "remainingMs": 2550898
+      "remainingMs": 2432649
     },
     {
       "id": "vale_warden",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 99,
       "killer": "xJoseph",
-      "respawnAt": 1792421604482,
+      "respawnAt": 1792421605437,
       "intervalMs": 10800000,
-      "remainingMs": 8324301
+      "remainingMs": 8206244
     },
     {
       "id": "tempest_kite_empress",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 70,
       "killer": "memid",
-      "respawnAt": 1792421889198,
+      "respawnAt": 1792421889886,
       "intervalMs": 10800000,
-      "remainingMs": 8613923
+      "remainingMs": 8495465
     },
     {
       "id": "opal_weaver_queen",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 80,
       "killer": "memid",
-      "respawnAt": 1792422664547,
+      "respawnAt": 1792422664849,
       "intervalMs": 10800000,
-      "remainingMs": 9386812
+      "remainingMs": 9268059
     },
     {
       "id": "bloom_crowned_stag",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "นายหอยโข่ง",
-      "respawnAt": 1792422705244,
+      "respawnAt": 1792422705617,
       "intervalMs": 10800000,
-      "remainingMs": 9442421
+      "remainingMs": 9323224
     },
     {
       "id": "cinder_plume_roc",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 36,
       "killer": "No.02",
-      "respawnAt": 1792422747535,
+      "respawnAt": 1792422748285,
       "intervalMs": 10800000,
-      "remainingMs": 9479694
+      "remainingMs": 9361102
     },
     {
       "id": "prism_shell_sovereign",
@@ -142,22 +129,35 @@
       "state": "dead",
       "level": 25,
       "killer": "BanKLnwZa007x",
-      "respawnAt": 1792423234743,
+      "respawnAt": 1792423234618,
       "intervalMs": 10800000,
-      "remainingMs": 9969420
+      "remainingMs": 9849816
+    },
+    {
+      "id": "lotus_maw_matriarch",
+      "name": "Lotus Maw Matriarch",
+      "map": "Lotus Hollow",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
+      "state": "dead",
+      "level": 40,
+      "killer": "นายหอยโข่ง",
+      "respawnAt": 1792424177947,
+      "intervalMs": 10800000,
+      "remainingMs": 10788354
     }
   ],
   "worldBoss": {
-    "id": "wb-1792413000000",
-    "state": "live",
-    "startAt": 1792413000000,
-    "endsAt": 1792414200000,
-    "nextAt": 0,
-    "fighters": 1217
+    "id": "wb-1792474200000",
+    "state": "idle",
+    "startAt": 1792474200000,
+    "endsAt": 0,
+    "nextAt": 1792474200000,
+    "fighters": 0
   },
   "worldBossLast": {
-    "at": 1792388088703,
-    "seconds": 287,
-    "fighters": 988
+    "at": 1792413287384,
+    "seconds": 285,
+    "fighters": 1218
   }
 }
