@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792381939175,
-  "generatedAt": "2026-10-19T03:52:44.082Z",
+  "scannedAt": 1792382058891,
+  "generatedAt": "2026-10-19T03:54:48.962Z",
   "count": 11,
   "bosses": [
     {
@@ -30,19 +30,6 @@
       "remainingMs": null
     },
     {
-      "id": "dusk_herald",
-      "name": "Dusk Herald",
-      "map": "Duskgate Pass",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
-      "state": "alive",
-      "level": 47,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 1200000,
-      "remainingMs": null
-    },
-    {
       "id": "sky_sentinel",
       "name": "Sky Sentinel",
       "map": "Cloudspire Ruins",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792382703096,
+      "respawnAt": 1792382703146,
       "intervalMs": 1200000,
-      "remainingMs": 739416
+      "remainingMs": 614695
     },
     {
       "id": "vale_keeper",
@@ -64,9 +51,22 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792383100254,
+      "respawnAt": 1792383100401,
       "intervalMs": 1200000,
-      "remainingMs": 1156107
+      "remainingMs": 1035951
+    },
+    {
+      "id": "dusk_herald",
+      "name": "Dusk Herald",
+      "map": "Duskgate Pass",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
+      "state": "dead",
+      "level": 47,
+      "killer": null,
+      "respawnAt": 1792383270097,
+      "intervalMs": 1200000,
+      "remainingMs": 1184381
     },
     {
       "id": "opal_weaver_queen",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 80,
       "killer": "xJoseph",
-      "respawnAt": 1792386747358,
+      "respawnAt": 1792386747372,
       "intervalMs": 10800000,
-      "remainingMs": 4790964
+      "remainingMs": 4669025
     },
     {
       "id": "prism_shell_sovereign",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792388738319,
+      "respawnAt": 1792388738466,
       "intervalMs": 10800000,
-      "remainingMs": 6794172
+      "remainingMs": 6674016
     },
     {
       "id": "bloom_crowned_stag",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792389493839,
+      "respawnAt": 1792389494626,
       "intervalMs": 10800000,
-      "remainingMs": 7552158
+      "remainingMs": 7432912
     },
     {
       "id": "cinder_plume_roc",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 36,
       "killer": "xJoseph",
-      "respawnAt": 1792389620957,
+      "respawnAt": 1792389621954,
       "intervalMs": 10800000,
-      "remainingMs": 7674344
+      "remainingMs": 7554703
     },
     {
       "id": "lotus_maw_matriarch",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 40,
       "killer": "xJoseph",
-      "respawnAt": 1792389856689,
+      "respawnAt": 1792389857151,
       "intervalMs": 10800000,
-      "remainingMs": 7907621
+      "remainingMs": 7787090
     },
     {
       "id": "aurora_antler_regent",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 58,
       "killer": "xJoseph",
-      "respawnAt": 1792390034168,
+      "respawnAt": 1792390034873,
       "intervalMs": 10800000,
-      "remainingMs": 8082644
+      "remainingMs": 7962031
     }
   ],
   "worldBoss": {
