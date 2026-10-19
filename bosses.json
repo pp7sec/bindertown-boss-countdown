@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792378098584,
-  "generatedAt": "2026-10-19T02:48:45.388Z",
+  "scannedAt": 1792378224273,
+  "generatedAt": "2026-10-19T02:50:51.381Z",
   "count": 11,
   "bosses": [
     {
@@ -38,9 +38,9 @@
       "state": "dead",
       "level": 25,
       "killer": "แพรรี่",
-      "respawnAt": 1792378633893,
+      "respawnAt": 1792378635639,
       "intervalMs": 10800000,
-      "remainingMs": 532680
+      "remainingMs": 408614
     },
     {
       "id": "sky_sentinel",
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792378778824,
+      "respawnAt": 1792378778724,
       "intervalMs": 1200000,
-      "remainingMs": 653898
+      "remainingMs": 527817
     },
     {
       "id": "cinder_plume_roc",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 36,
       "killer": "waraieๆ",
-      "respawnAt": 1792378790479,
+      "respawnAt": 1792378790531,
       "intervalMs": 10800000,
-      "remainingMs": 683981
+      "remainingMs": 558155
     },
     {
       "id": "lotus_maw_matriarch",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 40,
       "killer": "1HP",
-      "respawnAt": 1792378923627,
+      "respawnAt": 1792378924026,
       "intervalMs": 10800000,
-      "remainingMs": 814506
+      "remainingMs": 688982
     },
     {
       "id": "aurora_antler_regent",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 58,
       "killer": "waraieๆ",
-      "respawnAt": 1792379163597,
+      "respawnAt": 1792379164115,
       "intervalMs": 10800000,
-      "remainingMs": 1051876
+      "remainingMs": 926411
     },
     {
       "id": "vale_keeper",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792379216269,
+      "respawnAt": 1792379216341,
       "intervalMs": 1200000,
-      "remainingMs": 1112400
+      "remainingMs": 986660
     },
     {
       "id": "tempest_kite_empress",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 70,
       "killer": "แพรรี่",
-      "respawnAt": 1792380568484,
+      "respawnAt": 1792380568564,
       "intervalMs": 10800000,
-      "remainingMs": 2454105
+      "remainingMs": 2328228
     },
     {
       "id": "opal_weaver_queen",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 80,
       "killer": "xJoseph",
-      "respawnAt": 1792386746079,
+      "respawnAt": 1792386746174,
       "intervalMs": 10800000,
-      "remainingMs": 8629081
+      "remainingMs": 8503209
     },
     {
       "id": "prism_shell_sovereign",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792388738341,
+      "respawnAt": 1792388738413,
       "intervalMs": 10800000,
-      "remainingMs": 10634472
+      "remainingMs": 10508732
     }
   ],
   "worldBoss": {
