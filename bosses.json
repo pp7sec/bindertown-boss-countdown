@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792382538484,
-  "generatedAt": "2026-10-19T04:02:45.460Z",
+  "scannedAt": 1792382658514,
+  "generatedAt": "2026-10-19T04:04:45.292Z",
   "count": 11,
   "bosses": [
     {
@@ -25,9 +25,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792382703153,
+      "respawnAt": 1792382703128,
       "intervalMs": 1200000,
-      "remainingMs": 138150
+      "remainingMs": 18295
     },
     {
       "id": "vale_keeper",
@@ -38,9 +38,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792383100353,
+      "respawnAt": 1792383100394,
       "intervalMs": 1200000,
-      "remainingMs": 556485
+      "remainingMs": 436581
     },
     {
       "id": "dusk_herald",
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792383270111,
+      "respawnAt": 1792383270642,
       "intervalMs": 1200000,
-      "remainingMs": 707697
+      "remainingMs": 588462
     },
     {
       "id": "opal_weaver_queen",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 80,
       "killer": "xJoseph",
-      "respawnAt": 1792386747250,
+      "respawnAt": 1792386748224,
       "intervalMs": 10800000,
-      "remainingMs": 4190068
+      "remainingMs": 4071298
     },
     {
       "id": "prism_shell_sovereign",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792388738418,
+      "respawnAt": 1792388738459,
       "intervalMs": 10800000,
-      "remainingMs": 6194550
+      "remainingMs": 6074646
     },
     {
       "id": "bloom_crowned_stag",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792389496000,
+      "respawnAt": 1792389496698,
       "intervalMs": 10800000,
-      "remainingMs": 6954778
+      "remainingMs": 6835548
     },
     {
       "id": "cinder_plume_roc",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 36,
       "killer": "xJoseph",
-      "respawnAt": 1792389624277,
+      "respawnAt": 1792389625120,
       "intervalMs": 10800000,
-      "remainingMs": 7077605
+      "remainingMs": 6958682
     },
     {
       "id": "lotus_maw_matriarch",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 40,
       "killer": "xJoseph",
-      "respawnAt": 1792389860167,
+      "respawnAt": 1792389860508,
       "intervalMs": 10800000,
-      "remainingMs": 7310890
+      "remainingMs": 7191421
     },
     {
       "id": "aurora_antler_regent",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 58,
       "killer": "xJoseph",
-      "respawnAt": 1792390036376,
+      "respawnAt": 1792390036563,
       "intervalMs": 10800000,
-      "remainingMs": 7484436
+      "remainingMs": 7364850
     },
     {
       "id": "vale_warden",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 99,
       "killer": "xJoseph",
-      "respawnAt": 1792393026971,
+      "respawnAt": 1792393027423,
       "intervalMs": 10800000,
-      "remainingMs": 10467172
+      "remainingMs": 10347872
     }
   ],
   "worldBoss": {
