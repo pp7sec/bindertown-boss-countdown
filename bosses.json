@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792433782262,
-  "generatedAt": "2026-10-19T18:16:49.688Z",
+  "scannedAt": 1792433898859,
+  "generatedAt": "2026-10-19T18:18:46.944Z",
   "count": 11,
   "bosses": [
     {
@@ -35,12 +35,12 @@
       "map": "Duskgate Pass",
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
-      "state": "dead",
+      "state": "alive",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792433819734,
+      "respawnAt": null,
       "intervalMs": 1200000,
-      "remainingMs": 13189
+      "remainingMs": null
     },
     {
       "id": "prism_shell_sovereign",
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 25,
       "killer": "Tanny",
-      "respawnAt": 1792434274526,
+      "respawnAt": 1792434274575,
       "intervalMs": 10800000,
-      "remainingMs": 486875
+      "remainingMs": 370170
     },
     {
       "id": "sky_sentinel",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792434595393,
+      "respawnAt": 1792434595392,
       "intervalMs": 1200000,
-      "remainingMs": 786185
+      "remainingMs": 668946
     },
     {
       "id": "vale_keeper",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792434588769,
+      "respawnAt": 1792434588818,
       "intervalMs": 1200000,
-      "remainingMs": 801118
+      "remainingMs": 684413
     },
     {
       "id": "lotus_maw_matriarch",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 40,
       "killer": "KyoZayRiizZ",
-      "respawnAt": 1792435081817,
+      "respawnAt": 1792435082374,
       "intervalMs": 10800000,
-      "remainingMs": 1288732
+      "remainingMs": 1172418
     },
     {
       "id": "bloom_crowned_stag",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792437286018,
+      "respawnAt": 1792437286015,
       "intervalMs": 10800000,
-      "remainingMs": 3501038
+      "remainingMs": 3384373
     },
     {
       "id": "aurora_antler_regent",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 58,
       "killer": "NeverEnough",
-      "respawnAt": 1792441389769,
+      "respawnAt": 1792441390698,
       "intervalMs": 10800000,
-      "remainingMs": 7594042
+      "remainingMs": 7478012
     },
     {
       "id": "vale_warden",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 99,
       "killer": "Munchkin",
-      "respawnAt": 1792443478146,
+      "respawnAt": 1792443478284,
       "intervalMs": 10800000,
-      "remainingMs": 9674286
+      "remainingMs": 9557333
     },
     {
       "id": "tempest_kite_empress",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 70,
       "killer": "memid",
-      "respawnAt": 1792443935555,
+      "respawnAt": 1792443936379,
       "intervalMs": 10800000,
-      "remainingMs": 10137124
+      "remainingMs": 10020925
     }
   ],
   "worldBoss": {
