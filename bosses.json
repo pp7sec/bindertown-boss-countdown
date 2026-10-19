@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792369579738,
-  "generatedAt": "2026-10-19T00:26:44.235Z",
+  "scannedAt": 1792369699010,
+  "generatedAt": "2026-10-19T00:28:44.562Z",
   "count": 11,
   "bosses": [
     {
@@ -38,9 +38,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792369824819,
+      "respawnAt": 1792369824766,
       "intervalMs": 1200000,
-      "remainingMs": 220962
+      "remainingMs": 100620
     },
     {
       "id": "dusk_herald",
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792369824731,
+      "respawnAt": 1792369824742,
       "intervalMs": 1200000,
-      "remainingMs": 223224
+      "remainingMs": 103051
     },
     {
       "id": "vale_warden",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 99,
       "killer": "M95",
-      "respawnAt": 1792369937658,
+      "respawnAt": 1792369937572,
       "intervalMs": 10800000,
-      "remainingMs": 338501
+      "remainingMs": 218400
     },
     {
       "id": "vale_keeper",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792370271248,
+      "respawnAt": 1792370271225,
       "intervalMs": 1200000,
-      "remainingMs": 686673
+      "remainingMs": 567108
     },
     {
       "id": "prism_shell_sovereign",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "waraieๆ",
-      "respawnAt": 1792377912384,
+      "respawnAt": 1792377912361,
       "intervalMs": 10800000,
-      "remainingMs": 8327809
+      "remainingMs": 8208244
     },
     {
       "id": "bloom_crowned_stag",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "แพรรี่",
-      "respawnAt": 1792378597641,
+      "respawnAt": 1792378597814,
       "intervalMs": 10800000,
-      "remainingMs": 9015451
+      "remainingMs": 8896209
     },
     {
       "id": "cinder_plume_roc",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 36,
       "killer": "waraieๆ",
-      "respawnAt": 1792378755352,
+      "respawnAt": 1792378755636,
       "intervalMs": 10800000,
-      "remainingMs": 9168170
+      "remainingMs": 9049016
     },
     {
       "id": "lotus_maw_matriarch",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 40,
       "killer": "1HP",
-      "respawnAt": 1792378885287,
+      "respawnAt": 1792378885621,
       "intervalMs": 10800000,
-      "remainingMs": 9295708
+      "remainingMs": 9176519
     },
     {
       "id": "aurora_antler_regent",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 58,
       "killer": "waraieๆ",
-      "respawnAt": 1792379128669,
+      "respawnAt": 1792379129211,
       "intervalMs": 10800000,
-      "remainingMs": 9536737
+      "remainingMs": 9417639
     }
   ],
   "worldBoss": {
