@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792435699597,
-  "generatedAt": "2026-10-19T18:48:47.550Z",
+  "scannedAt": 1792435823657,
+  "generatedAt": "2026-10-19T18:50:49.565Z",
   "count": 11,
   "bosses": [
     {
@@ -17,30 +17,17 @@
       "remainingMs": null
     },
     {
-      "id": "sky_sentinel",
-      "name": "Sky Sentinel",
-      "map": "Cloudspire Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
-      "state": "dead",
-      "level": 72,
-      "killer": null,
-      "respawnAt": 1792435803092,
-      "intervalMs": 1200000,
-      "remainingMs": 76040
-    },
-    {
       "id": "vale_keeper",
       "name": "Vale Keeper",
       "map": "Ancient Ruins",
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
-      "state": "dead",
+      "state": "alive",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792435798731,
+      "respawnAt": null,
       "intervalMs": 1200000,
-      "remainingMs": 93622
+      "remainingMs": null
     },
     {
       "id": "dusk_herald",
@@ -51,9 +38,22 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792436754845,
+      "respawnAt": 1792436754889,
       "intervalMs": 1200000,
-      "remainingMs": 1030516
+      "remainingMs": 908234
+    },
+    {
+      "id": "sky_sentinel",
+      "name": "Sky Sentinel",
+      "map": "Cloudspire Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
+      "state": "dead",
+      "level": 72,
+      "killer": null,
+      "respawnAt": 1792437010455,
+      "intervalMs": 1200000,
+      "remainingMs": 1161334
     },
     {
       "id": "bloom_crowned_stag",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 25,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792437286057,
+      "respawnAt": 1792437286117,
       "intervalMs": 10800000,
-      "remainingMs": 1583712
+      "remainingMs": 1459901
     },
     {
       "id": "aurora_antler_regent",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 58,
       "killer": "NeverEnough",
-      "respawnAt": 1792441394012,
+      "respawnAt": 1792441394371,
       "intervalMs": 10800000,
-      "remainingMs": 5680645
+      "remainingMs": 5557689
     },
     {
       "id": "vale_warden",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 99,
       "killer": "Munchkin",
-      "respawnAt": 1792443485961,
+      "respawnAt": 1792443485816,
       "intervalMs": 10800000,
-      "remainingMs": 7764338
+      "remainingMs": 7641628
     },
     {
       "id": "tempest_kite_empress",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 70,
       "killer": "memid",
-      "respawnAt": 1792443945141,
+      "respawnAt": 1792443945530,
       "intervalMs": 10800000,
-      "remainingMs": 8229061
+      "remainingMs": 8106315
     },
     {
       "id": "opal_weaver_queen",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 80,
       "killer": "JOHNNYBRAVO",
-      "respawnAt": 1792444807740,
+      "respawnAt": 1792444808066,
       "intervalMs": 10800000,
-      "remainingMs": 9088901
+      "remainingMs": 8966372
     },
     {
       "id": "cinder_plume_roc",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 36,
       "killer": "อยากไปซอยอ้วน",
-      "respawnAt": 1792444976677,
+      "respawnAt": 1792444977162,
       "intervalMs": 10800000,
-      "remainingMs": 9268848
+      "remainingMs": 9145966
     },
     {
       "id": "prism_shell_sovereign",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 25,
       "killer": "NYcTo",
-      "respawnAt": 1792445112608,
+      "respawnAt": 1792445112624,
       "intervalMs": 10800000,
-      "remainingMs": 9407499
+      "remainingMs": 9283885
     }
   ],
   "worldBoss": {
