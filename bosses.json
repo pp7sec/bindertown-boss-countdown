@@ -1,34 +1,8 @@
 {
-  "scannedAt": 1792432580590,
-  "generatedAt": "2026-10-19T17:56:48.771Z",
+  "scannedAt": 1792432698075,
+  "generatedAt": "2026-10-19T17:58:46.203Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "vale_warden",
-      "name": "Vale Warden",
-      "map": "Warden's Seat",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_warden/idle/0.png",
-      "state": "alive",
-      "level": 99,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 10800000,
-      "remainingMs": null
-    },
-    {
-      "id": "dusk_herald",
-      "name": "Dusk Herald",
-      "map": "Duskgate Pass",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
-      "state": "alive",
-      "level": 47,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 1200000,
-      "remainingMs": null
-    },
     {
       "id": "tempest_kite_empress",
       "name": "Tempest Kite Empress",
@@ -38,9 +12,9 @@
       "state": "dead",
       "level": 70,
       "killer": "M95",
-      "respawnAt": 1792432954084,
+      "respawnAt": 1792432954539,
       "intervalMs": 10800000,
-      "remainingMs": 356855
+      "remainingMs": 239897
     },
     {
       "id": "sky_sentinel",
@@ -51,9 +25,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792433329549,
+      "respawnAt": 1792433329490,
       "intervalMs": 1200000,
-      "remainingMs": 721285
+      "remainingMs": 603789
     },
     {
       "id": "vale_keeper",
@@ -64,9 +38,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792433385843,
+      "respawnAt": 1792433385771,
       "intervalMs": 1200000,
-      "remainingMs": 799682
+      "remainingMs": 682142
     },
     {
       "id": "opal_weaver_queen",
@@ -77,9 +51,9 @@
       "state": "dead",
       "level": 80,
       "killer": "xJoseph",
-      "respawnAt": 1792433581994,
+      "respawnAt": 1792433581969,
       "intervalMs": 10800000,
-      "remainingMs": 982000
+      "remainingMs": 864559
     },
     {
       "id": "cinder_plume_roc",
@@ -90,9 +64,22 @@
       "state": "dead",
       "level": 36,
       "killer": "KyoZayRiizZ",
-      "respawnAt": 1792433628449,
+      "respawnAt": 1792433628528,
       "intervalMs": 10800000,
-      "remainingMs": 1039527
+      "remainingMs": 922159
+    },
+    {
+      "id": "dusk_herald",
+      "name": "Dusk Herald",
+      "map": "Duskgate Pass",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
+      "state": "dead",
+      "level": 47,
+      "killer": null,
+      "respawnAt": 1792433819652,
+      "intervalMs": 1200000,
+      "remainingMs": 1096710
     },
     {
       "id": "prism_shell_sovereign",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "Tanny",
-      "respawnAt": 1792434274558,
+      "respawnAt": 1792434274486,
       "intervalMs": 10800000,
-      "remainingMs": 1688397
+      "remainingMs": 1570857
     },
     {
       "id": "lotus_maw_matriarch",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 40,
       "killer": "KyoZayRiizZ",
-      "respawnAt": 1792435078198,
+      "respawnAt": 1792435078672,
       "intervalMs": 10800000,
-      "remainingMs": 2486494
+      "remainingMs": 2369537
     },
     {
       "id": "bloom_crowned_stag",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 25,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792437281690,
+      "respawnAt": 1792437282047,
       "intervalMs": 10800000,
-      "remainingMs": 4698262
+      "remainingMs": 4581180
     },
     {
       "id": "aurora_antler_regent",
@@ -142,9 +129,22 @@
       "state": "dead",
       "level": 58,
       "killer": "NeverEnough",
-      "respawnAt": 1792441385345,
+      "respawnAt": 1792441386202,
       "intervalMs": 10800000,
-      "remainingMs": 8790880
+      "remainingMs": 8674320
+    },
+    {
+      "id": "vale_warden",
+      "name": "Vale Warden",
+      "map": "Warden's Seat",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_warden/idle/0.png",
+      "state": "dead",
+      "level": 99,
+      "killer": "Munchkin",
+      "respawnAt": 1792443474278,
+      "intervalMs": 10800000,
+      "remainingMs": 10754057
     }
   ],
   "worldBoss": {
