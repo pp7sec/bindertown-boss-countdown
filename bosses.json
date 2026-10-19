@@ -1,34 +1,8 @@
 {
-  "scannedAt": 1792434499069,
-  "generatedAt": "2026-10-19T18:28:47.097Z",
+  "scannedAt": 1792434629185,
+  "generatedAt": "2026-10-19T18:30:54.645Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "sky_sentinel",
-      "name": "Sky Sentinel",
-      "map": "Cloudspire Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
-      "state": "dead",
-      "level": 72,
-      "killer": null,
-      "respawnAt": 1792434595406,
-      "intervalMs": 1200000,
-      "remainingMs": 68810
-    },
-    {
-      "id": "vale_keeper",
-      "name": "Vale Keeper",
-      "map": "Ancient Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
-      "state": "dead",
-      "level": 22,
-      "killer": null,
-      "respawnAt": 1792434588829,
-      "intervalMs": 1200000,
-      "remainingMs": 84191
-    },
     {
       "id": "lotus_maw_matriarch",
       "name": "Lotus Maw Matriarch",
@@ -38,9 +12,9 @@
       "state": "dead",
       "level": 40,
       "killer": "KyoZayRiizZ",
-      "respawnAt": 1792435086204,
+      "respawnAt": 1792435087074,
       "intervalMs": 10800000,
-      "remainingMs": 576042
+      "remainingMs": 447892
     },
     {
       "id": "dusk_herald",
@@ -51,9 +25,35 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792435550946,
+      "respawnAt": 1792435550847,
       "intervalMs": 1200000,
-      "remainingMs": 1027116
+      "remainingMs": 899116
+    },
+    {
+      "id": "sky_sentinel",
+      "name": "Sky Sentinel",
+      "map": "Cloudspire Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
+      "state": "dead",
+      "level": 72,
+      "killer": null,
+      "respawnAt": 1792435803128,
+      "intervalMs": 1200000,
+      "remainingMs": 1148896
+    },
+    {
+      "id": "vale_keeper",
+      "name": "Vale Keeper",
+      "map": "Ancient Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
+      "state": "dead",
+      "level": 22,
+      "killer": null,
+      "respawnAt": 1792435798706,
+      "intervalMs": 1200000,
+      "remainingMs": 1164491
     },
     {
       "id": "bloom_crowned_stag",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 25,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792437286088,
+      "respawnAt": 1792437285973,
       "intervalMs": 10800000,
-      "remainingMs": 2784211
+      "remainingMs": 2654212
     },
     {
       "id": "aurora_antler_regent",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 58,
       "killer": "NeverEnough",
-      "respawnAt": 1792441392703,
+      "respawnAt": 1792441392607,
       "intervalMs": 10800000,
-      "remainingMs": 6879812
+      "remainingMs": 6750907
     },
     {
       "id": "vale_warden",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 99,
       "killer": "Munchkin",
-      "respawnAt": 1792443479970,
+      "respawnAt": 1792443480697,
       "intervalMs": 10800000,
-      "remainingMs": 8958868
+      "remainingMs": 8831516
     },
     {
       "id": "tempest_kite_empress",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 70,
       "killer": "memid",
-      "respawnAt": 1792443940057,
+      "respawnAt": 1792443940553,
       "intervalMs": 10800000,
-      "remainingMs": 9424413
+      "remainingMs": 9296369
     },
     {
       "id": "opal_weaver_queen",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 80,
       "killer": "JOHNNYBRAVO",
-      "respawnAt": 1792444805451,
+      "respawnAt": 1792444806059,
       "intervalMs": 10800000,
-      "remainingMs": 10287095
+      "remainingMs": 10159384
     },
     {
       "id": "cinder_plume_roc",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 36,
       "killer": "อยากไปซอยอ้วน",
-      "respawnAt": 1792444970319,
+      "respawnAt": 1792444971131,
       "intervalMs": 10800000,
-      "remainingMs": 10462911
+      "remainingMs": 10334401
     },
     {
       "id": "prism_shell_sovereign",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 25,
       "killer": "NYcTo",
-      "respawnAt": 1792445112731,
+      "respawnAt": 1792445112583,
       "intervalMs": 10800000,
-      "remainingMs": 10608093
+      "remainingMs": 10478368
     }
   ],
   "worldBoss": {
