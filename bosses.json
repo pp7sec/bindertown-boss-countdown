@@ -1,8 +1,21 @@
 {
-  "scannedAt": 1792400299095,
-  "generatedAt": "2026-10-19T08:58:47.787Z",
+  "scannedAt": 1792400431692,
+  "generatedAt": "2026-10-19T09:00:57.445Z",
   "count": 11,
   "bosses": [
+    {
+      "id": "bloom_crowned_stag",
+      "name": "Bloom Crowned Stag",
+      "map": "Bloomcrown Glade",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
+      "state": "alive",
+      "level": 25,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
     {
       "id": "prism_shell_sovereign",
       "name": "Prism Shell Sovereign",
@@ -43,32 +56,6 @@
       "remainingMs": null
     },
     {
-      "id": "sky_sentinel",
-      "name": "Sky Sentinel",
-      "map": "Cloudspire Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
-      "state": "dead",
-      "level": 72,
-      "killer": null,
-      "respawnAt": 1792400367482,
-      "intervalMs": 1200000,
-      "remainingMs": 40198
-    },
-    {
-      "id": "bloom_crowned_stag",
-      "name": "Bloom Crowned Stag",
-      "map": "Bloomcrown Glade",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
-      "state": "dead",
-      "level": 25,
-      "killer": "KyoZayRiizZ",
-      "respawnAt": 1792400382256,
-      "intervalMs": 10800000,
-      "remainingMs": 80338
-    },
-    {
       "id": "cinder_plume_roc",
       "name": "Cinder Plume Roc",
       "map": "Cinder Eyrie",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 36,
       "killer": "Martyr",
-      "respawnAt": 1792400552365,
+      "respawnAt": 1792400552761,
       "intervalMs": 10800000,
-      "remainingMs": 244953
+      "remainingMs": 113533
     },
     {
       "id": "dusk_herald",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792400704332,
+      "respawnAt": 1792400704378,
       "intervalMs": 1200000,
-      "remainingMs": 379870
+      "remainingMs": 249807
     },
     {
       "id": "lotus_maw_matriarch",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 40,
       "killer": "typeshyt",
-      "respawnAt": 1792400730451,
+      "respawnAt": 1792400730786,
       "intervalMs": 10800000,
-      "remainingMs": 420271
+      "remainingMs": 288842
     },
     {
       "id": "aurora_antler_regent",
@@ -116,9 +103,22 @@
       "state": "dead",
       "level": 58,
       "killer": "Berserk777",
-      "respawnAt": 1792401002440,
+      "respawnAt": 1792401002596,
       "intervalMs": 10800000,
-      "remainingMs": 689460
+      "remainingMs": 558051
+    },
+    {
+      "id": "sky_sentinel",
+      "name": "Sky Sentinel",
+      "map": "Cloudspire Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
+      "state": "dead",
+      "level": 72,
+      "killer": null,
+      "respawnAt": 1792401640496,
+      "intervalMs": 1200000,
+      "remainingMs": 1183463
     },
     {
       "id": "vale_warden",
@@ -131,7 +131,7 @@
       "killer": "Allnadez",
       "respawnAt": 1792409500209,
       "intervalMs": 10800000,
-      "remainingMs": 9178523
+      "remainingMs": 9048174
     },
     {
       "id": "tempest_kite_empress",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 70,
       "killer": "GXB",
-      "respawnAt": 1792410484587,
+      "respawnAt": 1792410484644,
       "intervalMs": 10800000,
-      "remainingMs": 10168848
+      "remainingMs": 10037608
     }
   ],
   "worldBoss": {
