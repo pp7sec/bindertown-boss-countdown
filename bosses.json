@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792424938746,
-  "generatedAt": "2026-10-19T15:49:24.576Z",
+  "scannedAt": 1792425099525,
+  "generatedAt": "2026-10-19T15:52:04.222Z",
   "count": 11,
   "bosses": [
     {
@@ -17,19 +17,6 @@
       "remainingMs": null
     },
     {
-      "id": "vale_keeper",
-      "name": "Vale Keeper",
-      "map": "Ancient Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
-      "state": "dead",
-      "level": 22,
-      "killer": null,
-      "respawnAt": 1792424948169,
-      "intervalMs": 1200000,
-      "remainingMs": 4357
-    },
-    {
       "id": "sky_sentinel",
       "name": "Sky Sentinel",
       "map": "Cloudspire Ruins",
@@ -38,9 +25,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792425484554,
+      "respawnAt": 1792425484530,
       "intervalMs": 1200000,
-      "remainingMs": 520386
+      "remainingMs": 360705
     },
     {
       "id": "dusk_herald",
@@ -51,9 +38,22 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792426031673,
+      "respawnAt": 1792426031741,
       "intervalMs": 1200000,
-      "remainingMs": 1069955
+      "remainingMs": 910294
+    },
+    {
+      "id": "vale_keeper",
+      "name": "Vale Keeper",
+      "map": "Ancient Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
+      "state": "dead",
+      "level": 22,
+      "killer": null,
+      "respawnAt": 1792426157479,
+      "intervalMs": 1200000,
+      "remainingMs": 1053045
     },
     {
       "id": "aurora_antler_regent",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 58,
       "killer": "Cashew",
-      "respawnAt": 1792429523966,
+      "respawnAt": 1792429524099,
       "intervalMs": 10800000,
-      "remainingMs": 4572145
+      "remainingMs": 4412441
     },
     {
       "id": "vale_warden",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 99,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792432575268,
+      "respawnAt": 1792432575160,
       "intervalMs": 10800000,
-      "remainingMs": 7616002
+      "remainingMs": 7456143
     },
     {
       "id": "tempest_kite_empress",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 70,
       "killer": "M95",
-      "respawnAt": 1792432930156,
+      "respawnAt": 1792432930072,
       "intervalMs": 10800000,
-      "remainingMs": 7975880
+      "remainingMs": 7815979
     },
     {
       "id": "opal_weaver_queen",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 80,
       "killer": "xJoseph",
-      "respawnAt": 1792433573050,
+      "respawnAt": 1792433573045,
       "intervalMs": 10800000,
-      "remainingMs": 8616277
+      "remainingMs": 8456430
     },
     {
       "id": "cinder_plume_roc",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 36,
       "killer": "KyoZayRiizZ",
-      "respawnAt": 1792433598520,
+      "respawnAt": 1792433599237,
       "intervalMs": 10800000,
-      "remainingMs": 8651933
+      "remainingMs": 8492374
     },
     {
       "id": "prism_shell_sovereign",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 25,
       "killer": "Tanny",
-      "respawnAt": 1792434273029,
+      "respawnAt": 1792434273063,
       "intervalMs": 10800000,
-      "remainingMs": 9329217
+      "remainingMs": 9168629
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 40,
       "killer": "KyoZayRiizZ",
-      "respawnAt": 1792435047825,
+      "respawnAt": 1792435047812,
       "intervalMs": 10800000,
-      "remainingMs": 10098455
+      "remainingMs": 9938574
     }
   ],
   "worldBoss": {
