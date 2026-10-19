@@ -1,8 +1,21 @@
 {
-  "scannedAt": 1792399339945,
-  "generatedAt": "2026-10-19T08:42:46.685Z",
+  "scannedAt": 1792399614955,
+  "generatedAt": "2026-10-19T08:47:21.675Z",
   "count": 11,
   "bosses": [
+    {
+      "id": "tempest_kite_empress",
+      "name": "Tempest Kite Empress",
+      "map": "Tempest Aerie",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
+      "state": "alive",
+      "level": 70,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
     {
       "id": "opal_weaver_queen",
       "name": "Opal Weaver Queen",
@@ -17,32 +30,6 @@
       "remainingMs": null
     },
     {
-      "id": "tempest_kite_empress",
-      "name": "Tempest Kite Empress",
-      "map": "Tempest Aerie",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
-      "state": "dead",
-      "level": 70,
-      "killer": "tiger",
-      "respawnAt": 1792399386236,
-      "intervalMs": 10800000,
-      "remainingMs": 30487
-    },
-    {
-      "id": "dusk_herald",
-      "name": "Dusk Herald",
-      "map": "Duskgate Pass",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
-      "state": "dead",
-      "level": 47,
-      "killer": null,
-      "respawnAt": 1792399498283,
-      "intervalMs": 1200000,
-      "remainingMs": 134749
-    },
-    {
       "id": "prism_shell_sovereign",
       "name": "Prism Shell Sovereign",
       "map": "Ancient Ruins",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 25,
       "killer": "tiger",
-      "respawnAt": 1792399623921,
+      "respawnAt": 1792399623896,
       "intervalMs": 10800000,
-      "remainingMs": 278651
+      "remainingMs": 3607
     },
     {
       "id": "vale_keeper",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792400221576,
+      "respawnAt": 1792400221551,
       "intervalMs": 1200000,
-      "remainingMs": 876306
+      "remainingMs": 601262
     },
     {
       "id": "sky_sentinel",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792400367385,
+      "respawnAt": 1792400367384,
       "intervalMs": 1200000,
-      "remainingMs": 1001228
+      "remainingMs": 726172
     },
     {
       "id": "bloom_crowned_stag",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 25,
       "killer": "KyoZayRiizZ",
-      "respawnAt": 1792400378732,
+      "respawnAt": 1792400379554,
       "intervalMs": 10800000,
-      "remainingMs": 1036082
+      "remainingMs": 761881
     },
     {
       "id": "cinder_plume_roc",
@@ -103,9 +90,22 @@
       "state": "dead",
       "level": 36,
       "killer": "Martyr",
-      "respawnAt": 1792400548936,
+      "respawnAt": 1792400549625,
       "intervalMs": 10800000,
-      "remainingMs": 1201027
+      "remainingMs": 926717
+    },
+    {
+      "id": "dusk_herald",
+      "name": "Dusk Herald",
+      "map": "Duskgate Pass",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
+      "state": "dead",
+      "level": 47,
+      "killer": null,
+      "respawnAt": 1792400704381,
+      "intervalMs": 1200000,
+      "remainingMs": 1065800
     },
     {
       "id": "lotus_maw_matriarch",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 40,
       "killer": "typeshyt",
-      "respawnAt": 1792400728045,
+      "respawnAt": 1792400728441,
       "intervalMs": 10800000,
-      "remainingMs": 1377530
+      "remainingMs": 1102917
     },
     {
       "id": "aurora_antler_regent",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 58,
       "killer": "Berserk777",
-      "respawnAt": 1792400998545,
+      "respawnAt": 1792400999741,
       "intervalMs": 10800000,
-      "remainingMs": 1645435
+      "remainingMs": 1371601
     },
     {
       "id": "vale_warden",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 99,
       "killer": "Allnadez",
-      "respawnAt": 1792409500221,
+      "respawnAt": 1792409500195,
       "intervalMs": 10800000,
-      "remainingMs": 10139274
+      "remainingMs": 9864256
     }
   ],
   "worldBoss": {
