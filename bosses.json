@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792374379060,
-  "generatedAt": "2026-10-19T01:46:45.896Z",
+  "scannedAt": 1792374498485,
+  "generatedAt": "2026-10-19T01:48:46.442Z",
   "count": 11,
   "bosses": [
     {
@@ -38,9 +38,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792374591996,
+      "respawnAt": 1792374592126,
       "intervalMs": 1200000,
-      "remainingMs": 189299
+      "remainingMs": 68925
     },
     {
       "id": "sky_sentinel",
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792374952918,
+      "respawnAt": 1792374952894,
       "intervalMs": 1200000,
-      "remainingMs": 547497
+      "remainingMs": 426961
     },
     {
       "id": "vale_keeper",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792375528750,
+      "respawnAt": 1792375528869,
       "intervalMs": 1200000,
-      "remainingMs": 1144445
+      "remainingMs": 1024868
     },
     {
       "id": "prism_shell_sovereign",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 25,
       "killer": "waraieๆ",
-      "respawnAt": 1792377919665,
+      "respawnAt": 1792377919784,
       "intervalMs": 10800000,
-      "remainingMs": 3535360
+      "remainingMs": 3415783
     },
     {
       "id": "bloom_crowned_stag",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "แพรรี่",
-      "respawnAt": 1792378616509,
+      "respawnAt": 1792378616915,
       "intervalMs": 10800000,
-      "remainingMs": 4234819
+      "remainingMs": 4115627
     },
     {
       "id": "cinder_plume_roc",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 36,
       "killer": "waraieๆ",
-      "respawnAt": 1792378773952,
+      "respawnAt": 1792378774661,
       "intervalMs": 10800000,
-      "remainingMs": 4386999
+      "remainingMs": 4267931
     },
     {
       "id": "lotus_maw_matriarch",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 40,
       "killer": "1HP",
-      "respawnAt": 1792378906774,
+      "respawnAt": 1792378907478,
       "intervalMs": 10800000,
-      "remainingMs": 4517206
+      "remainingMs": 4397964
     },
     {
       "id": "aurora_antler_regent",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 58,
       "killer": "waraieๆ",
-      "respawnAt": 1792379146718,
+      "respawnAt": 1792379147213,
       "intervalMs": 10800000,
-      "remainingMs": 4754511
+      "remainingMs": 4634947
     },
     {
       "id": "tempest_kite_empress",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 70,
       "killer": "แพรรี่",
-      "respawnAt": 1792380567434,
+      "respawnAt": 1792380567516,
       "intervalMs": 10800000,
-      "remainingMs": 6172608
+      "remainingMs": 6052520
     }
   ],
   "worldBoss": {
