@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792405458469,
-  "generatedAt": "2026-10-19T10:24:46.630Z",
+  "scannedAt": 1792405578728,
+  "generatedAt": "2026-10-19T10:26:46.847Z",
   "count": 11,
   "bosses": [
     {
@@ -17,13 +17,13 @@
       "remainingMs": null
     },
     {
-      "id": "sky_sentinel",
-      "name": "Sky Sentinel",
-      "map": "Cloudspire Ruins",
+      "id": "dusk_herald",
+      "name": "Dusk Herald",
+      "map": "Duskgate Pass",
       "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
+      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
       "state": "alive",
-      "level": 72,
+      "level": 47,
       "killer": null,
       "respawnAt": null,
       "intervalMs": 1200000,
@@ -43,17 +43,17 @@
       "remainingMs": null
     },
     {
-      "id": "dusk_herald",
-      "name": "Dusk Herald",
-      "map": "Duskgate Pass",
+      "id": "sky_sentinel",
+      "name": "Sky Sentinel",
+      "map": "Cloudspire Ruins",
       "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
+      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
       "state": "dead",
-      "level": 47,
+      "level": 72,
       "killer": null,
-      "respawnAt": 1792405577769,
+      "respawnAt": 1792406705621,
       "intervalMs": 1200000,
-      "remainingMs": 94406
+      "remainingMs": 1099274
     },
     {
       "id": "vale_warden",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 99,
       "killer": "Allnadez",
-      "respawnAt": 1792409503922,
+      "respawnAt": 1792409503874,
       "intervalMs": 10800000,
-      "remainingMs": 4023289
+      "remainingMs": 3903019
     },
     {
       "id": "tempest_kite_empress",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 70,
       "killer": "GXB",
-      "respawnAt": 1792410489763,
+      "respawnAt": 1792410490793,
       "intervalMs": 10800000,
-      "remainingMs": 5014638
+      "remainingMs": 4895496
     },
     {
       "id": "opal_weaver_queen",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 80,
       "killer": "JOHNNYBRAVO",
-      "respawnAt": 1792411661025,
+      "respawnAt": 1792411661016,
       "intervalMs": 10800000,
-      "remainingMs": 6183157
+      "remainingMs": 6062927
     },
     {
       "id": "bloom_crowned_stag",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "PockyChickyChic",
-      "respawnAt": 1792411820715,
+      "respawnAt": 1792411820980,
       "intervalMs": 10800000,
-      "remainingMs": 6359448
+      "remainingMs": 6239487
     },
     {
       "id": "prism_shell_sovereign",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 25,
       "killer": "SUSMHA",
-      "respawnAt": 1792412417498,
+      "respawnAt": 1792412417466,
       "intervalMs": 10800000,
-      "remainingMs": 6953470
+      "remainingMs": 6833192
     },
     {
       "id": "lotus_maw_matriarch",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 40,
       "killer": "PockyChickyChic",
-      "respawnAt": 1792413258608,
+      "respawnAt": 1792413259077,
       "intervalMs": 10800000,
-      "remainingMs": 7789031
+      "remainingMs": 7669313
     },
     {
       "id": "aurora_antler_regent",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 58,
       "killer": "แพรรี่",
-      "respawnAt": 1792415798742,
+      "respawnAt": 1792415799282,
       "intervalMs": 10800000,
-      "remainingMs": 10326376
+      "remainingMs": 10206751
     }
   ],
   "worldBoss": {
