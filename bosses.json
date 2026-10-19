@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792372697739,
-  "generatedAt": "2026-10-19T01:18:42.783Z",
+  "scannedAt": 1792372825645,
+  "generatedAt": "2026-10-19T01:20:52.483Z",
   "count": 11,
   "bosses": [
     {
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792372707150,
+      "respawnAt": 1792374019619,
       "intervalMs": 1200000,
-      "remainingMs": 4394
+      "remainingMs": 1188669
     },
     {
       "id": "prism_shell_sovereign",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 25,
       "killer": "waraieๆ",
-      "respawnAt": 1792377912882,
+      "respawnAt": 1792377913321,
       "intervalMs": 10800000,
-      "remainingMs": 5210126
+      "remainingMs": 5082371
     },
     {
       "id": "bloom_crowned_stag",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "แพรรี่",
-      "respawnAt": 1792378609798,
+      "respawnAt": 1792378610649,
       "intervalMs": 10800000,
-      "remainingMs": 5909519
+      "remainingMs": 5782297
     },
     {
       "id": "cinder_plume_roc",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 36,
       "killer": "waraieๆ",
-      "respawnAt": 1792378765297,
+      "respawnAt": 1792378765369,
       "intervalMs": 10800000,
-      "remainingMs": 6060108
+      "remainingMs": 5931814
     },
     {
       "id": "lotus_maw_matriarch",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 40,
       "killer": "1HP",
-      "respawnAt": 1792378898544,
+      "respawnAt": 1792378899572,
       "intervalMs": 10800000,
-      "remainingMs": 6190870
+      "remainingMs": 6063412
     },
     {
       "id": "aurora_antler_regent",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 58,
       "killer": "waraieๆ",
-      "respawnAt": 1792379139550,
+      "respawnAt": 1792379140095,
       "intervalMs": 10800000,
-      "remainingMs": 6429408
+      "remainingMs": 6301291
     },
     {
       "id": "tempest_kite_empress",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 70,
       "killer": "แพรรี่",
-      "respawnAt": 1792380566635,
+      "respawnAt": 1792380567135,
       "intervalMs": 10800000,
-      "remainingMs": 7854018
+      "remainingMs": 7725635
     }
   ],
   "worldBoss": {
