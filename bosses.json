@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792378577810,
-  "generatedAt": "2026-10-19T02:56:45.980Z",
+  "scannedAt": 1792378699174,
+  "generatedAt": "2026-10-19T02:58:45.360Z",
   "count": 11,
   "bosses": [
     {
@@ -30,19 +30,6 @@
       "remainingMs": null
     },
     {
-      "id": "bloom_crowned_stag",
-      "name": "Bloom Crowned Stag",
-      "map": "Bloomcrown Glade",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
-      "state": "dead",
-      "level": 25,
-      "killer": "แพรรี่",
-      "respawnAt": 1792378635981,
-      "intervalMs": 10800000,
-      "remainingMs": 55352
-    },
-    {
       "id": "sky_sentinel",
       "name": "Sky Sentinel",
       "map": "Cloudspire Ruins",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792378778735,
+      "respawnAt": 1792378778809,
       "intervalMs": 1200000,
-      "remainingMs": 173266
+      "remainingMs": 53877
     },
     {
       "id": "cinder_plume_roc",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 36,
       "killer": "waraieๆ",
-      "respawnAt": 1792378792748,
+      "respawnAt": 1792378793126,
       "intervalMs": 10800000,
-      "remainingMs": 206566
+      "remainingMs": 86303
     },
     {
       "id": "lotus_maw_matriarch",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 40,
       "killer": "1HP",
-      "respawnAt": 1792378925278,
+      "respawnAt": 1792378926036,
       "intervalMs": 10800000,
-      "remainingMs": 336322
+      "remainingMs": 216701
     },
     {
       "id": "aurora_antler_regent",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 58,
       "killer": "waraieๆ",
-      "respawnAt": 1792379165401,
+      "respawnAt": 1792379166075,
       "intervalMs": 10800000,
-      "remainingMs": 573680
+      "remainingMs": 454145
     },
     {
       "id": "vale_keeper",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792379216277,
+      "respawnAt": 1792379216321,
       "intervalMs": 1200000,
-      "remainingMs": 632861
+      "remainingMs": 512047
     },
     {
       "id": "tempest_kite_empress",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 70,
       "killer": "แพรรี่",
-      "respawnAt": 1792380570844,
+      "respawnAt": 1792380571415,
       "intervalMs": 10800000,
-      "remainingMs": 1976357
+      "remainingMs": 1856978
     },
     {
       "id": "opal_weaver_queen",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 80,
       "killer": "xJoseph",
-      "respawnAt": 1792386746098,
+      "respawnAt": 1792386746822,
       "intervalMs": 10800000,
-      "remainingMs": 8148867
+      "remainingMs": 8029540
     },
     {
       "id": "prism_shell_sovereign",
@@ -142,9 +129,22 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792388738349,
+      "respawnAt": 1792388738393,
       "intervalMs": 10800000,
-      "remainingMs": 10154933
+      "remainingMs": 10034119
+    },
+    {
+      "id": "bloom_crowned_stag",
+      "name": "Bloom Crowned Stag",
+      "map": "Bloomcrown Glade",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
+      "state": "dead",
+      "level": 25,
+      "killer": "xJoseph",
+      "respawnAt": 1792389484299,
+      "intervalMs": 10800000,
+      "remainingMs": 10782527
     }
   ],
   "worldBoss": {
