@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792387938318,
-  "generatedAt": "2026-10-19T05:32:46.601Z",
+  "scannedAt": 1792388058635,
+  "generatedAt": "2026-10-19T05:34:47.001Z",
   "count": 11,
   "bosses": [
     {
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792388742338,
+      "respawnAt": 1792388742398,
       "intervalMs": 10800000,
-      "remainingMs": 798412
+      "remainingMs": 678146
     },
     {
       "id": "sky_sentinel",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792388864135,
+      "respawnAt": 1792388864466,
       "intervalMs": 1200000,
-      "remainingMs": 898040
+      "remainingMs": 777968
     },
     {
       "id": "bloom_crowned_stag",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792389520502,
+      "respawnAt": 1792389521305,
       "intervalMs": 10800000,
-      "remainingMs": 1579365
+      "remainingMs": 1459825
     },
     {
       "id": "cinder_plume_roc",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 36,
       "killer": "xJoseph",
-      "respawnAt": 1792389643891,
+      "respawnAt": 1792389644343,
       "intervalMs": 10800000,
-      "remainingMs": 1697222
+      "remainingMs": 1577250
     },
     {
       "id": "lotus_maw_matriarch",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 40,
       "killer": "xJoseph",
-      "respawnAt": 1792389871276,
+      "respawnAt": 1792389871561,
       "intervalMs": 10800000,
-      "remainingMs": 1921847
+      "remainingMs": 1801721
     },
     {
       "id": "aurora_antler_regent",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 58,
       "killer": "xJoseph",
-      "respawnAt": 1792390056387,
+      "respawnAt": 1792390056860,
       "intervalMs": 10800000,
-      "remainingMs": 2104187
+      "remainingMs": 1984214
     },
     {
       "id": "vale_warden",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 99,
       "killer": "xJoseph",
-      "respawnAt": 1792393039407,
+      "respawnAt": 1792393040274,
       "intervalMs": 10800000,
-      "remainingMs": 5078853
+      "remainingMs": 4959324
     }
   ],
   "worldBoss": {
@@ -153,7 +153,7 @@
     "startAt": 1792387800000,
     "endsAt": 1792389000000,
     "nextAt": 0,
-    "fighters": 913
+    "fighters": 987
   },
   "worldBossLast": {
     "at": 1792326889969,
