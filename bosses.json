@@ -1,16 +1,29 @@
 {
-  "scannedAt": 1792429343683,
-  "generatedAt": "2026-10-19T17:02:49.280Z",
+  "scannedAt": 1792429567728,
+  "generatedAt": "2026-10-19T17:06:34.181Z",
   "count": 11,
   "bosses": [
     {
-      "id": "dusk_herald",
-      "name": "Dusk Herald",
-      "map": "Duskgate Pass",
+      "id": "aurora_antler_regent",
+      "name": "Aurora Antler Regent",
+      "map": "Aurora Hollow",
       "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
+      "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png",
       "state": "alive",
-      "level": 47,
+      "level": 58,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
+      "id": "sky_sentinel",
+      "name": "Sky Sentinel",
+      "map": "Cloudspire Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
+      "state": "alive",
+      "level": 72,
       "killer": null,
       "respawnAt": null,
       "intervalMs": 1200000,
@@ -30,30 +43,17 @@
       "remainingMs": null
     },
     {
-      "id": "sky_sentinel",
-      "name": "Sky Sentinel",
-      "map": "Cloudspire Ruins",
+      "id": "dusk_herald",
+      "name": "Dusk Herald",
+      "map": "Duskgate Pass",
       "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
+      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
       "state": "dead",
-      "level": 72,
+      "level": 47,
       "killer": null,
-      "respawnAt": 1792429452812,
+      "respawnAt": 1792430742785,
       "intervalMs": 1200000,
-      "remainingMs": 83967
-    },
-    {
-      "id": "aurora_antler_regent",
-      "name": "Aurora Antler Regent",
-      "map": "Aurora Hollow",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png",
-      "state": "dead",
-      "level": 58,
-      "killer": "Cashew",
-      "respawnAt": 1792429540994,
-      "intervalMs": 10800000,
-      "remainingMs": 184650
+      "remainingMs": 1151639
     },
     {
       "id": "vale_warden",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 99,
       "killer": "StickyRicEPoweR",
-      "respawnAt": 1792432581827,
+      "respawnAt": 1792432581759,
       "intervalMs": 10800000,
-      "remainingMs": 3217982
+      "remainingMs": 2993228
     },
     {
       "id": "tempest_kite_empress",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 70,
       "killer": "M95",
-      "respawnAt": 1792432946912,
+      "respawnAt": 1792432946979,
       "intervalMs": 10800000,
-      "remainingMs": 3588084
+      "remainingMs": 3363563
     },
     {
       "id": "opal_weaver_queen",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 80,
       "killer": "xJoseph",
-      "respawnAt": 1792433580326,
+      "respawnAt": 1792433580403,
       "intervalMs": 10800000,
-      "remainingMs": 4218984
+      "remainingMs": 3994427
     },
     {
       "id": "cinder_plume_roc",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 36,
       "killer": "KyoZayRiizZ",
-      "respawnAt": 1792433619095,
+      "respawnAt": 1792433620152,
       "intervalMs": 10800000,
-      "remainingMs": 4267724
+      "remainingMs": 4044450
     },
     {
       "id": "prism_shell_sovereign",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 25,
       "killer": "Tanny",
-      "respawnAt": 1792434274565,
+      "respawnAt": 1792434274514,
       "intervalMs": 10800000,
-      "remainingMs": 4925714
+      "remainingMs": 4701513
     },
     {
       "id": "lotus_maw_matriarch",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 40,
       "killer": "KyoZayRiizZ",
-      "respawnAt": 1792435066160,
+      "respawnAt": 1792435065921,
       "intervalMs": 10800000,
-      "remainingMs": 5712314
+      "remainingMs": 5487645
     },
     {
       "id": "bloom_crowned_stag",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 25,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792437268566,
+      "respawnAt": 1792437269608,
       "intervalMs": 10800000,
-      "remainingMs": 7922352
+      "remainingMs": 7699200
     }
   ],
   "worldBoss": {
