@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792400659950,
-  "generatedAt": "2026-10-19T09:04:47.150Z",
+  "scannedAt": 1792400779821,
+  "generatedAt": "2026-10-19T09:06:46.505Z",
   "count": 11,
   "bosses": [
     {
@@ -43,6 +43,19 @@
       "remainingMs": null
     },
     {
+      "id": "lotus_maw_matriarch",
+      "name": "Lotus Maw Matriarch",
+      "map": "Lotus Hollow",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
+      "state": "alive",
+      "level": 40,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
       "id": "opal_weaver_queen",
       "name": "Opal Weaver Queen",
       "map": "Opalweb Grotto",
@@ -56,32 +69,6 @@
       "remainingMs": null
     },
     {
-      "id": "dusk_herald",
-      "name": "Dusk Herald",
-      "map": "Duskgate Pass",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
-      "state": "dead",
-      "level": 47,
-      "killer": null,
-      "respawnAt": 1792400704324,
-      "intervalMs": 1200000,
-      "remainingMs": 20332
-    },
-    {
-      "id": "lotus_maw_matriarch",
-      "name": "Lotus Maw Matriarch",
-      "map": "Lotus Hollow",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
-      "state": "dead",
-      "level": 40,
-      "killer": "typeshyt",
-      "respawnAt": 1792400732186,
-      "intervalMs": 10800000,
-      "remainingMs": 61467
-    },
-    {
       "id": "aurora_antler_regent",
       "name": "Aurora Antler Regent",
       "map": "Aurora Hollow",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 58,
       "killer": "Berserk777",
-      "respawnAt": 1792401002875,
+      "respawnAt": 1792401002818,
       "intervalMs": 10800000,
-      "remainingMs": 329508
+      "remainingMs": 209929
     },
     {
       "id": "sky_sentinel",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792401640427,
+      "respawnAt": 1792401640424,
       "intervalMs": 1200000,
-      "remainingMs": 953758
+      "remainingMs": 834376
     },
     {
       "id": "vale_keeper",
@@ -116,9 +103,22 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792401639171,
+      "respawnAt": 1792401639147,
       "intervalMs": 1200000,
-      "remainingMs": 973889
+      "remainingMs": 854084
+    },
+    {
+      "id": "dusk_herald",
+      "name": "Dusk Herald",
+      "map": "Duskgate Pass",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
+      "state": "dead",
+      "level": 47,
+      "killer": null,
+      "respawnAt": 1792401929344,
+      "intervalMs": 1200000,
+      "remainingMs": 1125877
     },
     {
       "id": "vale_warden",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 99,
       "killer": "Allnadez",
-      "respawnAt": 1792409500303,
+      "respawnAt": 1792409500192,
       "intervalMs": 10800000,
-      "remainingMs": 8818949
+      "remainingMs": 8699383
     },
     {
       "id": "tempest_kite_empress",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 70,
       "killer": "GXB",
-      "respawnAt": 1792410484613,
+      "respawnAt": 1792410484572,
       "intervalMs": 10800000,
-      "remainingMs": 9808596
+      "remainingMs": 9689036
     }
   ],
   "worldBoss": {
