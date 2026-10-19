@@ -1,21 +1,8 @@
 {
-  "scannedAt": 1792385421097,
-  "generatedAt": "2026-10-19T04:50:46.077Z",
+  "scannedAt": 1792385538442,
+  "generatedAt": "2026-10-19T04:52:44.560Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "prism_shell_sovereign",
-      "name": "Prism Shell Sovereign",
-      "map": "Ancient Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
-      "state": "alive",
-      "level": 25,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 10800000,
-      "remainingMs": null
-    },
     {
       "id": "tempest_kite_empress",
       "name": "Tempest Kite Empress",
@@ -35,12 +22,12 @@
       "map": "Ancient Ruins",
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
-      "state": "alive",
+      "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": null,
+      "respawnAt": 1792385609819,
       "intervalMs": 1200000,
-      "remainingMs": null
+      "remainingMs": 65911
     },
     {
       "id": "dusk_herald",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792386309353,
+      "respawnAt": 1792386310405,
       "intervalMs": 1200000,
-      "remainingMs": 866730
+      "remainingMs": 748781
     },
     {
       "id": "sky_sentinel",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792386379928,
+      "respawnAt": 1792386379867,
       "intervalMs": 1200000,
-      "remainingMs": 934649
+      "remainingMs": 815722
     },
     {
       "id": "opal_weaver_queen",
@@ -77,9 +64,22 @@
       "state": "dead",
       "level": 80,
       "killer": "xJoseph",
-      "respawnAt": 1792386759639,
+      "respawnAt": 1792386759662,
       "intervalMs": 10800000,
-      "remainingMs": 1322278
+      "remainingMs": 1203304
+    },
+    {
+      "id": "prism_shell_sovereign",
+      "name": "Prism Shell Sovereign",
+      "map": "Ancient Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
+      "state": "dead",
+      "level": 25,
+      "killer": "xJoseph",
+      "respawnAt": 1792388738412,
+      "intervalMs": 10800000,
+      "remainingMs": 3194504
     },
     {
       "id": "bloom_crowned_stag",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792389510237,
+      "respawnAt": 1792389510599,
       "intervalMs": 10800000,
-      "remainingMs": 4086488
+      "remainingMs": 3969580
     },
     {
       "id": "cinder_plume_roc",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 36,
       "killer": "xJoseph",
-      "respawnAt": 1792389637576,
+      "respawnAt": 1792389637869,
       "intervalMs": 10800000,
-      "remainingMs": 4210685
+      "remainingMs": 4091447
     },
     {
       "id": "lotus_maw_matriarch",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 40,
       "killer": "xJoseph",
-      "respawnAt": 1792389868670,
+      "respawnAt": 1792389868615,
       "intervalMs": 10800000,
-      "remainingMs": 4439172
+      "remainingMs": 4319721
     },
     {
       "id": "aurora_antler_regent",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 58,
       "killer": "xJoseph",
-      "respawnAt": 1792390046993,
+      "respawnAt": 1792390047485,
       "intervalMs": 10800000,
-      "remainingMs": 4614879
+      "remainingMs": 4496062
     },
     {
       "id": "vale_warden",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 99,
       "killer": "xJoseph",
-      "respawnAt": 1792393037808,
+      "respawnAt": 1792393038513,
       "intervalMs": 10800000,
-      "remainingMs": 7597769
+      "remainingMs": 7479693
     }
   ],
   "worldBoss": {
