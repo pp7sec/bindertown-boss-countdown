@@ -1,16 +1,16 @@
 {
-  "scannedAt": 1792399614955,
-  "generatedAt": "2026-10-19T08:47:21.675Z",
+  "scannedAt": 1792399698819,
+  "generatedAt": "2026-10-19T08:48:45.701Z",
   "count": 11,
   "bosses": [
     {
-      "id": "tempest_kite_empress",
-      "name": "Tempest Kite Empress",
-      "map": "Tempest Aerie",
+      "id": "prism_shell_sovereign",
+      "name": "Prism Shell Sovereign",
+      "map": "Ancient Ruins",
       "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
+      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
       "state": "alive",
-      "level": 70,
+      "level": 25,
       "killer": null,
       "respawnAt": null,
       "intervalMs": 10800000,
@@ -30,19 +30,6 @@
       "remainingMs": null
     },
     {
-      "id": "prism_shell_sovereign",
-      "name": "Prism Shell Sovereign",
-      "map": "Ancient Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
-      "state": "dead",
-      "level": 25,
-      "killer": "tiger",
-      "respawnAt": 1792399623896,
-      "intervalMs": 10800000,
-      "remainingMs": 3607
-    },
-    {
       "id": "vale_keeper",
       "name": "Vale Keeper",
       "map": "Ancient Ruins",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792400221551,
+      "respawnAt": 1792400221486,
       "intervalMs": 1200000,
-      "remainingMs": 601262
+      "remainingMs": 517366
     },
     {
       "id": "sky_sentinel",
@@ -64,9 +51,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792400367384,
+      "respawnAt": 1792400367362,
       "intervalMs": 1200000,
-      "remainingMs": 726172
+      "remainingMs": 642112
     },
     {
       "id": "bloom_crowned_stag",
@@ -77,9 +64,9 @@
       "state": "dead",
       "level": 25,
       "killer": "KyoZayRiizZ",
-      "respawnAt": 1792400379554,
+      "respawnAt": 1792400380130,
       "intervalMs": 10800000,
-      "remainingMs": 761881
+      "remainingMs": 678612
     },
     {
       "id": "cinder_plume_roc",
@@ -90,9 +77,9 @@
       "state": "dead",
       "level": 36,
       "killer": "Martyr",
-      "respawnAt": 1792400549625,
+      "respawnAt": 1792400549866,
       "intervalMs": 10800000,
-      "remainingMs": 926717
+      "remainingMs": 843099
     },
     {
       "id": "dusk_herald",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792400704381,
+      "respawnAt": 1792400704365,
       "intervalMs": 1200000,
-      "remainingMs": 1065800
+      "remainingMs": 981821
     },
     {
       "id": "lotus_maw_matriarch",
@@ -116,9 +103,9 @@
       "state": "dead",
       "level": 40,
       "killer": "typeshyt",
-      "respawnAt": 1792400728441,
+      "respawnAt": 1792400728700,
       "intervalMs": 10800000,
-      "remainingMs": 1102917
+      "remainingMs": 1019345
     },
     {
       "id": "aurora_antler_regent",
@@ -129,9 +116,9 @@
       "state": "dead",
       "level": 58,
       "killer": "Berserk777",
-      "respawnAt": 1792400999741,
+      "respawnAt": 1792401000325,
       "intervalMs": 10800000,
-      "remainingMs": 1371601
+      "remainingMs": 1288362
     },
     {
       "id": "vale_warden",
@@ -142,9 +129,22 @@
       "state": "dead",
       "level": 99,
       "killer": "Allnadez",
-      "respawnAt": 1792409500195,
+      "respawnAt": 1792409500189,
       "intervalMs": 10800000,
-      "remainingMs": 9864256
+      "remainingMs": 9780246
+    },
+    {
+      "id": "tempest_kite_empress",
+      "name": "Tempest Kite Empress",
+      "map": "Tempest Aerie",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
+      "state": "dead",
+      "level": 70,
+      "killer": "GXB",
+      "respawnAt": 1792410484669,
+      "intervalMs": 10800000,
+      "remainingMs": 10770031
     }
   ],
   "worldBoss": {
