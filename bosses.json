@@ -1,8 +1,21 @@
 {
-  "scannedAt": 1792379058023,
-  "generatedAt": "2026-10-19T03:04:46.494Z",
+  "scannedAt": 1792379178753,
+  "generatedAt": "2026-10-19T03:06:44.504Z",
   "count": 11,
   "bosses": [
+    {
+      "id": "aurora_antler_regent",
+      "name": "Aurora Antler Regent",
+      "map": "Aurora Hollow",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png",
+      "state": "alive",
+      "level": 58,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
     {
       "id": "vale_warden",
       "name": "Vale Warden",
@@ -17,32 +30,6 @@
       "remainingMs": null
     },
     {
-      "id": "dusk_herald",
-      "name": "Dusk Herald",
-      "map": "Duskgate Pass",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
-      "state": "alive",
-      "level": 47,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 1200000,
-      "remainingMs": null
-    },
-    {
-      "id": "aurora_antler_regent",
-      "name": "Aurora Antler Regent",
-      "map": "Aurora Hollow",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png",
-      "state": "dead",
-      "level": 58,
-      "killer": "waraieๆ",
-      "respawnAt": 1792379166666,
-      "intervalMs": 10800000,
-      "remainingMs": 94813
-    },
-    {
       "id": "vale_keeper",
       "name": "Vale Keeper",
       "map": "Ancient Ruins",
@@ -51,9 +38,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792379216389,
+      "respawnAt": 1792379216316,
       "intervalMs": 1200000,
-      "remainingMs": 152789
+      "remainingMs": 32447
     },
     {
       "id": "sky_sentinel",
@@ -64,9 +51,22 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792380011948,
+      "respawnAt": 1792380011866,
       "intervalMs": 1200000,
-      "remainingMs": 925961
+      "remainingMs": 807789
+    },
+    {
+      "id": "dusk_herald",
+      "name": "Dusk Herald",
+      "map": "Duskgate Pass",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
+      "state": "dead",
+      "level": 47,
+      "killer": null,
+      "respawnAt": 1792380301430,
+      "intervalMs": 1200000,
+      "remainingMs": 1099861
     },
     {
       "id": "tempest_kite_empress",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 70,
       "killer": "แพรรี่",
-      "respawnAt": 1792380572510,
+      "respawnAt": 1792380573418,
       "intervalMs": 10800000,
-      "remainingMs": 1497865
+      "remainingMs": 1379389
     },
     {
       "id": "opal_weaver_queen",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 80,
       "killer": "xJoseph",
-      "respawnAt": 1792386747371,
+      "respawnAt": 1792386747325,
       "intervalMs": 10800000,
-      "remainingMs": 7669646
+      "remainingMs": 7550762
     },
     {
       "id": "prism_shell_sovereign",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792388738461,
+      "respawnAt": 1792388738388,
       "intervalMs": 10800000,
-      "remainingMs": 9674861
+      "remainingMs": 9554519
     },
     {
       "id": "bloom_crowned_stag",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 25,
       "killer": "xJoseph",
-      "respawnAt": 1792389486326,
+      "respawnAt": 1792389486401,
       "intervalMs": 10800000,
-      "remainingMs": 10425489
+      "remainingMs": 10305045
     },
     {
       "id": "cinder_plume_roc",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 36,
       "killer": "xJoseph",
-      "respawnAt": 1792389609020,
+      "respawnAt": 1792389609441,
       "intervalMs": 10800000,
-      "remainingMs": 10542680
+      "remainingMs": 10422993
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 40,
       "killer": "xJoseph",
-      "respawnAt": 1792389847752,
+      "respawnAt": 1792389847750,
       "intervalMs": 10800000,
-      "remainingMs": 10778650
+      "remainingMs": 10658798
     }
   ],
   "worldBoss": {
