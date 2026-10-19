@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792401379671,
-  "generatedAt": "2026-10-19T09:16:46.343Z",
+  "scannedAt": 1792401498498,
+  "generatedAt": "2026-10-19T09:18:45.564Z",
   "count": 11,
   "bosses": [
     {
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792401640409,
+      "respawnAt": 1792401640514,
       "intervalMs": 1200000,
-      "remainingMs": 234522
+      "remainingMs": 115405
     },
     {
       "id": "vale_keeper",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792401639150,
+      "respawnAt": 1792401639159,
       "intervalMs": 1200000,
-      "remainingMs": 254191
+      "remainingMs": 135282
     },
     {
       "id": "dusk_herald",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792401931367,
+      "respawnAt": 1792401932085,
       "intervalMs": 1200000,
-      "remainingMs": 528071
+      "remainingMs": 409590
     },
     {
       "id": "vale_warden",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 99,
       "killer": "Allnadez",
-      "respawnAt": 1792409500300,
+      "respawnAt": 1792409500236,
       "intervalMs": 10800000,
-      "remainingMs": 8099639
+      "remainingMs": 7980591
     },
     {
       "id": "tempest_kite_empress",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 70,
       "killer": "GXB",
-      "respawnAt": 1792410485467,
+      "respawnAt": 1792410485420,
       "intervalMs": 10800000,
-      "remainingMs": 9090060
+      "remainingMs": 8971037
     },
     {
       "id": "opal_weaver_queen",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 80,
       "killer": "JOHNNYBRAVO",
-      "respawnAt": 1792411652000,
+      "respawnAt": 1792411652181,
       "intervalMs": 10800000,
-      "remainingMs": 10253965
+      "remainingMs": 10135170
     },
     {
       "id": "bloom_crowned_stag",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 25,
       "killer": "PockyChickyChic",
-      "respawnAt": 1792411806858,
+      "respawnAt": 1792411807564,
       "intervalMs": 10800000,
-      "remainingMs": 10424511
+      "remainingMs": 10306422
     }
   ],
   "worldBoss": {
