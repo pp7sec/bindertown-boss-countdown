@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792397423231,
-  "generatedAt": "2026-10-19T08:10:48.806Z",
+  "scannedAt": 1792397539148,
+  "generatedAt": "2026-10-19T08:12:47.463Z",
   "count": 11,
   "bosses": [
     {
@@ -25,9 +25,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792397788741,
+      "respawnAt": 1792397788801,
       "intervalMs": 1200000,
-      "remainingMs": 340357
+      "remainingMs": 221841
     },
     {
       "id": "vale_keeper",
@@ -38,9 +38,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792397804592,
+      "respawnAt": 1792397804673,
       "intervalMs": 1200000,
-      "remainingMs": 376301
+      "remainingMs": 259933
     },
     {
       "id": "dusk_herald",
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792398282289,
+      "respawnAt": 1792398282340,
       "intervalMs": 1200000,
-      "remainingMs": 836408
+      "remainingMs": 718158
     },
     {
       "id": "opal_weaver_queen",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 80,
       "killer": "KyoZayRiizZ",
-      "respawnAt": 1792399097406,
+      "respawnAt": 1792399097643,
       "intervalMs": 10800000,
-      "remainingMs": 1656451
+      "remainingMs": 1539019
     },
     {
       "id": "tempest_kite_empress",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 70,
       "killer": "tiger",
-      "respawnAt": 1792399386244,
+      "respawnAt": 1792399386213,
       "intervalMs": 10800000,
-      "remainingMs": 1947761
+      "remainingMs": 1830334
     },
     {
       "id": "prism_shell_sovereign",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "tiger",
-      "respawnAt": 1792399623873,
+      "respawnAt": 1792399623954,
       "intervalMs": 10800000,
-      "remainingMs": 2195582
+      "remainingMs": 2079214
     },
     {
       "id": "bloom_crowned_stag",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "KyoZayRiizZ",
-      "respawnAt": 1792400369656,
+      "respawnAt": 1792400369782,
       "intervalMs": 10800000,
-      "remainingMs": 2943847
+      "remainingMs": 2827807
     },
     {
       "id": "cinder_plume_roc",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 36,
       "killer": "Martyr",
-      "respawnAt": 1792400538969,
+      "respawnAt": 1792400539837,
       "intervalMs": 10800000,
-      "remainingMs": 3108162
+      "remainingMs": 2992335
     },
     {
       "id": "lotus_maw_matriarch",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 40,
       "killer": "typeshyt",
-      "respawnAt": 1792400721478,
+      "respawnAt": 1792400721934,
       "intervalMs": 10800000,
-      "remainingMs": 3287981
+      "remainingMs": 3171650
     },
     {
       "id": "aurora_antler_regent",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 58,
       "killer": "Berserk777",
-      "respawnAt": 1792400997404,
+      "respawnAt": 1792400997538,
       "intervalMs": 10800000,
-      "remainingMs": 3561457
+      "remainingMs": 3444473
     }
   ],
   "worldBoss": {
