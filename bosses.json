@@ -1,8 +1,21 @@
 {
-  "scannedAt": 1792404499228,
-  "generatedAt": "2026-10-19T10:09:22.484Z",
+  "scannedAt": 1792404639295,
+  "generatedAt": "2026-10-19T10:11:18.098Z",
   "count": 11,
   "bosses": [
+    {
+      "id": "bloom_crowned_stag",
+      "name": "Bloom Crowned Stag",
+      "map": "Bloomcrown Glade",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
+      "state": "alive",
+      "level": 25,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
     {
       "id": "cinder_plume_roc",
       "name": "Cinder Plume Roc",
@@ -30,42 +43,16 @@
       "remainingMs": null
     },
     {
-      "id": "vale_warden",
-      "name": "Vale Warden",
-      "map": "Warden's Seat",
+      "id": "tempest_kite_empress",
+      "name": "Tempest Kite Empress",
+      "map": "Tempest Aerie",
       "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_warden/idle/0.png",
+      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
       "state": "alive",
-      "level": 99,
+      "level": 70,
       "killer": null,
       "respawnAt": null,
       "intervalMs": 10800000,
-      "remainingMs": null
-    },
-    {
-      "id": "dusk_herald",
-      "name": "Dusk Herald",
-      "map": "Duskgate Pass",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
-      "state": "alive",
-      "level": 47,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 1200000,
-      "remainingMs": null
-    },
-    {
-      "id": "sky_sentinel",
-      "name": "Sky Sentinel",
-      "map": "Cloudspire Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
-      "state": "alive",
-      "level": 72,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 1200000,
       "remainingMs": null
     },
     {
@@ -77,22 +64,48 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792404874218,
+      "respawnAt": 1792404875056,
       "intervalMs": 1200000,
-      "remainingMs": 369827
+      "remainingMs": 223167
     },
     {
-      "id": "tempest_kite_empress",
-      "name": "Tempest Kite Empress",
-      "map": "Tempest Aerie",
+      "id": "sky_sentinel",
+      "name": "Sky Sentinel",
+      "map": "Cloudspire Ruins",
       "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
+      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
       "state": "dead",
-      "level": 70,
-      "killer": "GXB",
-      "respawnAt": 1792410486261,
+      "level": 72,
+      "killer": null,
+      "respawnAt": 1792405394609,
+      "intervalMs": 1200000,
+      "remainingMs": 716930
+    },
+    {
+      "id": "dusk_herald",
+      "name": "Dusk Herald",
+      "map": "Duskgate Pass",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
+      "state": "dead",
+      "level": 47,
+      "killer": null,
+      "respawnAt": 1792405573592,
+      "intervalMs": 1200000,
+      "remainingMs": 898388
+    },
+    {
+      "id": "vale_warden",
+      "name": "Vale Warden",
+      "map": "Warden's Seat",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/vale_warden/idle/0.png",
+      "state": "dead",
+      "level": 99,
+      "killer": "Allnadez",
+      "respawnAt": 1792409502733,
       "intervalMs": 10800000,
-      "remainingMs": 5971677
+      "remainingMs": 4830032
     },
     {
       "id": "opal_weaver_queen",
@@ -103,22 +116,9 @@
       "state": "dead",
       "level": 80,
       "killer": "JOHNNYBRAVO",
-      "respawnAt": 1792411659255,
+      "respawnAt": 1792411660134,
       "intervalMs": 10800000,
-      "remainingMs": 7142089
-    },
-    {
-      "id": "bloom_crowned_stag",
-      "name": "Bloom Crowned Stag",
-      "map": "Bloomcrown Glade",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
-      "state": "dead",
-      "level": 25,
-      "killer": "PockyChickyChic",
-      "respawnAt": 1792411817987,
-      "intervalMs": 10800000,
-      "remainingMs": 7316162
+      "remainingMs": 6989882
     },
     {
       "id": "prism_shell_sovereign",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 25,
       "killer": "SUSMHA",
-      "respawnAt": 1792412416630,
+      "respawnAt": 1792412417468,
       "intervalMs": 10800000,
-      "remainingMs": 7912239
+      "remainingMs": 7765579
     },
     {
       "id": "lotus_maw_matriarch",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 40,
       "killer": "PockyChickyChic",
-      "respawnAt": 1792413254319,
+      "respawnAt": 1792413254414,
       "intervalMs": 10800000,
-      "remainingMs": 8744809
+      "remainingMs": 8597533
     }
   ],
   "worldBoss": {
