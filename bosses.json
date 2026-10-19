@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792409897875,
-  "generatedAt": "2026-10-19T11:38:46.026Z",
+  "scannedAt": 1792410025517,
+  "generatedAt": "2026-10-19T11:40:50.839Z",
   "count": 11,
   "bosses": [
     {
@@ -35,12 +35,12 @@
       "map": "Ancient Ruins",
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
-      "state": "dead",
+      "state": "alive",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792410003103,
+      "respawnAt": null,
       "intervalMs": 1200000,
-      "remainingMs": 99666
+      "remainingMs": null
     },
     {
       "id": "tempest_kite_empress",
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 70,
       "killer": "GXB",
-      "respawnAt": 1792410498523,
+      "respawnAt": 1792410498597,
       "intervalMs": 10800000,
-      "remainingMs": 584026
+      "remainingMs": 458090
     },
     {
       "id": "sky_sentinel",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792410785954,
+      "respawnAt": 1792410785888,
       "intervalMs": 1200000,
-      "remainingMs": 860434
+      "remainingMs": 735458
     },
     {
       "id": "dusk_herald",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792410880530,
+      "respawnAt": 1792410880636,
       "intervalMs": 1200000,
-      "remainingMs": 957746
+      "remainingMs": 832663
     },
     {
       "id": "opal_weaver_queen",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 80,
       "killer": "JOHNNYBRAVO",
-      "respawnAt": 1792411671326,
+      "respawnAt": 1792411671781,
       "intervalMs": 10800000,
-      "remainingMs": 1754076
+      "remainingMs": 1628829
     },
     {
       "id": "bloom_crowned_stag",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "PockyChickyChic",
-      "respawnAt": 1792411834222,
+      "respawnAt": 1792411834186,
       "intervalMs": 10800000,
-      "remainingMs": 1933557
+      "remainingMs": 1806130
     },
     {
       "id": "prism_shell_sovereign",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 25,
       "killer": "SUSMHA",
-      "respawnAt": 1792412418711,
+      "respawnAt": 1792412418695,
       "intervalMs": 10800000,
-      "remainingMs": 2515274
+      "remainingMs": 2388115
     },
     {
       "id": "lotus_maw_matriarch",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 40,
       "killer": "PockyChickyChic",
-      "respawnAt": 1792413277308,
+      "respawnAt": 1792413277329,
       "intervalMs": 10800000,
-      "remainingMs": 3368390
+      "remainingMs": 3241739
     },
     {
       "id": "aurora_antler_regent",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 58,
       "killer": "แพรรี่",
-      "respawnAt": 1792415816568,
+      "respawnAt": 1792415817411,
       "intervalMs": 10800000,
-      "remainingMs": 5904891
+      "remainingMs": 5779363
     }
   ],
   "worldBoss": {
