@@ -1,47 +1,8 @@
 {
-  "scannedAt": 1792411825262,
-  "generatedAt": "2026-10-19T12:10:50.206Z",
+  "scannedAt": 1792411939544,
+  "generatedAt": "2026-10-19T12:12:46.412Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "cinder_plume_roc",
-      "name": "Cinder Plume Roc",
-      "map": "Cinder Eyrie",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
-      "state": "alive",
-      "level": 36,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 10800000,
-      "remainingMs": null
-    },
-    {
-      "id": "opal_weaver_queen",
-      "name": "Opal Weaver Queen",
-      "map": "Opalweb Grotto",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/opal_weaver_queen/idle/0.png",
-      "state": "alive",
-      "level": 80,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 10800000,
-      "remainingMs": null
-    },
-    {
-      "id": "bloom_crowned_stag",
-      "name": "Bloom Crowned Stag",
-      "map": "Bloomcrown Glade",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
-      "state": "dead",
-      "level": 25,
-      "killer": "PockyChickyChic",
-      "respawnAt": 1792411840144,
-      "intervalMs": 10800000,
-      "remainingMs": 12400
-    },
     {
       "id": "sky_sentinel",
       "name": "Sky Sentinel",
@@ -51,9 +12,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792412026093,
+      "respawnAt": 1792412026146,
       "intervalMs": 1200000,
-      "remainingMs": 176283
+      "remainingMs": 60188
     },
     {
       "id": "dusk_herald",
@@ -64,9 +25,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792412151989,
+      "respawnAt": 1792412152066,
       "intervalMs": 1200000,
-      "remainingMs": 304603
+      "remainingMs": 188791
     },
     {
       "id": "prism_shell_sovereign",
@@ -77,9 +38,9 @@
       "state": "dead",
       "level": 25,
       "killer": "SUSMHA",
-      "respawnAt": 1792412419020,
+      "respawnAt": 1792412418971,
       "intervalMs": 10800000,
-      "remainingMs": 588801
+      "remainingMs": 474136
     },
     {
       "id": "vale_keeper",
@@ -90,9 +51,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792412552352,
+      "respawnAt": 1792412552303,
       "intervalMs": 1200000,
-      "remainingMs": 722133
+      "remainingMs": 607468
     },
     {
       "id": "lotus_maw_matriarch",
@@ -103,9 +64,9 @@
       "state": "dead",
       "level": 40,
       "killer": "PockyChickyChic",
-      "respawnAt": 1792413281445,
+      "respawnAt": 1792413281343,
       "intervalMs": 10800000,
-      "remainingMs": 1446287
+      "remainingMs": 1331227
     },
     {
       "id": "aurora_antler_regent",
@@ -116,9 +77,9 @@
       "state": "dead",
       "level": 58,
       "killer": "แพรรี่",
-      "respawnAt": 1792415817824,
+      "respawnAt": 1792415817958,
       "intervalMs": 10800000,
-      "remainingMs": 3980175
+      "remainingMs": 3865183
     },
     {
       "id": "vale_warden",
@@ -129,9 +90,9 @@
       "state": "dead",
       "level": 99,
       "killer": "xJoseph",
-      "respawnAt": 1792421600876,
+      "respawnAt": 1792421600880,
       "intervalMs": 10800000,
-      "remainingMs": 9755915
+      "remainingMs": 9640223
     },
     {
       "id": "tempest_kite_empress",
@@ -142,9 +103,48 @@
       "state": "dead",
       "level": 70,
       "killer": "memid",
-      "respawnAt": 1792421884398,
+      "respawnAt": 1792421885244,
       "intervalMs": 10800000,
-      "remainingMs": 10044349
+      "remainingMs": 9929827
+    },
+    {
+      "id": "opal_weaver_queen",
+      "name": "Opal Weaver Queen",
+      "map": "Opalweb Grotto",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/opal_weaver_queen/idle/0.png",
+      "state": "dead",
+      "level": 80,
+      "killer": "memid",
+      "respawnAt": 1792422659548,
+      "intervalMs": 10800000,
+      "remainingMs": 10701547
+    },
+    {
+      "id": "bloom_crowned_stag",
+      "name": "Bloom Crowned Stag",
+      "map": "Bloomcrown Glade",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
+      "state": "dead",
+      "level": 25,
+      "killer": "นายหอยโข่ง",
+      "respawnAt": 1792422702308,
+      "intervalMs": 10800000,
+      "remainingMs": 10760076
+    },
+    {
+      "id": "cinder_plume_roc",
+      "name": "Cinder Plume Roc",
+      "map": "Cinder Eyrie",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
+      "state": "dead",
+      "level": 36,
+      "killer": "No.02",
+      "respawnAt": 1792422743595,
+      "intervalMs": 10800000,
+      "remainingMs": 10796119
     }
   ],
   "worldBoss": {
