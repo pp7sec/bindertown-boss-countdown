@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792433660402,
-  "generatedAt": "2026-10-19T18:14:47.502Z",
+  "scannedAt": 1792433782262,
+  "generatedAt": "2026-10-19T18:16:49.688Z",
   "count": 11,
   "bosses": [
     {
@@ -38,9 +38,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792433819674,
+      "respawnAt": 1792433819734,
       "intervalMs": 1200000,
-      "remainingMs": 135282
+      "remainingMs": 13189
     },
     {
       "id": "prism_shell_sovereign",
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 25,
       "killer": "Tanny",
-      "respawnAt": 1792434274572,
+      "respawnAt": 1792434274526,
       "intervalMs": 10800000,
-      "remainingMs": 608829
+      "remainingMs": 486875
     },
     {
       "id": "sky_sentinel",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792434595346,
+      "respawnAt": 1792434595393,
       "intervalMs": 1200000,
-      "remainingMs": 908315
+      "remainingMs": 786185
     },
     {
       "id": "vale_keeper",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792434588815,
+      "respawnAt": 1792434588769,
       "intervalMs": 1200000,
-      "remainingMs": 923072
+      "remainingMs": 801118
     },
     {
       "id": "lotus_maw_matriarch",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 40,
       "killer": "KyoZayRiizZ",
-      "respawnAt": 1792435080989,
+      "respawnAt": 1792435081817,
       "intervalMs": 10800000,
-      "remainingMs": 1409836
+      "remainingMs": 1288732
     },
     {
       "id": "bloom_crowned_stag",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 25,
       "killer": "ลาบไม่ข้าวคั่ว",
-      "respawnAt": 1792437285995,
+      "respawnAt": 1792437286018,
       "intervalMs": 10800000,
-      "remainingMs": 3622906
+      "remainingMs": 3501038
     },
     {
       "id": "aurora_antler_regent",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 58,
       "killer": "NeverEnough",
-      "respawnAt": 1792441389566,
+      "respawnAt": 1792441389769,
       "intervalMs": 10800000,
-      "remainingMs": 7715729
+      "remainingMs": 7594042
     },
     {
       "id": "vale_warden",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 99,
       "killer": "Munchkin",
-      "respawnAt": 1792443478228,
+      "respawnAt": 1792443478146,
       "intervalMs": 10800000,
-      "remainingMs": 9796461
+      "remainingMs": 9674286
     },
     {
       "id": "tempest_kite_empress",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 70,
       "killer": "memid",
-      "respawnAt": 1792443934743,
+      "respawnAt": 1792443935555,
       "intervalMs": 10800000,
-      "remainingMs": 10258237
+      "remainingMs": 10137124
     }
   ],
   "worldBoss": {
