@@ -1,6 +1,6 @@
 {
-  "scannedAt": 1792411700116,
-  "generatedAt": "2026-10-19T12:08:47.084Z",
+  "scannedAt": 1792411825262,
+  "generatedAt": "2026-10-19T12:10:50.206Z",
   "count": 11,
   "bosses": [
     {
@@ -38,9 +38,9 @@
       "state": "dead",
       "level": 25,
       "killer": "PockyChickyChic",
-      "respawnAt": 1792411840073,
+      "respawnAt": 1792411840144,
       "intervalMs": 10800000,
-      "remainingMs": 137314
+      "remainingMs": 12400
     },
     {
       "id": "sky_sentinel",
@@ -51,9 +51,9 @@
       "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": 1792412026163,
+      "respawnAt": 1792412026093,
       "intervalMs": 1200000,
-      "remainingMs": 299831
+      "remainingMs": 176283
     },
     {
       "id": "dusk_herald",
@@ -64,9 +64,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1792412152071,
+      "respawnAt": 1792412151989,
       "intervalMs": 1200000,
-      "remainingMs": 428378
+      "remainingMs": 304603
     },
     {
       "id": "prism_shell_sovereign",
@@ -77,9 +77,9 @@
       "state": "dead",
       "level": 25,
       "killer": "SUSMHA",
-      "respawnAt": 1792412419025,
+      "respawnAt": 1792412419020,
       "intervalMs": 10800000,
-      "remainingMs": 713638
+      "remainingMs": 588801
     },
     {
       "id": "vale_keeper",
@@ -90,9 +90,9 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1792412552357,
+      "respawnAt": 1792412552352,
       "intervalMs": 1200000,
-      "remainingMs": 846970
+      "remainingMs": 722133
     },
     {
       "id": "lotus_maw_matriarch",
@@ -103,9 +103,9 @@
       "state": "dead",
       "level": 40,
       "killer": "PockyChickyChic",
-      "respawnAt": 1792413281397,
+      "respawnAt": 1792413281445,
       "intervalMs": 10800000,
-      "remainingMs": 1570802
+      "remainingMs": 1446287
     },
     {
       "id": "aurora_antler_regent",
@@ -116,9 +116,9 @@
       "state": "dead",
       "level": 58,
       "killer": "แพรรี่",
-      "respawnAt": 1792415817930,
+      "respawnAt": 1792415817824,
       "intervalMs": 10800000,
-      "remainingMs": 4104703
+      "remainingMs": 3980175
     },
     {
       "id": "vale_warden",
@@ -129,9 +129,9 @@
       "state": "dead",
       "level": 99,
       "killer": "xJoseph",
-      "respawnAt": 1792421600851,
+      "respawnAt": 1792421600876,
       "intervalMs": 10800000,
-      "remainingMs": 9879812
+      "remainingMs": 9755915
     },
     {
       "id": "tempest_kite_empress",
@@ -142,9 +142,9 @@
       "state": "dead",
       "level": 70,
       "killer": "memid",
-      "respawnAt": 1792421883482,
+      "respawnAt": 1792421884398,
       "intervalMs": 10800000,
-      "remainingMs": 10167673
+      "remainingMs": 10044349
     }
   ],
   "worldBoss": {
