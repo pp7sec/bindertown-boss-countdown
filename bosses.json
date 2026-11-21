@@ -1,21 +1,8 @@
 {
-  "scannedAt": 1795264427676,
-  "generatedAt": "2026-11-21T12:34:12.646Z",
+  "scannedAt": 1795290178660,
+  "generatedAt": "2026-11-21T19:43:23.688Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "aurora_antler_regent",
-      "name": "Aurora Antler Regent",
-      "map": "Aurora Hollow",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png",
-      "state": "alive",
-      "level": 58,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 10800000,
-      "remainingMs": null
-    },
     {
       "id": "vale_warden",
       "name": "Vale Warden",
@@ -64,22 +51,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1795264564023,
-      "intervalMs": 1200001,
-      "remainingMs": 114270
-    },
-    {
-      "id": "lotus_maw_matriarch",
-      "name": "Lotus Maw Matriarch",
-      "map": "Lotus Hollow",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
-      "state": "dead",
-      "level": 40,
-      "killer": "JOYBOY.",
-      "respawnAt": 1795269136348,
-      "intervalMs": 10800000,
-      "remainingMs": 4698828
+      "respawnAt": 1795290693140,
+      "intervalMs": 1200000,
+      "remainingMs": 492277
     },
     {
       "id": "tempest_kite_empress",
@@ -89,10 +63,23 @@
       "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
       "state": "dead",
       "level": 70,
-      "killer": "IHERUOI",
-      "respawnAt": 1795269760125,
+      "killer": "VARARJM",
+      "respawnAt": 1795294453469,
       "intervalMs": 10800000,
-      "remainingMs": 5317694
+      "remainingMs": 4260097
+    },
+    {
+      "id": "lotus_maw_matriarch",
+      "name": "Lotus Maw Matriarch",
+      "map": "Lotus Hollow",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
+      "state": "dead",
+      "level": 40,
+      "killer": "VARARJM",
+      "respawnAt": 1795295143745,
+      "intervalMs": 10800000,
+      "remainingMs": 4955280
     },
     {
       "id": "prism_shell_sovereign",
@@ -103,9 +90,9 @@
       "state": "dead",
       "level": 25,
       "killer": "VARARJM",
-      "respawnAt": 1795272479070,
+      "respawnAt": 1795295812333,
       "intervalMs": 10800000,
-      "remainingMs": 8046449
+      "remainingMs": 5628784
     },
     {
       "id": "opal_weaver_queen",
@@ -115,10 +102,10 @@
       "sprite": "https://play.bindertowngame.com/sprites/mob/opal_weaver_queen/idle/0.png",
       "state": "dead",
       "level": 80,
-      "killer": "VARARJM",
-      "respawnAt": 1795273118509,
+      "killer": "JOYBOY.",
+      "respawnAt": 1795296451570,
       "intervalMs": 10800000,
-      "remainingMs": 8673661
+      "remainingMs": 6255596
     },
     {
       "id": "cinder_plume_roc",
@@ -128,10 +115,10 @@
       "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
       "state": "dead",
       "level": 36,
-      "killer": "VARARJM",
-      "respawnAt": 1795274189218,
+      "killer": "JOYBOY.",
+      "respawnAt": 1795297193696,
       "intervalMs": 10800000,
-      "remainingMs": 9754167
+      "remainingMs": 7007725
     },
     {
       "id": "bloom_crowned_stag",
@@ -142,22 +129,35 @@
       "state": "dead",
       "level": 25,
       "killer": "JOYBOY.",
-      "respawnAt": 1795274648207,
+      "respawnAt": 1795298372738,
       "intervalMs": 10800000,
-      "remainingMs": 10218040
+      "remainingMs": 8191619
+    },
+    {
+      "id": "aurora_antler_regent",
+      "name": "Aurora Antler Regent",
+      "map": "Aurora Hollow",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png",
+      "state": "dead",
+      "level": 58,
+      "killer": "JOYBOY.",
+      "respawnAt": 1795299214107,
+      "intervalMs": 10800000,
+      "remainingMs": 9023192
     }
   ],
   "worldBoss": {
-    "id": "wb-1795264200000",
-    "state": "dead",
-    "startAt": 1795264200000,
-    "endsAt": 1795265400000,
-    "nextAt": 1795325400000,
-    "fighters": 358
+    "id": "wbn-1795338000000",
+    "state": "idle",
+    "startAt": 1795338000000,
+    "endsAt": 0,
+    "nextAt": 1795338000000,
+    "fighters": 0
   },
   "worldBossLast": {
-    "at": 1795252069094,
-    "seconds": 468,
-    "fighters": 292
+    "at": 1795275462776,
+    "seconds": 461,
+    "fighters": 337
   }
 }
