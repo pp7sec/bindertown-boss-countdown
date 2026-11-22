@@ -1,16 +1,29 @@
 {
-  "scannedAt": 1795305350239,
-  "generatedAt": "2026-11-21T23:56:17.128Z",
+  "scannedAt": 1795320220346,
+  "generatedAt": "2026-11-22T04:04:05.379Z",
   "count": 11,
   "bosses": [
     {
-      "id": "cinder_plume_roc",
-      "name": "Cinder Plume Roc",
-      "map": "Cinder Eyrie",
+      "id": "prism_shell_sovereign",
+      "name": "Prism Shell Sovereign",
+      "map": "Ancient Ruins",
       "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
+      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
       "state": "alive",
-      "level": 36,
+      "level": 25,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
+      "id": "lotus_maw_matriarch",
+      "name": "Lotus Maw Matriarch",
+      "map": "Lotus Hollow",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
+      "state": "alive",
+      "level": 40,
       "killer": null,
       "respawnAt": null,
       "intervalMs": 10800000,
@@ -30,6 +43,32 @@
       "remainingMs": null
     },
     {
+      "id": "tempest_kite_empress",
+      "name": "Tempest Kite Empress",
+      "map": "Tempest Aerie",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
+      "state": "alive",
+      "level": 70,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
+      "id": "opal_weaver_queen",
+      "name": "Opal Weaver Queen",
+      "map": "Opalweb Grotto",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/opal_weaver_queen/idle/0.png",
+      "state": "alive",
+      "level": 80,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
       "id": "vale_warden",
       "name": "Vale Warden",
       "map": "Warden's Seat",
@@ -43,30 +82,30 @@
       "remainingMs": null
     },
     {
-      "id": "dusk_herald",
-      "name": "Dusk Herald",
-      "map": "Duskgate Pass",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
-      "state": "alive",
-      "level": 47,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 1200000,
-      "remainingMs": null
-    },
-    {
       "id": "sky_sentinel",
       "name": "Sky Sentinel",
       "map": "Cloudspire Ruins",
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
-      "state": "alive",
+      "state": "dead",
       "level": 72,
       "killer": null,
-      "respawnAt": null,
-      "intervalMs": 1200000,
-      "remainingMs": null
+      "respawnAt": 1795320587334,
+      "intervalMs": 1200001,
+      "remainingMs": 342352
+    },
+    {
+      "id": "dusk_herald",
+      "name": "Dusk Herald",
+      "map": "Duskgate Pass",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
+      "state": "dead",
+      "level": 47,
+      "killer": null,
+      "respawnAt": 1795320612783,
+      "intervalMs": 1199999,
+      "remainingMs": 370318
     },
     {
       "id": "vale_keeper",
@@ -74,64 +113,12 @@
       "map": "Ancient Ruins",
       "channel": 10,
       "sprite": "https://play.bindertowngame.com/sprites/mob/vale_keeper/idle/0.png",
-      "state": "alive",
+      "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": null,
-      "intervalMs": 1200000,
-      "remainingMs": null
-    },
-    {
-      "id": "tempest_kite_empress",
-      "name": "Tempest Kite Empress",
-      "map": "Tempest Aerie",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
-      "state": "dead",
-      "level": 70,
-      "killer": "VARARJM",
-      "respawnAt": 1795306017841,
-      "intervalMs": 10800000,
-      "remainingMs": 651627
-    },
-    {
-      "id": "lotus_maw_matriarch",
-      "name": "Lotus Maw Matriarch",
-      "map": "Lotus Hollow",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
-      "state": "dead",
-      "level": 40,
-      "killer": "VARARJM",
-      "respawnAt": 1795306760543,
-      "intervalMs": 10800000,
-      "remainingMs": 1399646
-    },
-    {
-      "id": "prism_shell_sovereign",
-      "name": "Prism Shell Sovereign",
-      "map": "Ancient Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
-      "state": "dead",
-      "level": 25,
-      "killer": "JOYBOY.",
-      "respawnAt": 1795307420270,
-      "intervalMs": 10800000,
-      "remainingMs": 2064658
-    },
-    {
-      "id": "opal_weaver_queen",
-      "name": "Opal Weaver Queen",
-      "map": "Opalweb Grotto",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/opal_weaver_queen/idle/0.png",
-      "state": "dead",
-      "level": 80,
-      "killer": "JOYBOY.",
-      "respawnAt": 1795308060105,
-      "intervalMs": 10800000,
-      "remainingMs": 2691256
+      "respawnAt": 1795320632489,
+      "intervalMs": 1199999,
+      "remainingMs": 407237
     },
     {
       "id": "bloom_crowned_stag",
@@ -141,10 +128,23 @@
       "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
       "state": "dead",
       "level": 25,
-      "killer": "Xenodermus",
-      "respawnAt": 1795310244132,
+      "killer": "Bai Chan",
+      "respawnAt": 1795323676239,
       "intervalMs": 10800000,
-      "remainingMs": 4891223
+      "remainingMs": 3453432
+    },
+    {
+      "id": "cinder_plume_roc",
+      "name": "Cinder Plume Roc",
+      "map": "Cinder Eyrie",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
+      "state": "dead",
+      "level": 36,
+      "killer": "Heediwa",
+      "respawnAt": 1795329868622,
+      "intervalMs": 10800000,
+      "remainingMs": 9640851
     }
   ],
   "worldBoss": {
