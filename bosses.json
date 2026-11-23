@@ -1,8 +1,34 @@
 {
-  "scannedAt": 1795377246517,
-  "generatedAt": "2026-11-22T19:54:32.149Z",
+  "scannedAt": 1795393805969,
+  "generatedAt": "2026-11-23T00:30:34.318Z",
   "count": 11,
   "bosses": [
+    {
+      "id": "bloom_crowned_stag",
+      "name": "Bloom Crowned Stag",
+      "map": "Bloomcrown Glade",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
+      "state": "alive",
+      "level": 25,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
+      "id": "cinder_plume_roc",
+      "name": "Cinder Plume Roc",
+      "map": "Cinder Eyrie",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
+      "state": "alive",
+      "level": 36,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
     {
       "id": "lotus_maw_matriarch",
       "name": "Lotus Maw Matriarch",
@@ -11,6 +37,45 @@
       "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
       "state": "alive",
       "level": 40,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
+      "id": "aurora_antler_regent",
+      "name": "Aurora Antler Regent",
+      "map": "Aurora Hollow",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png",
+      "state": "alive",
+      "level": 58,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
+      "id": "tempest_kite_empress",
+      "name": "Tempest Kite Empress",
+      "map": "Tempest Aerie",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
+      "state": "alive",
+      "level": 70,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
+      "id": "opal_weaver_queen",
+      "name": "Opal Weaver Queen",
+      "map": "Opalweb Grotto",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/opal_weaver_queen/idle/0.png",
+      "state": "alive",
+      "level": 80,
       "killer": null,
       "respawnAt": null,
       "intervalMs": 10800000,
@@ -27,6 +92,19 @@
       "killer": null,
       "respawnAt": null,
       "intervalMs": 10800000,
+      "remainingMs": null
+    },
+    {
+      "id": "sky_sentinel",
+      "name": "Sky Sentinel",
+      "map": "Cloudspire Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
+      "state": "alive",
+      "level": 72,
+      "killer": null,
+      "respawnAt": null,
+      "intervalMs": 1200000,
       "remainingMs": null
     },
     {
@@ -51,87 +129,9 @@
       "state": "dead",
       "level": 47,
       "killer": null,
-      "respawnAt": 1795377756501,
-      "intervalMs": 1199999,
-      "remainingMs": 487236
-    },
-    {
-      "id": "sky_sentinel",
-      "name": "Sky Sentinel",
-      "map": "Cloudspire Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
-      "state": "dead",
-      "level": 72,
-      "killer": null,
-      "respawnAt": 1795378440358,
+      "respawnAt": 1795393902857,
       "intervalMs": 1200000,
-      "remainingMs": 1168627
-    },
-    {
-      "id": "aurora_antler_regent",
-      "name": "Aurora Antler Regent",
-      "map": "Aurora Hollow",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png",
-      "state": "dead",
-      "level": 58,
-      "killer": "NoxNuT",
-      "respawnAt": 1795384617781,
-      "intervalMs": 10800000,
-      "remainingMs": 7358518
-    },
-    {
-      "id": "bloom_crowned_stag",
-      "name": "Bloom Crowned Stag",
-      "map": "Bloomcrown Glade",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
-      "state": "dead",
-      "level": 25,
-      "killer": "STONGER",
-      "respawnAt": 1795385244244,
-      "intervalMs": 10800000,
-      "remainingMs": 7995162
-    },
-    {
-      "id": "opal_weaver_queen",
-      "name": "Opal Weaver Queen",
-      "map": "Opalweb Grotto",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/opal_weaver_queen/idle/0.png",
-      "state": "dead",
-      "level": 80,
-      "killer": "JOYBOY.",
-      "respawnAt": 1795385883207,
-      "intervalMs": 10800000,
-      "remainingMs": 8619003
-    },
-    {
-      "id": "tempest_kite_empress",
-      "name": "Tempest Kite Empress",
-      "map": "Tempest Aerie",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
-      "state": "dead",
-      "level": 70,
-      "killer": "VARARJM",
-      "respawnAt": 1795386589349,
-      "intervalMs": 10800000,
-      "remainingMs": 9327616
-    },
-    {
-      "id": "cinder_plume_roc",
-      "name": "Cinder Plume Roc",
-      "map": "Cinder Eyrie",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
-      "state": "dead",
-      "level": 36,
-      "killer": "JOYBOY.",
-      "respawnAt": 1795387292563,
-      "intervalMs": 10800000,
-      "remainingMs": 10038432
+      "remainingMs": 71820
     },
     {
       "id": "prism_shell_sovereign",
@@ -141,10 +141,10 @@
       "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
       "state": "dead",
       "level": 25,
-      "killer": "VARARJM",
-      "respawnAt": 1795387983231,
+      "killer": "JOYBOY.",
+      "respawnAt": 1795399384103,
       "intervalMs": 10800000,
-      "remainingMs": 10731646
+      "remainingMs": 5572564
     }
   ],
   "worldBoss": {
