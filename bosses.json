@@ -1,16 +1,16 @@
 {
-  "scannedAt": 1795494775620,
-  "generatedAt": "2026-11-24T04:33:22.599Z",
+  "scannedAt": 1795533131236,
+  "generatedAt": "2026-11-24T15:12:37.713Z",
   "count": 11,
   "bosses": [
     {
-      "id": "tempest_kite_empress",
-      "name": "Tempest Kite Empress",
-      "map": "Tempest Aerie",
+      "id": "prism_shell_sovereign",
+      "name": "Prism Shell Sovereign",
+      "map": "Ancient Ruins",
       "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
+      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
       "state": "alive",
-      "level": 70,
+      "level": 25,
       "killer": null,
       "respawnAt": null,
       "intervalMs": 10800000,
@@ -30,56 +30,30 @@
       "remainingMs": null
     },
     {
-      "id": "sky_sentinel",
-      "name": "Sky Sentinel",
-      "map": "Cloudspire Ruins",
+      "id": "dusk_herald",
+      "name": "Dusk Herald",
+      "map": "Duskgate Pass",
       "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
+      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
       "state": "alive",
-      "level": 72,
+      "level": 47,
       "killer": null,
       "respawnAt": null,
       "intervalMs": 1200000,
       "remainingMs": null
     },
     {
-      "id": "bloom_crowned_stag",
-      "name": "Bloom Crowned Stag",
-      "map": "Bloomcrown Glade",
+      "id": "tempest_kite_empress",
+      "name": "Tempest Kite Empress",
+      "map": "Tempest Aerie",
       "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
+      "sprite": "https://play.bindertowngame.com/sprites/mob/tempest_kite_empress/idle/0.png",
       "state": "dead",
-      "level": 25,
-      "killer": "Rc100",
-      "respawnAt": 1795495117756,
-      "intervalMs": 10800000,
-      "remainingMs": 339486
-    },
-    {
-      "id": "cinder_plume_roc",
-      "name": "Cinder Plume Roc",
-      "map": "Cinder Eyrie",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
-      "state": "dead",
-      "level": 36,
+      "level": 70,
       "killer": "VARARJM",
-      "respawnAt": 1795495236015,
+      "respawnAt": 1795533689684,
       "intervalMs": 10800000,
-      "remainingMs": 452416
-    },
-    {
-      "id": "dusk_herald",
-      "name": "Dusk Herald",
-      "map": "Duskgate Pass",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/dusk_herald/idle/0.png",
-      "state": "dead",
-      "level": 47,
-      "killer": null,
-      "respawnAt": 1795495302908,
-      "intervalMs": 1199656,
-      "remainingMs": 503397
+      "remainingMs": 542685
     },
     {
       "id": "vale_keeper",
@@ -90,22 +64,22 @@
       "state": "dead",
       "level": 22,
       "killer": null,
-      "respawnAt": 1795495672835,
-      "intervalMs": 1200000,
-      "remainingMs": 891956
+      "respawnAt": 1795533930561,
+      "intervalMs": 1200001,
+      "remainingMs": 794189
     },
     {
-      "id": "prism_shell_sovereign",
-      "name": "Prism Shell Sovereign",
-      "map": "Ancient Ruins",
+      "id": "sky_sentinel",
+      "name": "Sky Sentinel",
+      "map": "Cloudspire Ruins",
       "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
+      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
       "state": "dead",
-      "level": 25,
-      "killer": "JOYBOY.",
-      "respawnAt": 1795495941784,
-      "intervalMs": 10800000,
-      "remainingMs": 1160905
+      "level": 72,
+      "killer": null,
+      "respawnAt": 1795534340029,
+      "intervalMs": 1199999,
+      "remainingMs": 1182744
     },
     {
       "id": "lotus_maw_matriarch",
@@ -115,10 +89,10 @@
       "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
       "state": "dead",
       "level": 40,
-      "killer": "VARARJM",
-      "respawnAt": 1795496651549,
+      "killer": "JOYBOY.",
+      "respawnAt": 1795534399424,
       "intervalMs": 10800000,
-      "remainingMs": 1865318
+      "remainingMs": 1257590
     },
     {
       "id": "aurora_antler_regent",
@@ -129,9 +103,22 @@
       "state": "dead",
       "level": 58,
       "killer": "VARARJM",
-      "respawnAt": 1795500368199,
+      "respawnAt": 1795540824591,
       "intervalMs": 10800000,
-      "remainingMs": 5579343
+      "remainingMs": 7680125
+    },
+    {
+      "id": "bloom_crowned_stag",
+      "name": "Bloom Crowned Stag",
+      "map": "Bloomcrown Glade",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
+      "state": "dead",
+      "level": 25,
+      "killer": "JOYBOY.",
+      "respawnAt": 1795541759776,
+      "intervalMs": 10800000,
+      "remainingMs": 8625920
     },
     {
       "id": "opal_weaver_queen",
@@ -141,23 +128,36 @@
       "sprite": "https://play.bindertowngame.com/sprites/mob/opal_weaver_queen/idle/0.png",
       "state": "dead",
       "level": 80,
-      "killer": "JOYBOY.",
-      "respawnAt": 1795505265598,
+      "killer": "VARARJM",
+      "respawnAt": 1795542441660,
       "intervalMs": 10800000,
-      "remainingMs": 10471444
+      "remainingMs": 9292128
+    },
+    {
+      "id": "cinder_plume_roc",
+      "name": "Cinder Plume Roc",
+      "map": "Cinder Eyrie",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
+      "state": "dead",
+      "level": 36,
+      "killer": "JOYBOY.",
+      "respawnAt": 1795543085022,
+      "intervalMs": 10800000,
+      "remainingMs": 9945912
     }
   ],
   "worldBoss": {
-    "id": "wbn-1795510800000",
+    "id": "wbn-1795534200000",
     "state": "idle",
-    "startAt": 1795510800000,
+    "startAt": 1795534200000,
     "endsAt": 0,
-    "nextAt": 1795510800000,
+    "nextAt": 1795534200000,
     "fighters": 0
   },
   "worldBossLast": {
-    "at": 1795448266324,
-    "seconds": 464,
-    "fighters": 384
+    "at": 1795521392712,
+    "seconds": 513,
+    "fighters": 133
   }
 }
