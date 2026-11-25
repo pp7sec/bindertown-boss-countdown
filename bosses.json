@@ -1,34 +1,8 @@
 {
-  "scannedAt": 1795564352403,
-  "generatedAt": "2026-11-24T23:52:57.153Z",
+  "scannedAt": 1795585363596,
+  "generatedAt": "2026-11-25T05:43:08.497Z",
   "count": 11,
   "bosses": [
-    {
-      "id": "prism_shell_sovereign",
-      "name": "Prism Shell Sovereign",
-      "map": "Ancient Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
-      "state": "alive",
-      "level": 25,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 10800000,
-      "remainingMs": null
-    },
-    {
-      "id": "cinder_plume_roc",
-      "name": "Cinder Plume Roc",
-      "map": "Cinder Eyrie",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
-      "state": "alive",
-      "level": 36,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 10800000,
-      "remainingMs": null
-    },
     {
       "id": "vale_warden",
       "name": "Vale Warden",
@@ -56,19 +30,6 @@
       "remainingMs": null
     },
     {
-      "id": "sky_sentinel",
-      "name": "Sky Sentinel",
-      "map": "Cloudspire Ruins",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
-      "state": "alive",
-      "level": 72,
-      "killer": null,
-      "respawnAt": null,
-      "intervalMs": 1200000,
-      "remainingMs": null
-    },
-    {
       "id": "vale_keeper",
       "name": "Vale Keeper",
       "map": "Ancient Ruins",
@@ -82,56 +43,30 @@
       "remainingMs": null
     },
     {
-      "id": "bloom_crowned_stag",
-      "name": "Bloom Crowned Stag",
-      "map": "Bloomcrown Glade",
+      "id": "sky_sentinel",
+      "name": "Sky Sentinel",
+      "map": "Cloudspire Ruins",
       "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
+      "sprite": "https://play.bindertowngame.com/sprites/mob/sky_sentinel/idle/0.png",
       "state": "dead",
-      "level": 25,
-      "killer": "AZAZA",
-      "respawnAt": 1795567822023,
-      "intervalMs": 10800000,
-      "remainingMs": 3467139
+      "level": 72,
+      "killer": null,
+      "respawnAt": 1795585932633,
+      "intervalMs": 1200000,
+      "remainingMs": 544518
     },
     {
-      "id": "aurora_antler_regent",
-      "name": "Aurora Antler Regent",
-      "map": "Aurora Hollow",
+      "id": "cinder_plume_roc",
+      "name": "Cinder Plume Roc",
+      "map": "Cinder Eyrie",
       "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png",
+      "sprite": "https://play.bindertowngame.com/sprites/mob/cinder_plume_roc/idle/0.png",
       "state": "dead",
-      "level": 58,
-      "killer": "AZAZA",
-      "respawnAt": 1795568483525,
+      "level": 36,
+      "killer": "JOYBOY.",
+      "respawnAt": 1795587053683,
       "intervalMs": 10800000,
-      "remainingMs": 4118908
-    },
-    {
-      "id": "opal_weaver_queen",
-      "name": "Opal Weaver Queen",
-      "map": "Opalweb Grotto",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/opal_weaver_queen/idle/0.png",
-      "state": "dead",
-      "level": 80,
-      "killer": "AZAZA",
-      "respawnAt": 1795569145811,
-      "intervalMs": 10800000,
-      "remainingMs": 4776411
-    },
-    {
-      "id": "lotus_maw_matriarch",
-      "name": "Lotus Maw Matriarch",
-      "map": "Lotus Hollow",
-      "channel": 10,
-      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
-      "state": "dead",
-      "level": 40,
-      "killer": "AZAZA",
-      "respawnAt": 1795570678012,
-      "intervalMs": 10800000,
-      "remainingMs": 6315775
+      "remainingMs": 1682749
     },
     {
       "id": "tempest_kite_empress",
@@ -142,9 +77,74 @@
       "state": "dead",
       "level": 70,
       "killer": "VARARJM",
-      "respawnAt": 1795574626497,
+      "respawnAt": 1795587755189,
       "intervalMs": 10800000,
-      "remainingMs": 10259494
+      "remainingMs": 2376855
+    },
+    {
+      "id": "bloom_crowned_stag",
+      "name": "Bloom Crowned Stag",
+      "map": "Bloomcrown Glade",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/bloom_crowned_stag/idle/0.png",
+      "state": "dead",
+      "level": 25,
+      "killer": "VARARJM",
+      "respawnAt": 1795591957577,
+      "intervalMs": 10800000,
+      "remainingMs": 6591486
+    },
+    {
+      "id": "prism_shell_sovereign",
+      "name": "Prism Shell Sovereign",
+      "map": "Ancient Ruins",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/prism_shell_sovereign/idle/0.png",
+      "state": "dead",
+      "level": 25,
+      "killer": "JOYBOY.",
+      "respawnAt": 1795593130144,
+      "intervalMs": 10800000,
+      "remainingMs": 7761624
+    },
+    {
+      "id": "opal_weaver_queen",
+      "name": "Opal Weaver Queen",
+      "map": "Opalweb Grotto",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/opal_weaver_queen/idle/0.png",
+      "state": "dead",
+      "level": 80,
+      "killer": "Zhisei",
+      "respawnAt": 1795593180204,
+      "intervalMs": 10800000,
+      "remainingMs": 7799422
+    },
+    {
+      "id": "aurora_antler_regent",
+      "name": "Aurora Antler Regent",
+      "map": "Aurora Hollow",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/aurora_antler_regent/idle/0.png",
+      "state": "dead",
+      "level": 58,
+      "killer": "หําตุง",
+      "respawnAt": 1795593881404,
+      "intervalMs": 10800000,
+      "remainingMs": 8505434
+    },
+    {
+      "id": "lotus_maw_matriarch",
+      "name": "Lotus Maw Matriarch",
+      "map": "Lotus Hollow",
+      "channel": 10,
+      "sprite": "https://play.bindertowngame.com/sprites/mob/lotus_maw_matriarch/idle/0.png",
+      "state": "dead",
+      "level": 40,
+      "killer": "Zhisei",
+      "respawnAt": 1795594535993,
+      "intervalMs": 10800000,
+      "remainingMs": 9162549
     }
   ],
   "worldBoss": {
